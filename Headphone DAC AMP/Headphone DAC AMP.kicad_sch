@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d034eddd-efbc-47be-a25c-37cbfbab4cd8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 129.54 46.99)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b")
+		(property "Sheetname" "Power Managment"
+			(at 129.54 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 129.54 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 58.42)
+		(size 16.51 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2765e1cc-205a-4739-b769-20b95f3d1fdb")
+		(property "Sheetname" "USB Audio Input  (page 2)"
+			(at 55.88 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input.kicad_sch"
+			(at 55.88 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 95.25)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a76b11f7-fbf9-4331-be15-052b46a69f96")
+		(property "Sheetname" "Low Noise Rails"
+			(at 124.46 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DiffPower.kicad_sch"
+			(at 124.46 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 120.65)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8d45096-939e-42db-8984-b3f2d55a20c4")
+		(property "Sheetname" "Headphone Amp Stage"
+			(at 60.96 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HeadphoneAmpStage.kicad_sch"
+			(at 60.96 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 83.82)
+		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea")
+		(property "Sheetname" "DAC"
+			(at 83.82 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESS ES9039Q2M DAC.kicad_sch"
+			(at 83.82 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
