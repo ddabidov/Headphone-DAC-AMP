@@ -1691,7 +1691,7 @@
 		)
 		(uuid "6695e89e-77d5-414c-9191-21d96c52d1a0")
 	)
-	(hierarchical_label "NODE"
+	(hierarchical_label "MODE"
 		(shape output)
 		(at 106.68 100.33 180)
 		(effects

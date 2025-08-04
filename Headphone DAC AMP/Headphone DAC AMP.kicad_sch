@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "USB DAC AMP"
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "3")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "USB DAC AMP"
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "2")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "USB DAC AMP"
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "4")
 				)
@@ -166,7 +166,7 @@
 			)
 		)
 		(instances
-			(project "USB DAC AMP"
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "6")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "USB DAC AMP"
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "5")
 				)
