@@ -215,6 +215,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 203.2 72.39)
+		(size 19.05 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788")
+		(property "Sheetname" "Clocking"
+			(at 203.2 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clocking.kicad_sch"
+			(at 203.2 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

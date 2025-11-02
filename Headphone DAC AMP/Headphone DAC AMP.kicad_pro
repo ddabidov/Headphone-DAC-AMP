@@ -632,6 +632,10 @@
     [
       "a8d45096-939e-42db-8984-b3f2d55a20c4",
       "Headphone Amp Stage"
+    ],
+    [
+      "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788",
+      "Clocking"
     ]
   ],
   "text_variables": {}
