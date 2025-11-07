@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 72.39 62.23) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256e4f6d-7d00-47e5-a052-5b046e7b6ca3")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f77b0d4-37d7-4ba7-93db-73aa07bb97f1")
+	)
+	(wire
+		(pts
 			(xy 72.39 59.69) (xy 87.63 59.69)
 		)
 		(stroke
@@ -59,7 +79,7 @@
 	)
 	(sheet
 		(at 55.88 58.42)
-		(size 16.51 17.78)
+		(size 16.51 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2765e1cc-205a-4739-b769-20b95f3d1fdb")
-		(property "Sheetname" "USB Audio Input  (page 2)"
+		(property "Sheetname" "USB Audio Input"
 			(at 55.88 57.7084 0)
 			(effects
 				(font
@@ -83,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "Input.kicad_sch"
-			(at 55.88 76.7846 0)
+			(at 55.88 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,6 +154,146 @@
 		(pin "DAC_RESET" input
 			(at 72.39 69.85 0)
 			(uuid "cec94da7-93ba-4759-b24e-118c5d604f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_49" input
+			(at 63.5 58.42 90)
+			(uuid "c763f83d-3bf6-45b3-bd35-d764a2a278fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN45" input
+			(at 60.96 58.42 90)
+			(uuid "8c2dbd99-76fc-48d4-a7e0-e7e5715ba3b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TDI" input
+			(at 72.39 99.06 0)
+			(uuid "6a9ff670-a62a-4759-aa7d-a4b4afba2b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4D2" input
+			(at 72.39 106.68 0)
+			(uuid "ae5f1473-fb5c-4032-af50-0c9d8de34af9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4D0" input
+			(at 72.39 101.6 0)
+			(uuid "870968ea-7edb-4a5e-b18f-700a2827438e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TMS" input
+			(at 72.39 93.98 0)
+			(uuid "fc63d1c4-7c7e-46b8-a607-4ba26d91a07c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TD0" input
+			(at 72.39 96.52 0)
+			(uuid "b17d4f1d-bc9b-45f4-9f74-574085a792b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TCK" input
+			(at 72.39 91.44 0)
+			(uuid "146f2c36-733e-432d-b806-861d4432be3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4D1" input
+			(at 72.39 104.14 0)
+			(uuid "5a9ec98e-e823-4a27-bbd2-cc8949dc954d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4D3" input
+			(at 72.39 109.22 0)
+			(uuid "6304416a-e8a1-43fe-8f74-b20fd67c8cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 72.39 80.01 0)
+			(uuid "9d2b56f0-6d06-460c-9bac-aec572ca3309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 72.39 72.39 0)
+			(uuid "2f15db91-5fc1-4e0e-bf2d-cbbbe7c5a330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA{slash}MOSI" input
+			(at 72.39 74.93 0)
+			(uuid "ed00fd40-bf90-4f17-92df-8167f2e53bac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SS" input
+			(at 72.39 77.47 0)
+			(uuid "285fb259-0b57-494b-b0d8-b94e87ee1fa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +508,7 @@
 			)
 		)
 		(pin "SD0" output
-			(at 87.63 77.47 180)
+			(at 87.63 67.31 180)
 			(uuid "226a5f45-e075-4f6c-a3d5-6ab980ac5dd7")
 			(effects
 				(font
@@ -368,7 +528,7 @@
 			)
 		)
 		(pin "WS" output
-			(at 87.63 72.39 180)
+			(at 87.63 64.77 180)
 			(uuid "d4936dea-cfe2-41c0-87c3-c7fed4422305")
 			(effects
 				(font
