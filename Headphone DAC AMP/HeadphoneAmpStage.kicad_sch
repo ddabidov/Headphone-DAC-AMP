@@ -5635,16 +5635,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba97")
 		)
 		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
+			(uuid "d216a153-45d0-404d-876e-1bf9513a856e")
 		)
 		(pin "2"
 			(uuid "c74a648e-35ce-4951-85af-60011bd2a200")
 		)
 		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bc")
 		)
 		(pin "3"
 			(uuid "b5dc2c0b-036a-484c-af07-1c061daca806")
@@ -5653,10 +5653,10 @@
 			(uuid "24ea6497-2207-44c2-8bdb-957f71ebba84")
 		)
 		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9308")
 		)
 		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0ab")
 		)
 		(instances
 			(project "Headphone DAC AMP"
@@ -5722,16 +5722,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba98")
 		)
 		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
+			(uuid "d216a153-45d0-404d-876e-1bf9513a856f")
 		)
 		(pin "2"
 			(uuid "59b6fe1e-c5af-4bba-a384-9e2ffcee4a9d")
 		)
 		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bd")
 		)
 		(pin "3"
 			(uuid "0853e9f4-1412-4118-b355-a195b21a9573")
@@ -5740,10 +5740,10 @@
 			(uuid "b07b36cf-a811-4be9-869e-8fa18e845732")
 		)
 		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9309")
 		)
 		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0ac")
 		)
 		(instances
 			(project "Headphone DAC AMP"
@@ -5875,16 +5875,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba99")
 		)
 		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
+			(uuid "d216a153-45d0-404d-876e-1bf9513a8570")
 		)
 		(pin "2"
 			(uuid "784ea98d-29f0-4f60-af75-f33b6cfd54dd")
 		)
 		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537be")
 		)
 		(pin "3"
 			(uuid "a753d59c-4a9c-4462-94cc-001dd51ba721")
@@ -5893,10 +5893,10 @@
 			(uuid "f3122d93-91b8-4bce-8dfe-0e7449dc43e9")
 		)
 		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c930a")
 		)
 		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0ad")
 		)
 		(instances
 			(project "Headphone DAC AMP"
@@ -6917,16 +6917,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba98")
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba9a")
 		)
 		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856f")
+			(uuid "d216a153-45d0-404d-876e-1bf9513a8571")
 		)
 		(pin "2"
 			(uuid "7e69e4e0-9941-46ae-ba26-7ba60971d772")
 		)
 		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bd")
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bf")
 		)
 		(pin "3"
 			(uuid "78585a86-937f-4ef2-868d-e86c7bef5ebb")
@@ -6935,10 +6935,10 @@
 			(uuid "b219ce27-b6ff-4d3e-8f95-c4c7fb1e427c")
 		)
 		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9309")
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c930b")
 		)
 		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0ac")
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0ae")
 		)
 		(instances
 			(project ""
