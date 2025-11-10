@@ -2327,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 46.99) (xy 120.65 46.99)
+			(xy 100.33 46.99) (xy 113.03 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 46.99) (xy 100.33 46.99)
+			(xy 87.63 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4122,7 +4122,7 @@
 		(uuid "1aeccc43-a13e-4dc1-a9df-7d4729f4e59e")
 	)
 	(label "OUTA"
-		(at 120.65 46.99 0)
+		(at 113.03 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4741,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 46.99 90)
+		(at 96.52 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4750,7 +4750,7 @@
 		(fields_autoplaced yes)
 		(uuid "27216718-49c1-4301-a6e5-a548b3831908")
 		(property "Reference" "R22"
-			(at 104.14 40.64 90)
+			(at 96.52 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4758,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 104.14 43.18 90)
+			(at 96.52 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 48.768 90)
+			(at 96.52 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 46.99 0)
+			(at 96.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4784,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 46.99 0)
+			(at 96.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
