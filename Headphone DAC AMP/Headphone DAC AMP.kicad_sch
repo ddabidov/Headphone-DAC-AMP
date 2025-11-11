@@ -49,16 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "CUI Inc."
+			(property "Description" "3.5 mm, Stereo, Right Angle, Mid Mount _SMT_, Shielded, Audio Jack Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "3.5 mm, Stereo, Right Angle, Mid Mount _SMT_, Shielded, Audio Jack Connector"
+			(property "MF" "CUI Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,6 +520,46 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028af8c3-d0bb-4df4-99a3-ed045cf08265")
+	)
+	(wire
+		(pts
+			(xy 62.23 158.75) (xy 62.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e0886c-14d2-4b67-b8b5-83af72e113ac")
+	)
+	(wire
+		(pts
+			(xy 86.36 39.37) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06655441-aa8f-40e7-b797-553a1e37348d")
+	)
+	(wire
+		(pts
+			(xy 114.3 140.97) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0961ce4a-969b-4e27-a9d0-e45fc11cf45f")
+	)
+	(wire
+		(pts
 			(xy 72.39 132.08) (xy 87.63 132.08)
 		)
 		(stroke
@@ -539,7 +570,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 87.63 48.26)
+			(xy 86.36 39.37) (xy 87.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -559,6 +590,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 48.26) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e82178-0784-4134-9e8c-b1d497997654")
+	)
+	(wire
+		(pts
 			(xy 120.65 59.69) (xy 137.16 59.69)
 		)
 		(stroke
@@ -566,6 +607,26 @@
 			(type default)
 		)
 		(uuid "20a52688-c818-4037-9a5d-dfa36d6de042")
+	)
+	(wire
+		(pts
+			(xy 82.55 39.37) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21306f56-aa14-4618-8696-5c7cf1409491")
+	)
+	(wire
+		(pts
+			(xy 13.97 92.71) (xy 24.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ef23d4-aaa8-4c4c-8f22-ea52eb826f6e")
 	)
 	(wire
 		(pts
@@ -586,6 +647,16 @@
 			(type default)
 		)
 		(uuid "280392b4-db36-47b2-9787-8bd74686e88e")
+	)
+	(wire
+		(pts
+			(xy 22.86 181.61) (xy 33.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a840a57-b802-491a-a1e5-b55f1726cf6a")
 	)
 	(wire
 		(pts
@@ -629,6 +700,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 36.83) (xy 85.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d70294-d1fe-4e23-85ef-ad74607e7c26")
+	)
+	(wire
+		(pts
 			(xy 171.45 77.47) (xy 168.91 77.47)
 		)
 		(stroke
@@ -639,7 +720,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 87.63 39.37)
+			(xy 130.81 102.87) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bb6b5a-74ca-4406-a34d-ceb128d80427")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 87.63 30.48)
 		)
 		(stroke
 			(width 0)
@@ -656,6 +747,16 @@
 			(type default)
 		)
 		(uuid "5d971e18-e17d-4ab3-87dd-23a07389900a")
+	)
+	(wire
+		(pts
+			(xy 13.97 92.71) (xy 13.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ecd867-0cb3-45c0-baa5-8f3ecb3aa1c7")
 	)
 	(wire
 		(pts
@@ -689,6 +790,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706d86f4-42ed-4be5-b97d-02ff2476d8e1")
+	)
+	(wire
+		(pts
+			(xy 83.82 33.02) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75154b55-357d-4f49-9883-d1771bede19b")
+	)
+	(wire
+		(pts
 			(xy 171.45 80.01) (xy 168.91 80.01)
 		)
 		(stroke
@@ -696,6 +817,16 @@
 			(type default)
 		)
 		(uuid "76f904cf-098f-46a4-a3a3-e3ddfeb45e85")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81669b4f-da63-40f6-b668-ba3e3116e8d2")
 	)
 	(wire
 		(pts
@@ -729,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 87.63 41.91)
+			(xy 83.82 33.02) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 87.63 45.72)
+			(xy 85.09 36.83) (xy 87.63 36.83)
 		)
 		(stroke
 			(width 0)
@@ -789,6 +920,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 41.91) (xy 107.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7cbdf0-e9d1-4979-b1d8-d97b7a4a635e")
+	)
+	(wire
+		(pts
 			(xy 171.45 59.69) (xy 160.02 59.69)
 		)
 		(stroke
@@ -809,6 +950,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 140.97) (xy 104.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d25fcb-4d27-4d89-8b30-413ae64c62b5")
+	)
+	(wire
+		(pts
 			(xy 171.45 74.93) (xy 168.91 74.93)
 		)
 		(stroke
@@ -816,6 +967,26 @@
 			(type default)
 		)
 		(uuid "cbdef191-1edb-45e3-b6f0-16fcf1314040")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36bd237-70cf-40f4-a502-fa35a80df283")
+	)
+	(wire
+		(pts
+			(xy 33.02 181.61) (xy 33.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86ae3f2-c727-4b91-b953-50888f8d0ef3")
 	)
 	(wire
 		(pts
@@ -836,6 +1007,92 @@
 			(type default)
 		)
 		(uuid "e6cbc2c5-1788-4ff6-9020-0abb0eb8fd44")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 82.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc43784f-b513-4c9c-91c0-c3e89994037a")
+	)
+	(label "GND"
+		(at 22.86 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0c54bd7-8c68-4d73-9593-70370bc7e779")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27a26657-2926-43eb-a19e-6ac15214c3a4")
+		(property "Reference" "#PWR087"
+			(at 62.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b85e45-b913-4ceb-bcb0-a1147dc1d857")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SJ-3502-SMT:SJ-3502-SMT")
@@ -992,6 +1249,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 147.32 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4477462c-701a-48a6-ab4d-4d084b7b8277")
+		(property "Reference" "#PWR091"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c118147-c0cc-405b-987c-c5bce830073e")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bba6ebe-1b56-4e74-a238-4c79d867f050")
+		(property "Reference" "#PWR086"
+			(at 13.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d52ba2d-5623-4ce7-bfea-3177f7f6d4ef")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 168.91 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1051,6 +1440,270 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b74fab-f81a-41cf-a1c5-a4771b239fab")
+		(property "Reference" "#PWR088"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c9d5b5c-df42-44e1-96b0-3be81fec1b0f")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbac6f17-0d73-4489-869b-24cb49368e44")
+		(property "Reference" "#PWR089"
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2de40f54-b93d-4dc1-b914-b56a6c91d34f")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1d236c-1776-45dd-8f14-8f2697e9d556")
+		(property "Reference" "#PWR090"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2a0ce9-458e-4874-a961-50a5063bd47b")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e41749c3-5a4a-47f1-a5d6-2a3fa0715fe2")
+		(property "Reference" "#PWR085"
+			(at 33.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dec13c8f-7d1f-458f-928e-5a344e8f19f1")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1180,6 +1833,16 @@
 				(justify left)
 			)
 		)
+		(pin "GND" input
+			(at 104.14 140.97 0)
+			(uuid "6a1524fe-584e-4013-883d-3068607d960b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
@@ -1220,6 +1883,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_FLT" output
+			(at 15.24 48.26 180)
+			(uuid "4c853165-3b50-4973-b7f5-a2b5cd7383f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-5V_FLT" output
+			(at 15.24 44.45 180)
+			(uuid "0961bd89-7b74-4e99-a246-2e764161ec87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 27.94 55.88 270)
+			(uuid "c9ee168e-8887-4544-9f8d-2a2f056e78cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1484,6 +2177,26 @@
 				(justify right)
 			)
 		)
+		(pin "GND" input
+			(at 62.23 148.59 270)
+			(uuid "fe456f8c-8266-4bc7-a5a9-7bcc6b7f8717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 55.88 39.37 180)
+			(uuid "0cd42543-5b26-4309-ae26-483698200227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
@@ -1526,9 +2239,49 @@
 				(justify left top)
 			)
 		)
-		(pin "1.8 Toggle" input
-			(at 24.13 91.44 180)
-			(uuid "c92ccba7-8c81-47e5-847a-38201792cddd")
+		(pin "0.9v" input
+			(at 43.18 92.71 0)
+			(uuid "80f352c5-af89-4dfc-8e3d-fd241aef1856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1.8v" input
+			(at 43.18 87.63 0)
+			(uuid "1ec0f699-5527-4193-9d63-cefbae51d131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3v" input
+			(at 43.18 90.17 0)
+			(uuid "403e76b5-2aa7-4771-88bd-f1b6e05f69d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 24.13 87.63 180)
+			(uuid "223bca20-355e-471a-b7fe-b31b838febd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 24.13 92.71 180)
+			(uuid "eb6dbde6-8b0f-4d73-b79a-7a27845165dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +2313,7 @@
 		)
 		(uuid "a8d45096-939e-42db-8984-b3f2d55a20c4")
 		(property "Sheetname" "Headphone Amp Stage"
-			(at 137.16 53.8984 0)
+			(at 137.16 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +2322,7 @@
 			)
 		)
 		(property "Sheetfile" "HeadphoneAmpStage.kicad_sch"
-			(at 131.572 73.406 0)
+			(at 132.334 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,6 +2388,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 147.32 72.39 270)
+			(uuid "1a7963d3-713b-4b39-9d23-a1ebec1a2774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1899,6 +2662,16 @@
 				(justify right)
 			)
 		)
+		(pin "GND" input
+			(at 120.65 102.87 0)
+			(uuid "1fa64ed0-df68-4d3c-800f-d0260168ec1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
@@ -1908,13 +2681,12 @@
 		)
 	)
 	(sheet
-		(at 87.63 36.83)
-		(size 19.05 13.97)
+		(at 87.63 27.94)
+		(size 39.37 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1924,7 +2696,7 @@
 		)
 		(uuid "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788")
 		(property "Sheetname" "Clocking"
-			(at 87.63 36.1184 0)
+			(at 87.63 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +2705,7 @@
 			)
 		)
 		(property "Sheetfile" "Clocking.kicad_sch"
-			(at 87.63 51.3846 0)
+			(at 103.632 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2714,7 @@
 			)
 		)
 		(pin "XTAL2_EN" input
-			(at 87.63 48.26 180)
+			(at 87.63 39.37 180)
 			(uuid "770204a3-35af-4ea1-8786-0f1029a29b80")
 			(effects
 				(font
@@ -1952,7 +2724,7 @@
 			)
 		)
 		(pin "XTAL1_EN" input
-			(at 87.63 45.72 180)
+			(at 87.63 36.83 180)
 			(uuid "f36d26db-4698-4e4d-b8d9-6ed4f1a45f6f")
 			(effects
 				(font
@@ -1962,7 +2734,7 @@
 			)
 		)
 		(pin "XTAL1_IN" input
-			(at 87.63 41.91 180)
+			(at 87.63 33.02 180)
 			(uuid "3d454d4c-5cda-4ecc-8943-f39e30cfcce2")
 			(effects
 				(font
@@ -1972,8 +2744,38 @@
 			)
 		)
 		(pin "XTAL1_OUT" input
-			(at 87.63 39.37 180)
+			(at 87.63 30.48 180)
 			(uuid "1e24af78-af43-42a7-a362-356512d31632")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCLK_DAC" input
+			(at 127 31.75 0)
+			(uuid "7cc14b47-09db-4ad1-ba25-b7ed93f2ba99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCLK_XMOS" input
+			(at 127 34.29 0)
+			(uuid "e6e19dd2-6a0a-4572-9f6b-5cc0bbaf7a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 107.95 41.91 270)
+			(uuid "9c255766-58d7-4644-ba3c-507e6806faa6")
 			(effects
 				(font
 					(size 1.27 1.27)

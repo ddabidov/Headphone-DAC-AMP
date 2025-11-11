@@ -1267,6 +1267,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 158.75) (xy 57.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c2c391-e937-47d9-afc0-434271713ec9")
+	)
+	(wire
+		(pts
 			(xy 92.71 127) (xy 88.9 127)
 		)
 		(stroke
@@ -1424,6 +1434,16 @@
 			(type default)
 		)
 		(uuid "93a1a236-0149-4a22-8952-4b05b70b7f0e")
+	)
+	(wire
+		(pts
+			(xy 57.15 158.75) (xy 57.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9458c50e-b4c3-4fb1-b796-6f6fe788b12a")
 	)
 	(wire
 		(pts
@@ -1585,6 +1605,17 @@
 			(justify left)
 		)
 		(uuid "0faaeae0-4c03-4fe0-8f56-260e7cb148e7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 46.99 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54ec21aa-5cf2-4142-a1aa-1f7fb3601050")
 	)
 	(hierarchical_label "XTAL1_OUT"
 		(shape input)
@@ -2251,6 +2282,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574d925b-ecea-4308-8ce1-c48fdba010b1")
+		(property "Reference" "#PWR083"
+			(at 57.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1746c5a5-581e-45ae-a7db-35038def65b0")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/e0b8fe34-d476-48aa-82d1-b0ba2e6c9788"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 72.39 270)
 		(unit 1)
@@ -2441,7 +2538,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "365d27e3-2789-49ca-9739-3adfb5b00cc2")
+			(uuid "365d27e3-2789-49ca-9739-3adfb5b00cc3")
 		)
 		(instances
 			(project ""
@@ -2579,10 +2676,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "42fab617-c52a-49fe-984f-62c190130425")
+			(uuid "42fab617-c52a-49fe-984f-62c190130426")
 		)
 		(pin "2"
-			(uuid "9e49f4b2-dda6-40b1-82a5-40c4b2e26be0")
+			(uuid "9e49f4b2-dda6-40b1-82a5-40c4b2e26be1")
 		)
 		(instances
 			(project ""

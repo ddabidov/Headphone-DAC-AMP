@@ -1103,6 +1103,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 118.11) (xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bd39c9-8d7a-426e-9ce3-c779f7830406")
+	)
+	(wire
+		(pts
 			(xy 107.95 130.81) (xy 97.79 130.81)
 		)
 		(stroke
@@ -1140,6 +1150,16 @@
 			(type default)
 		)
 		(uuid "2a524892-91f0-474e-bcfc-2d6514c5981d")
+	)
+	(wire
+		(pts
+			(xy 45.72 118.11) (xy 52.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e79c4d6-0e62-4f96-b2db-61d74c248c87")
 	)
 	(wire
 		(pts
@@ -9672,6 +9692,17 @@
 		)
 		(uuid "757ba2fb-6158-4497-9370-ecdb554c7992")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 45.72 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "773e44a7-3c16-4762-bb62-08effd2475ec")
+	)
 	(hierarchical_label "GPIO2"
 		(shape output)
 		(at 105.41 50.8 180)
@@ -10542,6 +10573,72 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/b3fc2b7c-ef32-4c23-9b31-7b4a799376ea"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d485faac-dba1-44e5-bfc2-9ba7a75d953a")
+		(property "Reference" "#PWR082"
+			(at 52.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ddf77b1-44f9-4f4f-bf20-c48c3f0035ec")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/b3fc2b7c-ef32-4c23-9b31-7b4a799376ea"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
