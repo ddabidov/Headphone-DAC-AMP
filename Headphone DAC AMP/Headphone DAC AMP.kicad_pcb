@@ -179,6 +179,34 @@
 	(net 99 "unconnected-(U7-PWRGD-Pad5)")
 	(net 100 "unconnected-(U9-NC-Pad3)")
 	(net 101 "unconnected-(U9-NC-Pad1)")
+	(net 102 "unconnected-(U2-X1D11-Pad14)")
+	(net 103 "unconnected-(U2-VDDIOB18-Pad26)")
+	(net 104 "unconnected-(U2-X1D13-Pad32)")
+	(net 105 "unconnected-(U2-PLL_AVDD-Pad22)")
+	(net 106 "/Debug/TDI")
+	(net 107 "unconnected-(U2-X1D10-Pad13)")
+	(net 108 "unconnected-(U2-X1D09-Pad11)")
+	(net 109 "/Debug/4D3")
+	(net 110 "/USB Audio Input/QSPI_D2")
+	(net 111 "unconnected-(U2-X1D34-Pad53)")
+	(net 112 "/Debug/4D1")
+	(net 113 "unconnected-(U2-VDDIOB18-Pad17)")
+	(net 114 "/USB Audio Input/QSPI_CSN")
+	(net 115 "/USB Audio Input/QSPI_D3")
+	(net 116 "unconnected-(U2-X1D01-Pad10)")
+	(net 117 "/Debug/TMS")
+	(net 118 "unconnected-(U2-X1D00-Pad9)")
+	(net 119 "/USB Audio Input/QSPI_D1")
+	(net 120 "/USB Audio Input/RST_N")
+	(net 121 "/USB Audio Input/QSPI_CLK")
+	(net 122 "/USB Audio Input/QSPI_D0")
+	(net 123 "unconnected-(U2-X0D11-Pad7)")
+	(net 124 "unconnected-(U2-X0D00-Pad6)")
+	(net 125 "unconnected-(U2-NC-Pad25)")
+	(net 126 "/Debug/TDO")
+	(net 127 "/Debug/TCK")
+	(net 128 "/Debug/4D2")
+	(net 129 "/Debug/4D0")
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "08e63379-879c-4982-a28f-3ff4dfdb2a9c")
@@ -207,7 +235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -406,7 +434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -605,7 +633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -979,7 +1007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1178,7 +1206,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1377,7 +1405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1576,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1775,7 +1803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1974,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2173,7 +2201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2372,7 +2400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2571,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2770,7 +2798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2969,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3168,7 +3196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3367,7 +3395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3566,7 +3594,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4148,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4347,7 +4375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4546,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4745,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4944,7 +4972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5143,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5342,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5541,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5740,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5939,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6138,7 +6166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6337,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6536,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6735,7 +6763,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6934,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7133,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7332,7 +7360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7531,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8053,7 +8081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8252,7 +8280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8451,7 +8479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8650,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8849,7 +8877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9048,7 +9076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9247,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9446,7 +9474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9645,7 +9673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9844,7 +9872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10043,7 +10071,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10242,7 +10270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10441,7 +10469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10951,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11150,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11523,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11814,7 +11842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12105,7 +12133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12304,7 +12332,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12503,7 +12531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12702,7 +12730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12901,7 +12929,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13100,7 +13128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13473,7 +13501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13672,7 +13700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13871,7 +13899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14070,7 +14098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14269,7 +14297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14467,7 +14495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14631,7 +14659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14852,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15051,7 +15079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15250,7 +15278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15832,7 +15860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16031,7 +16059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16230,7 +16258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16429,7 +16457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16628,7 +16656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16827,7 +16855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17026,7 +17054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17317,7 +17345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17516,7 +17544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17715,7 +17743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17914,7 +17942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18113,7 +18141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18312,7 +18340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18511,7 +18539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18710,7 +18738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18909,7 +18937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19108,7 +19136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19307,7 +19335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19506,7 +19534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19705,7 +19733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19904,7 +19932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20103,7 +20131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20302,7 +20330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20501,7 +20529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20700,7 +20728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20921,7 +20949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21120,7 +21148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21319,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21518,7 +21546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21717,7 +21745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21916,7 +21944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22115,7 +22143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22406,7 +22434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22605,7 +22633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22804,7 +22832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23003,7 +23031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23202,7 +23230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23401,7 +23429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23600,7 +23628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23799,7 +23827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23998,7 +24026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24197,7 +24225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24396,7 +24424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24595,7 +24623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24794,7 +24822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24993,7 +25021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25192,7 +25220,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25391,7 +25419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25590,7 +25618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25789,7 +25817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25990,7 +26018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26189,7 +26217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26388,7 +26416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26587,7 +26615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26786,7 +26814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26985,7 +27013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27184,7 +27212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27383,7 +27411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27582,7 +27610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27781,7 +27809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27980,7 +28008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28179,7 +28207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28378,7 +28406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28577,7 +28605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28776,7 +28804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28975,7 +29003,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29174,7 +29202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29373,7 +29401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29572,7 +29600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29771,7 +29799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30221,7 +30249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31200,7 +31228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31399,7 +31427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31598,7 +31626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31768,6 +31796,1039 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "footprints:QFN_F60B-C24_XMO"
+		(layer "F.Cu")
+		(uuid "f5588bb3-c824-4216-bd70-c4ed96e59dbf")
+		(at 153.65 99.575)
+		(tags "XU316-1024-QF60B-C24 ")
+		(property "Reference" "U2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cb67a860-e0ab-49f0-9bab-fa4bd673dbff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "XU316-1024-QF60B-C24"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "69123393-c122-422b-a43a-e3fb228e2c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "XU316-1024-QF60B-C24"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55dde023-9cd6-4b84-819a-1afdcd707258")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c092318-179f-4e87-80d1-2b6c75b22036")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "QFN_F60B-C24_XMO")
+		(path "/2765e1cc-205a-4739-b769-20b95f3d1fdb/bcf8c75a-8261-4587-8938-7b03a172cc9b")
+		(sheetname "/USB Audio Input/")
+		(sheetfile "Input.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.6322 -3.6322)
+			(end -3.6322 -3.234213)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15036672-7fed-4809-ac6e-20b802a29c2d")
+		)
+		(fp_line
+			(start -3.6322 3.234213)
+			(end -3.6322 3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b309feb3-878b-4729-beef-2238c8d85769")
+		)
+		(fp_line
+			(start -3.6322 3.6322)
+			(end -3.234234 3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d3c92ab-e0dd-4260-a7cf-e847fdc25522")
+		)
+		(fp_line
+			(start -3.234234 -3.6322)
+			(end -3.6322 -3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13cc6d67-8b8b-4ab1-a13c-e689ba8dbd8d")
+		)
+		(fp_line
+			(start 3.234234 3.6322)
+			(end 3.6322 3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5664f368-6883-4f1a-8bdc-0ae205854521")
+		)
+		(fp_line
+			(start 3.6322 -3.6322)
+			(end 3.234234 -3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aab09cb3-5eb8-4013-b38b-985fb46d20aa")
+		)
+		(fp_line
+			(start 3.6322 -3.234213)
+			(end 3.6322 -3.6322)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd6b8166-8e25-4e49-9bef-6bb58f4cb2c2")
+		)
+		(fp_line
+			(start 3.6322 3.6322)
+			(end 3.6322 3.234213)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33dca449-cd6d-4f97-be39-570cae9c4bb9")
+		)
+		(fp_line
+			(start -3.7592 -3.7592)
+			(end -3.18135 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16e283f5-5854-4d9b-89bd-ccb6e9669d80")
+		)
+		(fp_line
+			(start -3.7592 -3.18135)
+			(end -3.7592 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb6e5aa4-2dea-4228-a30d-8608cf8dfc7a")
+		)
+		(fp_line
+			(start -3.7592 -3.18135)
+			(end -3.7592 -3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "388e856c-ecef-4d02-a710-2a7af2f76012")
+		)
+		(fp_line
+			(start -3.7592 3.18135)
+			(end -3.7592 -3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f674395c-649f-48ef-8a1f-429d1cb8fcf1")
+		)
+		(fp_line
+			(start -3.7592 3.18135)
+			(end -3.7592 3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "09ca43a6-b6e7-4f49-aafe-93aecc6a9635")
+		)
+		(fp_line
+			(start -3.7592 3.7592)
+			(end -3.7592 3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b503df27-2910-4255-a15c-41f74a6c4bc9")
+		)
+		(fp_line
+			(start -3.18135 -3.7592)
+			(end -3.18135 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5140d93c-83fc-441f-bce2-cc47cebcc1e5")
+		)
+		(fp_line
+			(start -3.18135 -3.7592)
+			(end 3.18135 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc574dde-5e92-4a5c-aa70-d568bab2a18c")
+		)
+		(fp_line
+			(start -3.18135 3.7592)
+			(end -3.7592 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a7023f3-6dd2-420d-94b6-c1e4af604b44")
+		)
+		(fp_line
+			(start -3.18135 3.7592)
+			(end -3.18135 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48dd704e-22bb-4a22-87b3-77ca3085dcb2")
+		)
+		(fp_line
+			(start 3.18135 -3.7592)
+			(end 3.18135 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6220029e-90a5-46f5-987b-ddc0f8b0ef18")
+		)
+		(fp_line
+			(start 3.18135 -3.7592)
+			(end 3.7592 -3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f416e4ba-fe36-4dd2-ab43-36d09189031c")
+		)
+		(fp_line
+			(start 3.18135 3.7592)
+			(end -3.18135 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "518a4671-a4c8-421d-8b9c-1d85dd5b4897")
+		)
+		(fp_line
+			(start 3.18135 3.7592)
+			(end 3.18135 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6afa44d0-a9a5-4a9d-9969-7152327ce4ef")
+		)
+		(fp_line
+			(start 3.7592 -3.7592)
+			(end 3.7592 -3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2fd91f5f-924a-4181-b581-49bbd97c5ab2")
+		)
+		(fp_line
+			(start 3.7592 -3.18135)
+			(end 3.7592 -3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7c4fcc1b-e80b-401e-8ef4-4572a6998265")
+		)
+		(fp_line
+			(start 3.7592 -3.18135)
+			(end 3.7592 3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7cf08323-1fa3-4573-a061-b7480dbeb103")
+		)
+		(fp_line
+			(start 3.7592 3.18135)
+			(end 3.7592 3.18135)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b12a19c-6066-4525-ba88-cd6970b7ceb7")
+		)
+		(fp_line
+			(start 3.7592 3.18135)
+			(end 3.7592 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71efec22-f3a7-4316-85bb-a691563ac713")
+		)
+		(fp_line
+			(start 3.7592 3.7592)
+			(end 3.18135 3.7592)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5891808a-9d80-4729-8536-96dde8238300")
+		)
+		(fp_line
+			(start -3.5052 -3.5052)
+			(end -3.5052 3.5052)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5742ff1c-b743-4da9-afae-545661ec8bbd")
+		)
+		(fp_line
+			(start -3.5052 -2.2352)
+			(end -2.2352 -3.5052)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d9c12831-7c44-46cd-bb30-48a049db0f67")
+		)
+		(fp_line
+			(start -3.5052 3.5052)
+			(end 3.5052 3.5052)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5bf295f7-3eaa-47b4-8465-366995d1234a")
+		)
+		(fp_line
+			(start 3.5052 -3.5052)
+			(end -3.5052 -3.5052)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93a33ab6-7f09-4ae1-be88-9d9bf0755436")
+		)
+		(fp_line
+			(start 3.5052 3.5052)
+			(end 3.5052 -3.5052)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0f51b50-c9cc-42c9-ad66-28ee5d6dfbed")
+		)
+		(fp_text user "*"
+			(at -4.138549 -2.80035 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c6e97dec-71f8-41d6-a1b8-7aab7a8f6a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -4.138549 -2.80035 0)
+			(layer "F.SilkS")
+			(uuid "f5ee62f4-9076-4c88-9c1e-574fb77fe536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "22779f69-693e-494d-9bdf-435486725919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -2.411349 -2.80035 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "319be760-690d-4036-8eae-89346b1bcfb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "*"
+			(at -2.411349 -2.80035 0)
+			(layer "F.Fab")
+			(uuid "e934756f-4e31-49a6-9d79-94207855b363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -3.274949 -2.80035)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 119 "/USB Audio Input/QSPI_D1")
+			(pinfunction "X0D05")
+			(pintype "bidirectional")
+			(uuid "beae3370-4a84-48ae-b0fe-2332169581a8")
+		)
+		(pad "2" smd rect
+			(at -3.274949 -2.4003)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 115 "/USB Audio Input/QSPI_D3")
+			(pinfunction "X0D07")
+			(pintype "bidirectional")
+			(uuid "78ec0fcf-250a-4f01-98d6-9e2242d4c9af")
+		)
+		(pad "3" smd rect
+			(at -3.274949 -2.00025)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 114 "/USB Audio Input/QSPI_CSN")
+			(pinfunction "X0D01")
+			(pintype "bidirectional")
+			(uuid "7275ad8d-425f-4ac2-90cc-6d2d3e1eca19")
+		)
+		(pad "4" smd rect
+			(at -3.274949 -1.6002)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "1271178f-6ae1-4d73-9e72-b653805b86ac")
+		)
+		(pad "5" smd rect
+			(at -3.274949 -1.20015)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 121 "/USB Audio Input/QSPI_CLK")
+			(pinfunction "X0D10")
+			(pintype "bidirectional")
+			(uuid "d4b8a495-3dc7-4b2a-b332-65f3c9b7a55e")
+		)
+		(pad "6" smd rect
+			(at -3.274949 -0.8001)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 124 "unconnected-(U2-X0D00-Pad6)")
+			(pinfunction "X0D00")
+			(pintype "bidirectional")
+			(uuid "e65be92c-d3df-4a60-a93e-0e380b52d80b")
+		)
+		(pad "7" smd rect
+			(at -3.274949 -0.40005)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 123 "unconnected-(U2-X0D11-Pad7)")
+			(pinfunction "X0D11")
+			(pintype "bidirectional")
+			(uuid "e642d767-1175-4d2e-b67b-328577bcda53")
+		)
+		(pad "8" smd rect
+			(at -3.274949 0)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "/USB Audio Input/3V3BP")
+			(pinfunction "VDDIOL")
+			(pintype "power_in")
+			(uuid "1b5b60d7-fbe1-4a3d-911c-838eb1ef10a0")
+		)
+		(pad "9" smd rect
+			(at -3.274949 0.40005)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 118 "unconnected-(U2-X1D00-Pad9)")
+			(pinfunction "X1D00")
+			(pintype "bidirectional")
+			(uuid "b24b866d-8aa0-4609-966f-ed7dbd2aa362")
+		)
+		(pad "10" smd rect
+			(at -3.274949 0.8001)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 116 "unconnected-(U2-X1D01-Pad10)")
+			(pinfunction "X1D01")
+			(pintype "bidirectional")
+			(uuid "91d9aa9c-1c27-4b87-ba3f-a0b3499e2011")
+		)
+		(pad "11" smd rect
+			(at -3.274949 1.20015)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 108 "unconnected-(U2-X1D09-Pad11)")
+			(pinfunction "X1D09")
+			(pintype "bidirectional")
+			(uuid "3de5d8ae-b569-443c-9db3-95706c2d65f7")
+		)
+		(pad "12" smd rect
+			(at -3.274949 1.6002)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "337e927e-08c6-42d0-ae44-ef066cd28709")
+		)
+		(pad "13" smd rect
+			(at -3.274949 2.00025)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 107 "unconnected-(U2-X1D10-Pad13)")
+			(pinfunction "X1D10")
+			(pintype "bidirectional")
+			(uuid "363df3ec-e233-4147-8606-9f692380426a")
+		)
+		(pad "14" smd rect
+			(at -3.274949 2.4003)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 102 "unconnected-(U2-X1D11-Pad14)")
+			(pinfunction "X1D11")
+			(pintype "bidirectional")
+			(uuid "04dad065-bc45-42c9-9989-56469a73a3b8")
+		)
+		(pad "15" smd rect
+			(at -3.274949 2.80035)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 14 "/Clocking/XTAL1_IN")
+			(pinfunction "XOUT")
+			(pintype "output")
+			(uuid "bfe38fc1-f178-4f9d-9897-ce2abf49ce34")
+		)
+		(pad "16" smd rect
+			(at -2.80035 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 63 "/Clocking/XTAL1_OUT")
+			(pinfunction "XIN")
+			(pintype "unspecified")
+			(uuid "32a64e16-fbbc-460c-9ca6-2089c4eed898")
+		)
+		(pad "17" smd rect
+			(at -2.4003 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 113 "unconnected-(U2-VDDIOB18-Pad17)")
+			(pinfunction "VDDIOB18")
+			(pintype "power_in")
+			(uuid "701703f4-621e-4a68-b60a-ef789a458be3")
+		)
+		(pad "18" smd rect
+			(at -2.00025 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 106 "/Debug/TDI")
+			(pinfunction "TDI")
+			(pintype "unspecified")
+			(uuid "358ecf87-06f2-4a7a-805f-fecb0a5b0f48")
+		)
+		(pad "19" smd rect
+			(at -1.6002 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "6ffecd48-c9fc-4758-95af-38115630af75")
+		)
+		(pad "20" smd rect
+			(at -1.20015 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 126 "/Debug/TDO")
+			(pinfunction "TDO")
+			(pintype "unspecified")
+			(uuid "e856255a-8945-42ae-9e6c-49e869cee6b8")
+		)
+		(pad "21" smd rect
+			(at -0.8001 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 120 "/USB Audio Input/RST_N")
+			(pinfunction "RST_N")
+			(pintype "unspecified")
+			(uuid "c6e45d31-aa65-47e9-a9ff-8ee69d1302c2")
+		)
+		(pad "22" smd rect
+			(at -0.40005 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 105 "unconnected-(U2-PLL_AVDD-Pad22)")
+			(pinfunction "PLL_AVDD")
+			(pintype "power_in")
+			(uuid "1aa63f65-79d7-4112-8ed6-22450750d92d")
+		)
+		(pad "23" smd rect
+			(at 0 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 117 "/Debug/TMS")
+			(pinfunction "TMS")
+			(pintype "unspecified")
+			(uuid "957bebcd-771a-43d7-85c0-226c83bc03db")
+		)
+		(pad "24" smd rect
+			(at 0.40005 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 127 "/Debug/TCK")
+			(pinfunction "TCK")
+			(pintype "unspecified")
+			(uuid "eacdb471-039f-4ee5-9db0-96420feab64c")
+		)
+		(pad "25" smd rect
+			(at 0.8001 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 125 "unconnected-(U2-NC-Pad25)")
+			(pinfunction "NC")
+			(pintype "no_connect")
+			(uuid "e7fc3a70-fd3a-432c-a5e9-c349ed98d1c2")
+		)
+		(pad "26" smd rect
+			(at 1.20015 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 103 "unconnected-(U2-VDDIOB18-Pad26)")
+			(pinfunction "VDDIOB18")
+			(pintype "power_in")
+			(uuid "0b08927e-2568-4d9a-a121-5a8394b3fb2c")
+		)
+		(pad "27" smd rect
+			(at 1.6002 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "1ac98ddd-bdc3-4bad-982e-7a251738ae75")
+		)
+		(pad "28" smd rect
+			(at 2.00025 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 50 "/USB Audio Input/D-")
+			(pinfunction "USB_DM")
+			(pintype "unspecified")
+			(uuid "83c675ba-89da-444f-921c-0b81bde4a0d6")
+		)
+		(pad "29" smd rect
+			(at 2.4003 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 49 "/USB Audio Input/D+")
+			(pinfunction "USB_DP")
+			(pintype "unspecified")
+			(uuid "84d32eae-7413-4293-b356-55705d2c5fe1")
+		)
+		(pad "30" smd rect
+			(at 2.80035 3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "/USB Audio Input/3V3BP")
+			(pinfunction "USB_VDD33")
+			(pintype "power_in")
+			(uuid "f2638a2f-ceae-4c37-b251-70c45b683a16")
+		)
+		(pad "31" smd rect
+			(at 3.274949 2.80035)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 40 "+1V8")
+			(pinfunction "USB_VDD18")
+			(pintype "power_in")
+			(uuid "7ae59487-3580-443a-a5bf-872a449f0576")
+		)
+		(pad "32" smd rect
+			(at 3.274949 2.4003)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 104 "unconnected-(U2-X1D13-Pad32)")
+			(pinfunction "X1D13")
+			(pintype "bidirectional")
+			(uuid "19479c5c-7a5e-4ac1-a420-f46437c0ccaa")
+		)
+		(pad "33" smd rect
+			(at 3.274949 2.00025)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 129 "/Debug/4D0")
+			(pinfunction "X1D16")
+			(pintype "bidirectional")
+			(uuid "fbba0343-d14d-48f9-b771-8eb6d480642e")
+		)
+		(pad "34" smd rect
+			(at 3.274949 1.6002)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "0b062b15-4262-444f-bbda-8f611f1c62ba")
+		)
+		(pad "35" smd rect
+			(at 3.274949 1.20015)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 112 "/Debug/4D1")
+			(pinfunction "X1D17")
+			(pintype "bidirectional")
+			(uuid "60fd605e-9cb7-445d-b44b-bb96070a08ba")
+		)
+		(pad "36" smd rect
+			(at 3.274949 0.8001)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 128 "/Debug/4D2")
+			(pinfunction "X1D18")
+			(pintype "bidirectional")
+			(uuid "f095762e-46fa-4a88-b657-08e5dab9390b")
+		)
+		(pad "37" smd rect
+			(at 3.274949 0.40005)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 109 "/Debug/4D3")
+			(pinfunction "X1D19")
+			(pintype "bidirectional")
+			(uuid "4cea012d-fb91-4842-bca4-c08b6b6e796d")
+		)
+		(pad "38" smd rect
+			(at 3.274949 0)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "/USB Audio Input/3V3BP")
+			(pinfunction "VDDIOR")
+			(pintype "power_in")
+			(uuid "d7835df7-6ee7-421b-b11b-99983e2384ee")
+		)
+		(pad "39" smd rect
+			(at 3.274949 -0.40005)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 65 "/Clocking/MCLK_XMOS")
+			(pinfunction "X1D22")
+			(pintype "bidirectional")
+			(uuid "4f8982f0-40a8-45c8-9730-004bfea5cbaf")
+		)
+		(pad "40" smd rect
+			(at 3.274949 -0.8001)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 68 "/Clocking/XTAL2_EN")
+			(pinfunction "X0D29")
+			(pintype "bidirectional")
+			(uuid "b6653efc-ade4-499d-8de1-e97aace50d37")
+		)
+		(pad "41" smd rect
+			(at 3.274949 -1.20015)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 92 "/DAC/GPIO1")
+			(pinfunction "X0D35")
+			(pintype "bidirectional")
+			(uuid "85990002-23ad-414e-9dab-73fda217190a")
+		)
+		(pad "42" smd rect
+			(at 3.274949 -1.6002)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "81f4fd3d-7708-41da-9870-8f5c48f85385")
+		)
+		(pad "43" smd rect
+			(at 3.274949 -2.00025)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 96 "/DAC/BCK")
+			(pinfunction "X0D36")
+			(pintype "bidirectional")
+			(uuid "acfa398a-da7d-4846-bd61-119c076dc2fb")
+		)
+		(pad "44" smd rect
+			(at 3.274949 -2.4003)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 91 "/DAC/WS")
+			(pinfunction "X0D37")
+			(pintype "bidirectional")
+			(uuid "6731794c-7b42-4a94-9eef-0935bf1f6434")
+		)
+		(pad "45" smd rect
+			(at 3.274949 -2.80035)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 86 "/DAC/SD0")
+			(pinfunction "X0D38")
+			(pintype "bidirectional")
+			(uuid "8edf6808-c7d6-403b-a365-277bd5eecf58")
+		)
+		(pad "46" smd rect
+			(at 2.80035 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 93 "/DAC/EN")
+			(pinfunction "X0D40")
+			(pintype "bidirectional")
+			(uuid "0c3d5d35-af5f-4e7e-892f-6848d8335a6e")
+		)
+		(pad "47" smd rect
+			(at 2.4003 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 95 "/DAC/GPIO2")
+			(pinfunction "X0D39")
+			(pintype "bidirectional")
+			(uuid "0382f796-531f-4b0d-a41a-450740f6a6fc")
+		)
+		(pad "48" smd rect
+			(at 2.00025 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 85 "/DAC/GPIO3")
+			(pinfunction "X0D42")
+			(pintype "bidirectional")
+			(uuid "66dd71c6-2092-482e-a726-54ac90b83479")
+		)
+		(pad "49" smd rect
+			(at 1.6002 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "780db816-85be-4ef0-a228-d51f37d7cb8e")
+		)
+		(pad "50" smd rect
+			(at 1.20015 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 89 "/DAC/GPIO4")
+			(pinfunction "X0D41")
+			(pintype "bidirectional")
+			(uuid "e3b595cc-fd7c-4f9f-bad6-5e761b400325")
+		)
+		(pad "51" smd rect
+			(at 0.8001 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 97 "/DAC/GPIO5")
+			(pinfunction "X0D43")
+			(pintype "bidirectional")
+			(uuid "fc7e1556-9d03-4765-b605-b5ddcc77de59")
+		)
+		(pad "52" smd rect
+			(at 0.40005 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 48 "/USB Audio Input/3V3BP")
+			(pinfunction "VDDIOT")
+			(pintype "power_in")
+			(uuid "cd546f77-6b05-4895-a45c-fd7599278803")
+		)
+		(pad "53" smd rect
+			(at 0 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 111 "unconnected-(U2-X1D34-Pad53)")
+			(pinfunction "X1D34")
+			(pintype "bidirectional")
+			(uuid "5bcdfe0b-f682-4107-afd8-6982cfc61c82")
+		)
+		(pad "54" smd rect
+			(at -0.40005 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 66 "/Clocking/XTAL1_EN")
+			(pinfunction "X0D30")
+			(pintype "bidirectional")
+			(uuid "00aab282-d42b-440c-892c-14dc081fbf9c")
+		)
+		(pad "55" smd rect
+			(at -0.8001 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 87 "/DAC/GPIO6")
+			(pinfunction "X0D31")
+			(pintype "bidirectional")
+			(uuid "e9078839-0636-416a-ade6-31a1c5c5e377")
+		)
+		(pad "56" smd rect
+			(at -1.20015 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 84 "/DAC/SCL")
+			(pinfunction "X0D32")
+			(pintype "bidirectional")
+			(uuid "eb75590f-60b3-4969-b647-fe6fd6aad865")
+		)
+		(pad "57" smd rect
+			(at -1.6002 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "b3095c53-50ff-4630-8c5e-ddf9edacb9dc")
+		)
+		(pad "58" smd rect
+			(at -2.00025 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 94 "/DAC/SDA")
+			(pinfunction "X0D33")
+			(pintype "bidirectional")
+			(uuid "fde11998-0ddc-434b-bb47-aad862168f71")
+		)
+		(pad "59" smd rect
+			(at -2.4003 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 122 "/USB Audio Input/QSPI_D0")
+			(pinfunction "X0D04")
+			(pintype "bidirectional")
+			(uuid "dd49a8da-bc27-48a3-a9c6-aabaee9b74c5")
+		)
+		(pad "60" smd rect
+			(at -2.80035 -3.275 90)
+			(size 0.4572 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 110 "/USB Audio Input/QSPI_D2")
+			(pinfunction "X0D06")
+			(pintype "bidirectional")
+			(uuid "54b53e87-14ec-4649-9776-3812adb01e5e")
+		)
+		(pad "61" smd rect
+			(at -2.55905 0)
+			(size 0.6604 3.6576)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "173ac659-d3a2-486c-b46f-73395de64c59")
+		)
+		(pad "62" smd rect
+			(at 0 2.55905)
+			(size 3.6576 0.6604)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "44a4408a-131c-43b2-af2f-8ba7fbf3eadd")
+		)
+		(pad "63" smd rect
+			(at 2.55905 0)
+			(size 0.6604 3.6576)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "544cb3c2-886e-40e7-8a6b-0e640a1672dd")
+		)
+		(pad "64" smd rect
+			(at 0 -2.55905)
+			(size 3.6576 0.6604)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "/USB Audio Input/0V9BP")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "8949a5a3-f743-431a-a725-e26beb27e492")
+		)
+		(pad "65" smd rect
+			(at 0 0)
+			(size 3.6576 3.6576)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "VSS")
+			(pintype "power_out")
+			(uuid "36038d30-1ebf-44bd-871a-1925c5fc8ada")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 		(layer "F.Cu")
@@ -32052,7 +33113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32251,7 +33312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32450,7 +33511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32649,7 +33710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32848,7 +33909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

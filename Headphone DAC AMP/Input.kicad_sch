@@ -8420,7 +8420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "footprints:QFN_F60B-C24_XMO"
 			(at 186.69 67.31 0)
 			(effects
 				(font
