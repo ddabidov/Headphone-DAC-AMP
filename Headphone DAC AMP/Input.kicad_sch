@@ -7391,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Value" "350mA"
+		(property "Value" "2A"
 			(at 40.64 22.86 90)
 			(effects
 				(font
@@ -8420,7 +8420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_F60B-C24_XMO"
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 186.69 67.31 0)
 			(effects
 				(font

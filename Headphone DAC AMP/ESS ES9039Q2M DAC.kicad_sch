@@ -14960,7 +14960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
 			(at 120.65 143.51 0)
 			(effects
 				(font
@@ -15297,7 +15297,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "838d8225-7672-43d9-b9e0-5224b91be71c")
+			(uuid "838d8225-7672-43d9-b9e0-5224b91be71d")
 		)
 		(instances
 			(project ""
