@@ -1,4 +1,39 @@
-28038214873728547
+28050554256227832
+2137160001
+MOLEX_2137160001
+
+
+0
+20
+20
+ADP5071
+RE-20-1_ADI
+
+ADP5071AREZ-R7 
+0
+21
+21
+ADP5071
+RE-20-1_ADI-L
+
+ADP5071AREZ-R7 
+0
+21
+21
+ADP5071
+RE-20-1_ADI-M
+
+ADP5071AREZ-R7 
+0
+21
+21
+ADP7185ACPZN-R7
+SON50P200X200X60-9N
+8-Lead Lead Frame Chip Scale Package [LFCSP] 2 mm × 2 mm Body and 0.55 mm Package Height (CP-8-27)
+Integrated Circuit
+0
+9
+9
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70181,6 +70216,13 @@ Yellow 5381 Series LED
 0
 2
 2
+M50_3551042
+HARWIN_M50-3551042
+
+
+0
+20
+20
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73114,6 +73156,27 @@ net tie
 0
 4
 4
+OPA1612
+D8
+
+OPA1612AIDR 
+0
+8
+8
+OPA1612
+D8-L
+
+OPA1612AIDR 
+0
+8
+8
+OPA1612
+D8-M
+
+OPA1612AIDR 
+0
+8
+8
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -98300,27 +98363,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-PartsLib
-D8
-
-OPA1612AIDR 
-0
-8
-8
-PartsLib
-D8-L
-
-OPA1612AIDR 
-0
-8
-8
-PartsLib
-D8-M
-
-OPA1612AIDR 
-0
-8
-8
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -104999,6 +105041,13 @@ Logo WEEE
 0
 0
 0
+TPS74501PDRVR
+SON65P200X200X80-7N
+DRV0006A
+Integrated Circuit
+0
+7
+7
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -112048,7 +112097,7 @@ Varistor VF
 0
 2
 2
-footprints
+XMOS XU316
 QFN_F60B-C24_XMO
 
 XU316-1024-QF60B-C24 

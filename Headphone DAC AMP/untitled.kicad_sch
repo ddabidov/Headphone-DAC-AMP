@@ -9788,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON65P200X200X80-7N"
+		(property "Footprint" "TPS74501PDRVR:SON65P200X200X80-7N"
 			(at 226.06 216.84 0)
 			(effects
 				(font
@@ -9922,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.5 130.5052 0)
 			(effects
 				(font
@@ -10193,7 +10193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RE-20-1_ADI"
+		(property "Footprint" "ADP5071:RE-20-1_ADI"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -10804,7 +10804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P200X200X60-9N"
+		(property "Footprint" "ADP7185ACPZN-R7:SON50P200X200X60-9N"
 			(at 101.6 119.38 0)
 			(effects
 				(font
@@ -11690,7 +11690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 62.23 139.192 0)
 			(effects
 				(font
@@ -12564,7 +12564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 198.12 123.4948 0)
 			(effects
 				(font
