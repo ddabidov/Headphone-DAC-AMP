@@ -3389,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 22.86) (xy 120.65 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba692bc2-b719-4fe8-a969-9c705f5c62c2")
-	)
-	(wire
-		(pts
 			(xy 40.64 109.22) (xy 54.61 109.22)
 		)
 		(stroke
@@ -5382,7 +5372,7 @@
 		(uuid "116626d5-a2b3-4d67-9903-f0fcb0b1ebe4")
 	)
 	(label "L-FLT"
-		(at 120.65 22.86 180)
+		(at 121.92 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
