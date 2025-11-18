@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "ff33b635-a688-434b-9bf1-87d5c1c7d785")
 	(paper "A4")
+	(title_block
+		(title "Hi-Fidelity USB DAC Amplifier")
+		(date "2025-11-19")
+		(rev "1.0")
+		(company "Personal Project - Kettering University")
+		(comment 1 "Designed by Dan Abidov & Luke Stirzinger")
+		(comment 2 "Based on XMOS Xu316 and ES9039Q2M")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1457,6 +1465,32 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 45.72 66.04)
+		(end 156.21 135.89)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 386687cf-9a5b-4852-9479-302f7a2a1780)
+	)
+	(text "XTAG Debug Connector"
+		(exclude_from_sim no)
+		(at 101.092 129.032 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "f2afe25a-c28d-433f-a84e-817982c974d1")
 	)
 	(junction
 		(at 88.9 93.98)

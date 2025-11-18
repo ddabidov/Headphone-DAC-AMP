@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "1f370422-dd49-4c91-921f-c85738eb1c13")
 	(paper "A4")
+	(title_block
+		(title "Hi-Fidelity USB DAC Amplifier")
+		(date "2025-11-19")
+		(rev "1.0")
+		(company "Personal Project - Kettering University")
+		(comment 1 "Designed by Dan Abidov & Luke Stirzinger")
+		(comment 2 "Based on XMOS Xu316 and ES9039Q2M")
+	)
 	(lib_symbols
 		(symbol "2137160001:2137160001"
 			(pin_names
@@ -3320,7 +3328,7 @@
 		(uuid "128cb721-014f-44e8-a5cd-4e2f1a2e1298")
 	)
 	(junction
-		(at 172.72 44.45)
+		(at 180.34 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1443da8c-a825-4408-a765-57ade016a25a")
@@ -3338,7 +3346,7 @@
 		(uuid "26622b0c-982f-4d5e-b110-e51bdfff8b36")
 	)
 	(junction
-		(at 157.48 36.83)
+		(at 165.1 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27726a62-dbb4-47cb-92ae-deefa2b1b0f7")
@@ -3362,7 +3370,7 @@
 		(uuid "44c9ac86-f492-46e8-80a0-fe7652f0c1d4")
 	)
 	(junction
-		(at 167.64 44.45)
+		(at 175.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4836ce97-0d98-4496-8f66-38eb6aaac721")
@@ -3404,7 +3412,7 @@
 		(uuid "73e74724-8ab4-461e-b167-f7ed599d453a")
 	)
 	(junction
-		(at 167.64 36.83)
+		(at 175.26 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75d07266-3b17-40bc-93b1-65c490ae861f")
@@ -3426,12 +3434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e8bc5dc-84e8-49aa-bd3a-8a42701f3628")
-	)
-	(junction
-		(at 34.29 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fd91448-0e6d-4ace-a654-82630a9afdce")
 	)
 	(junction
 		(at 46.99 83.82)
@@ -3737,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.83) (xy 167.64 36.83)
+			(xy 165.1 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4197,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 44.45) (xy 167.64 44.45)
+			(xy 165.1 45.72) (xy 175.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +4659,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 172.72 46.99)
+			(xy 180.34 45.72) (xy 180.34 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4689,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 36.83) (xy 177.8 36.83)
+			(xy 175.26 38.1) (xy 185.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4837,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 172.72 44.45)
+			(xy 175.26 45.72) (xy 180.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4927,16 +4929,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 81.28) (xy 34.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b86ff62a-963b-4ac0-be07-73ba975d3887")
-	)
-	(wire
-		(pts
 			(xy 128.27 172.72) (xy 118.11 172.72)
 		)
 		(stroke
@@ -4967,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 177.8 44.45)
+			(xy 180.34 45.72) (xy 185.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4987,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 36.83) (xy 157.48 36.83)
+			(xy 162.56 38.1) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +5538,7 @@
 		(uuid "1120a696-e265-4eb1-9b98-c3260da46334")
 	)
 	(label "1V8BP"
-		(at 170.18 36.83 0)
+		(at 177.8 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5866,7 +5858,7 @@
 		(uuid "d2dc87b0-4889-4f73-8daa-b589c823e02a")
 	)
 	(label "VBUS"
-		(at 26.67 81.28 0)
+		(at 34.29 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5966,7 +5958,7 @@
 		(uuid "fd69c861-8638-4e10-8e83-c48980246d6e")
 	)
 	(hierarchical_label "DAC_GP5"
-		(shape input)
+		(shape output)
 		(at 252.73 102.87 0)
 		(effects
 			(font
@@ -5999,7 +5991,7 @@
 		(uuid "12179c5e-36c5-45e6-b9f6-424c479320fc")
 	)
 	(hierarchical_label "DAC_GP1"
-		(shape input)
+		(shape output)
 		(at 252.73 128.27 0)
 		(effects
 			(font
@@ -6021,7 +6013,7 @@
 		(uuid "3a5beaa4-bb28-4e75-a5dc-265aefae4712")
 	)
 	(hierarchical_label "I2S_DATA"
-		(shape input)
+		(shape output)
 		(at 252.73 118.11 0)
 		(effects
 			(font
@@ -6032,7 +6024,7 @@
 		(uuid "457e1217-d1f1-489c-a045-7d884d84971b")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 252.73 85.09 0)
 		(effects
 			(font
@@ -6043,7 +6035,7 @@
 		(uuid "45d79357-4503-49e4-9f9b-bf60e6d2e601")
 	)
 	(hierarchical_label "DAC_GP2"
-		(shape input)
+		(shape output)
 		(at 252.73 113.03 0)
 		(effects
 			(font
@@ -6054,7 +6046,7 @@
 		(uuid "47af90ff-d184-4d05-9f9d-1d4271357e44")
 	)
 	(hierarchical_label "5V_DGB"
-		(shape input)
+		(shape output)
 		(at 90.17 26.67 0)
 		(effects
 			(font
@@ -6142,7 +6134,7 @@
 		(uuid "80bfd69d-7f40-4a1f-b7fa-e3297dc2c343")
 	)
 	(hierarchical_label "LRCLK"
-		(shape input)
+		(shape output)
 		(at 252.73 120.65 0)
 		(effects
 			(font
@@ -6151,17 +6143,6 @@
 			(justify left)
 		)
 		(uuid "869d982b-c79e-4ba4-ae01-3cc04d3f2fa4")
-	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 22.86 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88e53d1f-7b28-4eb2-9593-b8af69b214fb")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -6208,7 +6189,7 @@
 		(uuid "b8d06b87-04e0-4b55-b390-a57c764b11df")
 	)
 	(hierarchical_label "DAC_GP4"
-		(shape input)
+		(shape output)
 		(at 252.73 105.41 0)
 		(effects
 			(font
@@ -6219,7 +6200,7 @@
 		(uuid "b9ddc197-b715-475e-a776-8d249df22d96")
 	)
 	(hierarchical_label "DAC_GP3"
-		(shape input)
+		(shape output)
 		(at 252.73 110.49 0)
 		(effects
 			(font
@@ -6230,7 +6211,7 @@
 		(uuid "bce187f6-f9ff-4132-bc4b-8eeed5ff8769")
 	)
 	(hierarchical_label "BCLK"
-		(shape input)
+		(shape output)
 		(at 252.73 123.19 0)
 		(effects
 			(font
@@ -6241,7 +6222,7 @@
 		(uuid "bffec1ee-24cd-449e-b3d8-38a09d3618ff")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 252.73 90.17 0)
 		(effects
 			(font
@@ -6252,7 +6233,7 @@
 		(uuid "c3965c79-2ce8-46e8-b5e5-39eef923ba1c")
 	)
 	(hierarchical_label "DAC_GP6"
-		(shape input)
+		(shape output)
 		(at 252.73 92.71 0)
 		(effects
 			(font
@@ -6275,7 +6256,7 @@
 	)
 	(hierarchical_label "1V8"
 		(shape input)
-		(at 154.94 36.83 180)
+		(at 162.56 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6307,7 +6288,7 @@
 		(uuid "e334f74e-1169-4422-b64c-0cddf3c44a8a")
 	)
 	(hierarchical_label "DAC_RESET"
-		(shape input)
+		(shape output)
 		(at 252.73 115.57 0)
 		(effects
 			(font
@@ -6743,7 +6724,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 40.64 0)
+		(at 165.1 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6752,7 +6733,7 @@
 		(fields_autoplaced yes)
 		(uuid "11203adf-34d9-4f5a-9bff-28163b38eecd")
 		(property "Reference" "C100"
-			(at 161.29 39.3699 0)
+			(at 168.91 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6742,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 161.29 41.9099 0)
+			(at 168.91 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6751,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 158.4452 44.45 0)
+			(at 166.0652 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 40.64 0)
+			(at 165.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6769,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 40.64 0)
+			(at 165.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7132,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 40.64 0)
+		(at 185.42 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7160,7 +7141,7 @@
 		(fields_autoplaced yes)
 		(uuid "3739be89-1826-40aa-a549-6e78ed0fe948")
 		(property "Reference" "C102"
-			(at 181.61 39.3699 0)
+			(at 189.23 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7150,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 181.61 41.9099 0)
+			(at 189.23 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7159,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 178.7652 44.45 0)
+			(at 186.3852 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 40.64 0)
+			(at 185.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7177,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 40.64 0)
+			(at 185.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7770,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 40.64 0)
+		(at 175.26 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7798,7 +7779,7 @@
 		(fields_autoplaced yes)
 		(uuid "7436f89c-37b8-4aae-a654-700b447297cf")
 		(property "Reference" "C101"
-			(at 171.45 39.3699 0)
+			(at 179.07 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7788,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 171.45 41.9099 0)
+			(at 179.07 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7797,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 168.6052 44.45 0)
+			(at 176.2252 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 40.64 0)
+			(at 175.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 40.64 0)
+			(at 175.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,16 +9634,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 46.99 0)
+		(at 180.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dacb7c41-45d8-48ce-8e37-b8ca42dc9958")
 		(property "Reference" "#PWR0110"
-			(at 172.72 53.34 0)
+			(at 180.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,7 +9651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 52.07 0)
+			(at 180.34 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 46.99 0)
+			(at 180.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +9668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 46.99 0)
+			(at 180.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 46.99 0)
+			(at 180.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

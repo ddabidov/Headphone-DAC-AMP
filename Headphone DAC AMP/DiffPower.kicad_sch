@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "2292cecc-5dc5-41b3-aa70-a12f8902bab4")
 	(paper "A4")
+	(title_block
+		(title "Hi-Fidelity USB DAC Amplifier")
+		(date "2025-11-19")
+		(rev "1.0")
+		(company "Personal Project - Kettering University")
+		(comment 1 "Designed by Dan Abidov & Luke Stirzinger")
+		(comment 2 "Based on XMOS Xu316 and ES9039Q2M")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -740,11 +740,11 @@
     ],
     [
       "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b",
-      "Power Managment"
+      "Audio Rails"
     ],
     [
       "a76b11f7-fbf9-4331-be15-052b46a69f96",
-      "Low Noise Rails"
+      "General Power"
     ],
     [
       "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea",

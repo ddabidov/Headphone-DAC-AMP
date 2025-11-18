@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "c41440ab-3631-442e-a7dc-17bbff39adc8")
 	(paper "A4")
+	(title_block
+		(title "Hi-Fidelity USB DAC Amplifier")
+		(date "2025-11-19")
+		(rev "1.0")
+		(company "Personal Project - Kettering University")
+		(comment 1 "Designed by Dan Abidov & Luke Stirzinger")
+		(comment 2 "Based on XMOS Xu316 and ES9039Q2M")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1095,6 +1103,58 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 49.53 110.49)
+		(end 135.89 156.21)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 626548fc-8e06-4008-85dc-a5e20fbcceda)
+	)
+	(rectangle
+		(start 52.07 17.78)
+		(end 170.18 105.41)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8ae132f-4356-4060-8354-bb500011b50e)
+	)
+	(text "System Clock"
+		(exclude_from_sim no)
+		(at 84.836 150.114 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "49fad613-0fc9-4ff2-b38e-e7498e50aabd")
+	)
+	(text "Audio Clock"
+		(exclude_from_sim no)
+		(at 137.922 94.742 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "99de429a-741e-4f38-9a02-31eb19106ea4")
+	)
 	(junction
 		(at 97.79 35.56)
 		(diameter 0)
@@ -1605,8 +1665,18 @@
 		)
 		(uuid "fb82c1eb-b238-41ad-bda6-46fc44ded29a")
 	)
+	(label "MCLK"
+		(at 123.19 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30c81fb5-564e-4820-b8fe-7b67f368da09")
+	)
 	(hierarchical_label "MCLK_XMOS"
-		(shape input)
+		(shape output)
 		(at 156.21 48.26 0)
 		(effects
 			(font
@@ -1628,7 +1698,7 @@
 		(uuid "54ec21aa-5cf2-4142-a1aa-1f7fb3601050")
 	)
 	(hierarchical_label "XTAL1_OUT"
-		(shape input)
+		(shape output)
 		(at 74.93 138.43 180)
 		(effects
 			(font
@@ -1639,7 +1709,7 @@
 		(uuid "775c2c83-f6e3-4bc8-b2e1-b5fc9c3d19b3")
 	)
 	(hierarchical_label "MCLK_DAC"
-		(shape input)
+		(shape output)
 		(at 156.21 58.42 0)
 		(effects
 			(font
