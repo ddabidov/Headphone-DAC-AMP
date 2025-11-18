@@ -758,6 +758,58 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 115.824 86.614 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "41093f60-1e14-419d-b300-ed6a0267d9b1")
+	)
+	(text "DEBUGGING"
+		(exclude_from_sim no)
+		(at 95.25 145.288 90)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "7c20ff9b-a552-4e6a-a4eb-50395753e04b")
+	)
+	(text "I2S"
+		(exclude_from_sim no)
+		(at 112.268 76.454 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "adef4dbd-145a-4261-a62d-8149d610807c")
+	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 115.57 106.68 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "bece2a78-37c7-4bcd-a48d-70116a235e3d")
+	)
 	(junction
 		(at 224.79 86.36)
 		(diameter 0)
@@ -2091,72 +2143,6 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 63.5 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ae2c27a-9fc0-4f85-8a2a-60b4d778807f")
-		(property "Reference" "#PWR0112"
-			(at 63.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a963e3e-c546-4d6c-8a5a-c1caab659282")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
 		(at 55.88 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2546,6 +2532,72 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f352a3f7-9753-43fc-be7d-951b73f64797")
+		(property "Reference" "#PWR0112"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a0be798-3467-4892-80e9-21dff2074902")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
