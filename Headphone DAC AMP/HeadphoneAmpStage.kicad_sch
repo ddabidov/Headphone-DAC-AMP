@@ -2083,12 +2083,6 @@
 		(uuid "b246839a-194d-44c6-8e81-8bea197550df")
 	)
 	(junction
-		(at 74.93 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c01474b7-4283-48eb-8b05-6a0a4c7cd2e5")
-	)
-	(junction
 		(at 234.95 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6203,94 +6197,6 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 67.31 148.59 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37b04d54-2229-421f-af4c-deb3d56fcb42")
-		(property "Reference" "U5"
-			(at 67.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 67.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 67.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 67.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 67.31 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
-		)
-		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
-		)
-		(pin "2"
-			(uuid "3deadc2e-1360-4ea3-9d49-f8524c46e2a0")
-		)
-		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
-		)
-		(pin "3"
-			(uuid "73fb5f47-7842-4f2c-ae91-86e236f4d215")
-		)
-		(pin "1"
-			(uuid "3e1858a0-03e8-4006-9015-73f7db76297b")
-		)
-		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
-		)
-		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
-					(reference "U5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
 		(at 67.31 113.03 0)
 		(mirror x)
 		(unit 1)
@@ -6372,6 +6278,94 @@
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
 					(reference "U5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 90.17 142.24 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b04d54-2229-421f-af4c-deb3d56fcb42")
+		(property "Reference" "U5"
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 90.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 90.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
+		)
+		(pin "5"
+			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
+		)
+		(pin "2"
+			(uuid "3deadc2e-1360-4ea3-9d49-f8524c46e2a0")
+		)
+		(pin "7"
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
+		)
+		(pin "3"
+			(uuid "73fb5f47-7842-4f2c-ae91-86e236f4d215")
+		)
+		(pin "1"
+			(uuid "3e1858a0-03e8-4006-9015-73f7db76297b")
+		)
+		(pin "6"
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
+		)
+		(pin "4"
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -6580,93 +6574,6 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 66.04 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f845db0-c6c6-4ebe-bfd1-e00bd827ffdc")
-		(property "Reference" "U4"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 69.342 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
-		)
-		(pin "5"
-			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
-		)
-		(pin "2"
-			(uuid "7e69e4e0-9941-46ae-ba26-7ba60971d770")
-		)
-		(pin "7"
-			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
-		)
-		(pin "3"
-			(uuid "78585a86-937f-4ef2-868d-e86c7bef5eb9")
-		)
-		(pin "1"
-			(uuid "b219ce27-b6ff-4d3e-8f95-c4c7fb1e427a")
-		)
-		(pin "6"
-			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
-		)
-		(pin "4"
-			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
-		)
-		(instances
-			(project ""
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
 		(at 66.04 77.47 0)
 		(mirror x)
 		(unit 2)
@@ -6749,6 +6656,93 @@
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
 					(reference "U4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 66.04 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f845db0-c6c6-4ebe-bfd1-e00bd827ffdc")
+		(property "Reference" "U4"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 69.342 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "85a2f406-faa6-45f8-8d3d-d378306dba96")
+		)
+		(pin "5"
+			(uuid "d216a153-45d0-404d-876e-1bf9513a856d")
+		)
+		(pin "2"
+			(uuid "7e69e4e0-9941-46ae-ba26-7ba60971d770")
+		)
+		(pin "7"
+			(uuid "fd75286f-a3f3-49e6-adbb-7f6656b537bb")
+		)
+		(pin "3"
+			(uuid "78585a86-937f-4ef2-868d-e86c7bef5eb9")
+		)
+		(pin "1"
+			(uuid "b219ce27-b6ff-4d3e-8f95-c4c7fb1e427a")
+		)
+		(pin "6"
+			(uuid "e11f6999-d2c8-47a8-b9d0-147b2a7c9307")
+		)
+		(pin "4"
+			(uuid "808d126f-dbfb-4ae4-a86f-3f073e06c0aa")
+		)
+		(instances
+			(project ""
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a8d45096-939e-42db-8984-b3f2d55a20c4"
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)

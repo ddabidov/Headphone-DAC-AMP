@@ -617,21 +617,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
+			(property "Reference" "U9"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TPS71518__SC70"
-				(at 0 3.175 0)
+			(property "Value" "TPS717XX"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
@@ -703,7 +702,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,11 +710,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
+				(pin input line
+					(at -7.62 -3.81 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -748,10 +746,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
+				(pin input line
+					(at 5.08 -3.81 0)
 					(length 2.54)
-					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -759,7 +756,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -998,6 +995,12 @@
 		(uuid "273c1075-137d-4790-b6a2-4535f98967fb")
 	)
 	(junction
+		(at 59.69 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a25e2df-cb1f-4818-af4a-347e06d1822d")
+	)
+	(junction
 		(at 35.56 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1139,13 +1142,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 148.59) (xy 35.56 148.59)
+			(xy 62.23 152.4) (xy 59.69 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a7446fd-ea5d-47de-8107-c86966e90f7c")
+		(uuid "2e284267-aff8-43e3-894c-ded1eee5d920")
 	)
 	(wire
 		(pts
@@ -1259,6 +1262,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 152.4) (xy 59.69 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd6ba0d-3b3d-4bc1-b7fc-849687f89989")
+	)
+	(wire
+		(pts
 			(xy 82.55 95.25) (xy 87.63 95.25)
 		)
 		(stroke
@@ -1269,7 +1282,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 110.49 92.71)
+			(xy 40.64 135.89) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5f1439-fde6-490a-82c1-5231d733d360")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 102.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1346,6 +1369,16 @@
 			(type default)
 		)
 		(uuid "9403e184-a399-412d-a320-340c2852b8b2")
+	)
+	(wire
+		(pts
+			(xy 40.64 148.59) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9509257e-80a2-4802-877f-55abfa32e0c4")
 	)
 	(wire
 		(pts
@@ -1429,6 +1462,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 135.89) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f85a6c-1485-413c-ae2c-eef107dbccd4")
+	)
+	(wire
+		(pts
+			(xy 59.69 148.59) (xy 40.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f66b5f-85da-4113-9ebb-a5ec7c8aafca")
+	)
+	(wire
+		(pts
 			(xy 41.91 30.48) (xy 41.91 27.94)
 		)
 		(stroke
@@ -1439,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 148.59) (xy 40.64 148.59)
+			(xy 62.23 148.59) (xy 59.69 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1549,28 +1602,6 @@
 			(justify left)
 		)
 		(uuid "885097c7-a548-4377-992c-793e576233e5")
-	)
-	(hierarchical_label "1.8v"
-		(shape input)
-		(at 110.49 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b36097f7-c491-4210-b076-06eda9b121c3")
-	)
-	(hierarchical_label "Vin"
-		(shape input)
-		(at 35.56 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c68a30c3-a9a7-4390-a562-b9cccef8a568")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -2975,13 +3006,13 @@
 		(pin "2"
 			(uuid "3b84707c-98e9-4eab-987d-226e6e50efa2")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "28d378be-800c-4402-973c-b485708428d9")
 		)
 		(pin "5"
 			(uuid "a4230fe7-35e6-4bc5-ad56-4c75ae394a23")
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "ea3f98ac-2288-4b72-87c1-86d14beebe7f")
 		)
 		(instances
