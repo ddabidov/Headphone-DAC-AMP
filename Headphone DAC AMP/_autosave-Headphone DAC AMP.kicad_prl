@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Headphone DAC AMP.kicad_prl",
+    "filename": "_autosave-Headphone DAC AMP.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,18 +92,18 @@
       11
     ],
     "col_widths": [
-      298,
-      274,
-      179,
+      294,
+      279,
+      173,
+      120,
+      173,
+      173,
+      173,
       126,
-      179,
-      179,
-      179,
-      133,
-      179,
-      179,
-      179,
-      179
+      173,
+      173,
+      173,
+      173
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

@@ -1648,6 +1648,66 @@
 		)
 		(uuid "fce23328-1667-43f0-a2e6-b92116cfefc2")
 	)
+	(label "DAC2+"
+		(at 181.61 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41ecef17-5306-4413-9101-1f5373e67b67")
+	)
+	(label "Output-"
+		(at 218.44 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4213cf4e-7b95-4968-bee0-e2ad32b9068e")
+	)
+	(label "DAC1-"
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ae6183d-43d8-4368-aa3c-c173717b6b35")
+	)
+	(label "Output+"
+		(at 218.44 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "534f56e3-6787-49f7-8948-814216780b19")
+	)
+	(label "DAC1+"
+		(at 181.61 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ff02a04-e9cf-45e4-8370-28e3ee2b9847")
+	)
+	(label "DAC2-"
+		(at 181.61 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a559c068-0522-4e3a-811f-29ace14f760b")
+	)
 	(label "GND"
 		(at 22.86 181.61 0)
 		(effects
@@ -1752,7 +1812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SJ-3502-SMT:CUI_SJ-3502-SMT"
+		(property "Footprint" "SJ_3502_SMT_TR:CUI_SJ-3502-SMT"
 			(at 240.03 86.36 0)
 			(effects
 				(font
