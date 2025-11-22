@@ -33395,7 +33395,7 @@
 		(property "Reference" "C4"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "87f9f371-84b1-4454-8da5-082e869c5810")
+			(uuid "d2dd5b2f-9c24-48ba-a96f-7bd40c1e62c3")
 			(effects
 				(font
 					(size 1 1)
@@ -33406,7 +33406,7 @@
 		(property "Value" "1u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "ce729f79-21ef-458f-a68a-984cfba83cf3")
+			(uuid "439a1bba-ad47-4d4c-891b-d4bc594f1da2")
 			(effects
 				(font
 					(size 1 1)
@@ -33418,7 +33418,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d4e4bfd-bbef-488a-a538-a1f72217c489")
+			(uuid "50769752-0fa9-4e1c-9031-84539a5ca142")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33430,7 +33430,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a18fe72-262d-4d1f-b5c7-5a5ce4c7987b")
+			(uuid "08114def-3fe4-43f6-97d9-53406fec0e49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38814,9 +38814,9 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 -1.68 0)
+			(at -4.2125 -1.505 0)
 			(layer "F.SilkS")
-			(uuid "3c8e360f-73b5-4a07-98fb-bda3b1a50d67")
+			(uuid "cd89a2ec-adea-4cb9-b3bd-35788a4235ed")
 			(effects
 				(font
 					(size 1 1)
@@ -38827,7 +38827,7 @@
 		(property "Value" "1u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "ad046002-821b-43e0-ac09-c3cd5f4e2f87")
+			(uuid "8332acc7-0aab-4515-92eb-10f5d31e8ec5")
 			(effects
 				(font
 					(size 1 1)
@@ -38839,7 +38839,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09094c7e-02c1-4eb6-95a9-eb9ab629383c")
+			(uuid "5bc5fe05-a97b-4417-a22f-90c6ac602548")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38851,7 +38851,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2317f5ee-f8e9-430c-b7b1-26d1e32cb484")
+			(uuid "babdf24a-9105-457b-9abd-a5883bf58ce5")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2145,6 +2145,12 @@
 		(uuid "a51672e0-9ff4-4ace-a0be-fec1bd265b81")
 	)
 	(junction
+		(at 74.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a612d292-77b2-4cde-8d29-8d5174d38e44")
+	)
+	(junction
 		(at 257.81 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2340,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 148.59) (xy 88.9 148.59)
+			(xy 74.93 148.59) (xy 87.63 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5523,7 @@
 		(uuid "b2c8d066-3609-4156-b8e3-4fe497446f09")
 	)
 	(label "OUTD"
-		(at 88.9 148.59 0)
+		(at 87.63 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6418,7 +6424,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 90.17 142.24 0)
+		(at 67.31 148.59 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6428,7 +6434,7 @@
 		(fields_autoplaced yes)
 		(uuid "37b04d54-2229-421f-af4c-deb3d56fcb43")
 		(property "Reference" "U5"
-			(at 90.17 152.4 0)
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6443,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 90.17 134.62 0)
+			(at 67.31 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6451,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 90.17 142.24 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6460,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 90.17 142.24 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6469,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 90.17 142.24 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
