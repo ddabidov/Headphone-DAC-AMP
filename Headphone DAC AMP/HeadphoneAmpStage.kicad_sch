@@ -1989,6 +1989,12 @@
 		(uuid "37dbcdf8-9479-42e4-becc-aae51630dbd0")
 	)
 	(junction
+		(at 74.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f1b31bc-a06b-4082-9e87-d4f064d64205")
+	)
+	(junction
 		(at 154.94 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2073,12 +2079,6 @@
 		(uuid "5a0c1e1c-f995-4cfc-9254-8c3ec9863815")
 	)
 	(junction
-		(at 74.93 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7122f101-7e3c-4ab7-bac1-45794caa3bf0")
-	)
-	(junction
 		(at 257.81 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2143,12 +2143,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a51672e0-9ff4-4ace-a0be-fec1bd265b81")
-	)
-	(junction
-		(at 74.93 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a612d292-77b2-4cde-8d29-8d5174d38e44")
 	)
 	(junction
 		(at 257.81 119.38)
@@ -2269,6 +2263,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8fed1f1-ce70-403a-ba2e-cae06aec8889")
+	)
+	(junction
+		(at 74.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb87a1cd-d3fc-4185-95d8-55c32ea8b0a8")
 	)
 	(junction
 		(at 234.95 111.76)
@@ -5883,7 +5883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 258.7752 151.13 0)
 			(effects
 				(font
@@ -6089,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 138.7348 0)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 103.1748 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.9352 135.89 0)
 			(effects
 				(font
@@ -6337,7 +6337,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 67.31 113.03 0)
+		(at 67.31 148.59 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6346,7 +6346,7 @@
 		(dnp no)
 		(uuid "37b04d54-2229-421f-af4c-deb3d56fcb42")
 		(property "Reference" "U5"
-			(at 67.31 123.19 0)
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6355,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 70.612 118.11 0)
+			(at 70.612 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6363,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 67.31 113.03 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6372,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 67.31 113.03 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6381,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 67.31 113.03 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6424,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 67.31 148.59 0)
+		(at 67.31 113.03 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6434,7 +6434,7 @@
 		(fields_autoplaced yes)
 		(uuid "37b04d54-2229-421f-af4c-deb3d56fcb43")
 		(property "Reference" "U5"
-			(at 67.31 158.75 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 67.31 140.97 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6451,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 67.31 148.59 0)
+			(at 67.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6460,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 67.31 148.59 0)
+			(at 67.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6469,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 67.31 148.59 0)
+			(at 67.31 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 30.7848 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.9352 104.14 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 258.7752 119.38 0)
 			(effects
 				(font
@@ -8758,7 +8758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.9352 119.38 0)
 			(effects
 				(font
@@ -9378,7 +9378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 258.7752 135.89 0)
 			(effects
 				(font
@@ -9514,7 +9514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 67.6148 0)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 258.7752 104.14 0)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.9352 151.13 0)
 			(effects
 				(font

@@ -537,7 +537,48 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Low Noise Power",
+        "pattern": "-5V5"
+      },
+      {
+        "netclass": "Low Noise Power",
+        "pattern": "+5V5"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "MCLK"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "BCK"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "WS"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "SDO"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
