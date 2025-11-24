@@ -1825,6 +1825,12 @@
 		(uuid "1065e576-93f0-44f5-af4f-9a579b8f6cf8")
 	)
 	(junction
+		(at 148.59 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f10f4f2-ded2-472a-9565-d68a0c90f311")
+	)
+	(junction
 		(at 120.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1909,6 +1915,12 @@
 		(uuid "9f5d33de-5986-4dd3-9b32-a0d3b8a4ac4e")
 	)
 	(junction
+		(at 120.65 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ab0f2d-7893-4a54-8668-475e3551f479")
+	)
+	(junction
 		(at 62.23 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1945,22 +1957,16 @@
 		(uuid "e92e6420-dc28-4474-bef6-3b715864a12b")
 	)
 	(junction
-		(at 54.61 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9c6f984-e4c9-48d9-9671-17c24bcfaaa5")
-	)
-	(junction
 		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4820041-ab61-4606-aa83-9cd3c05dccb2")
 	)
 	(junction
-		(at 124.46 33.02)
+		(at 36.83 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8b39939-e545-4211-ae67-78e751e129a4")
+		(uuid "f5fcacf0-f384-4437-9f29-0012a0298c2e")
 	)
 	(no_connect
 		(at 234.95 124.46)
@@ -2158,16 +2164,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 24.13) (xy 54.61 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6a94ed-36ed-4411-839d-bc466d4fc27d")
-	)
-	(wire
-		(pts
 			(xy 179.07 135.89) (xy 184.15 135.89)
 		)
 		(stroke
@@ -2238,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 39.37 33.02)
+			(xy 33.02 33.02) (xy 36.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 35.56) (xy 121.92 35.56)
+			(xy 120.65 40.64) (xy 130.81 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2425,6 +2421,16 @@
 			(type default)
 		)
 		(uuid "46bf4ced-eab0-4843-8913-f2955a38dc85")
+	)
+	(wire
+		(pts
+			(xy 120.65 38.1) (xy 120.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b149124-69ec-4a62-961b-12aecd4529e2")
 	)
 	(wire
 		(pts
@@ -2698,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 132.08 33.02)
+			(xy 118.11 33.02) (xy 132.08 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2878,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 54.61 33.02)
+			(xy 52.07 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3028,16 +3034,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 33.02) (xy 124.46 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a505a9-321f-4717-af39-22de1dd10273")
-	)
-	(wire
-		(pts
 			(xy 58.42 38.1) (xy 62.23 38.1)
 		)
 		(stroke
@@ -3148,23 +3144,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 35.56) (xy 120.65 38.1)
+			(xy 36.83 33.02) (xy 39.37 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9379c08-5a0a-4727-b609-8801b141eddf")
-	)
-	(wire
-		(pts
-			(xy 54.61 33.02) (xy 62.23 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe945c5-dfae-472d-9ded-7708fccefbde")
+		(uuid "d362c388-556f-4e33-a3a1-3ddd2c431f08")
 	)
 	(wire
 		(pts
@@ -9372,7 +9358,7 @@
 		(uuid "39bbcd3d-a08c-43cb-b269-80f745db3956")
 	)
 	(label "VREG"
-		(at 127 43.18 0)
+		(at 123.19 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9481,6 +9467,16 @@
 		)
 		(uuid "c4d53b61-6887-4529-84eb-91d651834aa6")
 	)
+	(label "-5V_FLT"
+		(at 41.91 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9fca391-e854-476b-9fda-7353706e205e")
+	)
 	(label "5VFB"
 		(at 198.12 124.46 0)
 		(effects
@@ -9493,7 +9489,7 @@
 	)
 	(hierarchical_label "5Vin"
 		(shape input)
-		(at 121.92 35.56 0)
+		(at 130.81 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9622,6 +9618,75 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a7af72b-88e3-4e25-bc63-15a01919a30e")
+		(property "Reference" "C25"
+			(at 119.126 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 125.73 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 120.65 36.5252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21293bd3-8785-4a41-b6f7-fe7231cb6d12")
+		)
+		(pin "1"
+			(uuid "b847f38e-7211-4ec5-af16-633a95b4f832")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10571,7 +10636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 29.21 0)
+		(at 36.83 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10579,7 +10644,7 @@
 		(dnp no)
 		(uuid "28ab2be2-1963-42f0-9907-80da54b5795a")
 		(property "Reference" "C35"
-			(at 52.832 27.432 0)
+			(at 38.608 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10653,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 53.086 31.496 0)
+			(at 38.354 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10662,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 55.5752 33.02 0)
+			(at 35.8648 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,7 +10671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 29.21 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10680,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 29.21 0)
+			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11679,7 +11744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 25.4 180)
+		(at 148.59 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11688,7 +11753,7 @@
 		(fields_autoplaced yes)
 		(uuid "62525093-e2f5-4ea7-a4b4-3b466c0e932a")
 		(property "Reference" "#PWR043"
-			(at 124.46 19.05 0)
+			(at 148.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 20.32 0)
+			(at 148.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 25.4 0)
+			(at 148.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 25.4 0)
+			(at 148.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 25.4 0)
+			(at 148.59 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11945,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.46 29.21 0)
+		(at 148.59 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11888,7 +11953,7 @@
 		(dnp no)
 		(uuid "68b71dfb-34fc-4c04-a35c-e24d946cb745")
 		(property "Reference" "C36"
-			(at 126.746 27.94 0)
+			(at 150.876 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +11962,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 127 30.988 0)
+			(at 151.13 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11971,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 125.4252 33.02 0)
+			(at 149.5552 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 29.21 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +11989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 29.21 0)
+			(at 148.59 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 24.13 180)
+		(at 36.83 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12490,7 +12555,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f39baf-2f82-4156-9906-32103f77cb80")
 		(property "Reference" "#PWR042"
-			(at 54.61 17.78 0)
+			(at 36.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 19.05 0)
+			(at 36.83 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 24.13 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 24.13 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 24.13 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13085,6 +13150,71 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ffcfc4e-1dbf-459d-9ed3-45701f703db6")
+		(property "Reference" "#PWR031"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917958c9-701e-4ef8-b05d-db2455e01239")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
