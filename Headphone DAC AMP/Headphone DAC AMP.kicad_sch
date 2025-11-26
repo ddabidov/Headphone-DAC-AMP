@@ -1124,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 76.2) (xy 143.51 76.2)
+			(xy 90.17 76.2) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 73.66) (xy 143.51 73.66)
+			(xy 90.17 73.66) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 143.51 71.12)
+			(xy 114.3 71.12) (xy 120.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1391,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "73234a81-a569-4579-b5ff-4ad9044a9ca7")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7489136d-e262-47f0-8d16-770c1e0fa864")
 	)
 	(wire
 		(pts
@@ -1754,6 +1764,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee44ce36-8479-43cd-b06c-b9bbf5a3b5b0")
+	)
+	(wire
+		(pts
 			(xy 90.17 85.09) (xy 143.51 85.09)
 		)
 		(stroke
@@ -1761,6 +1781,16 @@
 			(type default)
 		)
 		(uuid "f0c8936a-3e75-4221-9bb9-fde93bbf5b43")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f161894a-0362-41d2-a598-61ddfb6146ce")
 	)
 	(wire
 		(pts
@@ -1915,6 +1945,74 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "145fb716-7365-424e-86ca-f7752eada488")
+		(property "Reference" "R8"
+			(at 129.54 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 129.54 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 129.54 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2387694-124e-4c8a-b54d-a1ba0fb030c2")
+		)
+		(pin "2"
+			(uuid "0e19fa9a-ec7e-4bef-b45c-5a8434fcb240")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2134,6 +2232,74 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3abfd2b3-a579-41f6-8eb3-ed068aa8a827")
+		(property "Reference" "R9"
+			(at 115.57 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 115.57 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a96731-cd92-42d5-9aac-8528712790d3")
+		)
+		(pin "2"
+			(uuid "859dae7a-ea09-424d-a825-14ae164fb4c8")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2398,6 +2564,74 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e5aac1-c4a8-48d1-a354-825b174e03f2")
+		(property "Reference" "R10"
+			(at 124.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 124.46 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 124.46 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99de2cfd-adaf-4779-a48c-4e63922bce16")
+		)
+		(pin "2"
+			(uuid "9600c277-d18d-403d-8bea-41770a756be5")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
+					(reference "R10")
 					(unit 1)
 				)
 			)

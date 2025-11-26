@@ -4323,6 +4323,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 76.2) (xy 49.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f8acf4-076d-4697-9a5c-29dbf49d40fd")
+	)
+	(wire
+		(pts
 			(xy 176.53 87.63) (xy 186.69 87.63)
 		)
 		(stroke
@@ -4420,6 +4430,16 @@
 			(type default)
 		)
 		(uuid "727afdb8-ff8b-45f6-bbc9-0e9afba71e8d")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727eb5b1-74c2-4bbc-8270-5dbdaabb15c9")
 	)
 	(wire
 		(pts
@@ -4563,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 76.2) (xy 39.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e87b36-09a8-425b-afd3-2a5ef6c4bb98")
+	)
+	(wire
+		(pts
 			(xy 242.57 100.33) (xy 252.73 100.33)
 		)
 		(stroke
@@ -4620,16 +4650,6 @@
 			(type default)
 		)
 		(uuid "8f0e7a9a-785a-4fca-a561-0e8f82ca5abc")
-	)
-	(wire
-		(pts
-			(xy 46.99 73.66) (xy 49.53 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909daa42-01a0-492d-9f43-53c14d599bd4")
 	)
 	(wire
 		(pts
@@ -5023,16 +5043,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 49.53 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b77911-5e66-475e-a96c-ea2566b45614")
-	)
-	(wire
-		(pts
 			(xy 200.66 19.05) (xy 200.66 16.51)
 		)
 		(stroke
@@ -5140,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "d1369bc0-f733-4f6d-96b3-509d3fc39103")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 49.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28700c7-7760-4459-ae70-c5b107f5caf3")
 	)
 	(wire
 		(pts
@@ -5551,16 +5571,6 @@
 		)
 		(uuid "21a74a5c-610e-429b-a05d-5ac93a81b95f")
 	)
-	(label "D+"
-		(at 46.99 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2227743c-ebb9-49ee-a7f5-ab5aa388f919")
-	)
 	(label "QSPI_CLK"
 		(at 128.27 172.72 180)
 		(effects
@@ -5630,6 +5640,16 @@
 			(justify right bottom)
 		)
 		(uuid "4f284b9e-1a62-4f04-9ffd-afab40799e4a")
+	)
+	(label "D-"
+		(at 36.83 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5728835b-7131-4b89-83dc-7e36c3296ddd")
 	)
 	(label "0V9BP"
 		(at 176.53 95.25 0)
@@ -5741,16 +5761,6 @@
 		)
 		(uuid "9814fd54-ed76-4267-8dbd-35659a0d001d")
 	)
-	(label "D-"
-		(at 46.99 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a37f56a9-e998-4f1d-8d37-a2a466b5462f")
-	)
 	(label "D+"
 		(at 168.91 138.43 180)
 		(effects
@@ -5760,6 +5770,16 @@
 			(justify right bottom)
 		)
 		(uuid "aae69187-7274-4737-b472-ea2b50e36f9c")
+	)
+	(label "PRED-"
+		(at 49.53 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afcdf541-a24b-4ae6-9011-07daa6bd9d92")
 	)
 	(label "VBUS"
 		(at 129.54 50.8 180)
@@ -5831,6 +5851,16 @@
 		)
 		(uuid "cd17f899-3f11-4f6c-831c-092954a0cc4c")
 	)
+	(label "D+"
+		(at 36.83 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d20bc9dc-c165-4b02-94d9-f16b6dd8de12")
+	)
 	(label "D-"
 		(at 168.91 135.89 180)
 		(effects
@@ -5851,7 +5881,17 @@
 		)
 		(uuid "d46575bb-9035-4b81-8538-29f86e1730e3")
 	)
-	(label "D-"
+	(label "PRED+"
+		(at 49.53 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d65e109a-ce65-4729-8169-941c964153c0")
+	)
+	(label "PRED-"
 		(at 87.63 76.2 180)
 		(effects
 			(font
@@ -5911,7 +5951,7 @@
 		)
 		(uuid "eeb70ff9-f822-43d4-89f9-047d00c92ec3")
 	)
-	(label "D+"
+	(label "PRED+"
 		(at 87.63 73.66 180)
 		(effects
 			(font
@@ -6634,6 +6674,73 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "099accab-a97f-496c-8678-2f8d2dd7bf60")
+		(property "Reference" "R19"
+			(at 43.18 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 43.18 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 43.18 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eae579b-fa88-4496-b22e-2dc9ff372075")
+		)
+		(pin "1"
+			(uuid "70756a36-b467-4803-bf3c-74ba64f11549")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8058,6 +8165,73 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b038d8-e830-4687-b7ed-c9e8639c7ff7")
+		(property "Reference" "R18"
+			(at 43.18 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 43.18 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 43.18 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fd2ebe8-f637-4865-9cab-24d0a6116d17")
+		)
+		(pin "1"
+			(uuid "2ecc29db-4d25-4021-bab2-6c08483b1c03")
+		)
+		(instances
+			(project ""
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
+					(reference "R18")
 					(unit 1)
 				)
 			)
