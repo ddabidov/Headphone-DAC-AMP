@@ -1780,7 +1780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 47.9552 41.91 0)
 			(effects
 				(font
@@ -2032,7 +2032,7 @@
 			(uuid "d8663441-d9ee-4d77-beca-b8642fb4fff7")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "U7")
 					(unit 1)
@@ -2164,7 +2164,7 @@
 			(uuid "92902e3d-f6af-4cac-90aa-f726f9140363")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "#PWR048")
 					(unit 1)
@@ -2266,7 +2266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 39.37 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 36.5252 41.91 0)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 103.8352 104.14 0)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 			(uuid "6cb832cd-217c-4124-ad80-3ee65f062479")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "C45")
 					(unit 1)
@@ -2608,7 +2608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.1052 160.02 0)
 			(effects
 				(font
@@ -2678,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.3352 106.68 0)
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 			(uuid "a4d67028-b640-4db5-8fe1-abb275ec65b8")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "C46")
 					(unit 1)
@@ -2798,7 +2798,7 @@
 			(uuid "7872aacd-a52c-4137-a321-21a3f68c9a0a")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "U6")
 					(unit 1)
@@ -2900,7 +2900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 51.7652 106.68 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 			(uuid "371ea8ed-ca99-4ee8-88fb-ac7a992eddb9")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "C44")
 					(unit 1)
@@ -3011,7 +3011,7 @@
 			(uuid "ea3f98ac-2288-4b72-87c1-86d14beebe7f")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "U9")
 					(unit 1)
@@ -3047,7 +3047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.6052 161.29 0)
 			(effects
 				(font
