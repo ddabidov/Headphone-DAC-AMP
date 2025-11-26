@@ -2001,6 +2001,12 @@
 		(uuid "3fd7dac1-a7d3-486a-a5a7-2fd9682454d3")
 	)
 	(junction
+		(at 73.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4105226f-dec7-4743-b9e4-bf12197df8ae")
+	)
+	(junction
 		(at 177.8 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2053,6 +2059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c30c5d1-d441-4686-9ae0-038918b31f59")
+	)
+	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5088e668-7c82-4b49-b4d8-06acfc906241")
 	)
 	(junction
 		(at 74.93 104.14)
@@ -2137,12 +2149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a515edde-c7ed-4302-890c-fcfcbe7d6fe6")
-	)
-	(junction
-		(at 73.66 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a51672e0-9ff4-4ace-a0be-fec1bd265b81")
 	)
 	(junction
 		(at 257.81 119.38)
@@ -2251,12 +2257,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7afe752-3d9e-4177-8db2-6a442b5a718f")
-	)
-	(junction
-		(at 73.66 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f88d9838-81e4-4d08-8102-40fe4bf475b1")
 	)
 	(junction
 		(at 223.52 128.27)
@@ -6714,7 +6714,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 66.04 77.47 0)
+		(at 66.04 40.64 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6724,7 +6724,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f845db0-c6c6-4ebe-bfd1-e00bd827ffdc")
 		(property "Reference" "U4"
-			(at 66.04 87.63 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6733,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 66.04 69.85 0)
+			(at 66.04 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6741,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 66.04 77.47 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6750,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 66.04 77.47 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6759,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 66.04 77.47 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6802,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 66.04 40.64 0)
+		(at 66.04 77.47 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6811,7 +6811,7 @@
 		(dnp no)
 		(uuid "3f845db0-c6c6-4ebe-bfd1-e00bd827ffdd")
 		(property "Reference" "U4"
-			(at 66.04 50.8 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6820,7 @@
 			)
 		)
 		(property "Value" "OPA1612AxD"
-			(at 69.342 45.72 0)
+			(at 69.342 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6828,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
-			(at 66.04 40.64 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6837,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 66.04 40.64 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6846,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 66.04 40.64 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7579,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 31.75 90)
+		(at 63.5 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7588,7 +7588,7 @@
 		(fields_autoplaced yes)
 		(uuid "6605ab29-511c-4898-a33a-86201e48b5d9")
 		(property "Reference" "C5"
-			(at 63.5 24.13 90)
+			(at 63.5 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7596,7 @@
 			)
 		)
 		(property "Value" "2200p"
-			(at 63.5 26.67 90)
+			(at 63.5 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7604,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 67.31 30.7848 0)
+			(at 67.31 67.6148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 31.75 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7622,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 31.75 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7783,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 21.59 90)
+		(at 63.5 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7792,7 +7792,7 @@
 		(fields_autoplaced yes)
 		(uuid "778e2198-a7ed-41a2-b1b3-c29e1908f17a")
 		(property "Reference" "R1"
-			(at 63.5 15.24 90)
+			(at 63.5 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7800,7 @@
 			)
 		)
 		(property "Value" "800"
-			(at 63.5 17.78 90)
+			(at 63.5 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7808,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 23.368 90)
+			(at 63.5 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 21.59 0)
+			(at 63.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7826,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 21.59 0)
+			(at 63.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9490,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 68.58 90)
+		(at 63.5 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9499,7 +9499,7 @@
 		(fields_autoplaced yes)
 		(uuid "c05f5b0a-9d1d-4663-b672-c1b29bd9f447")
 		(property "Reference" "C6"
-			(at 63.5 60.96 90)
+			(at 63.5 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9507,7 @@
 			)
 		)
 		(property "Value" "2200p"
-			(at 63.5 63.5 90)
+			(at 63.5 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9515,7 +9515,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 67.31 67.6148 0)
+			(at 67.31 30.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 68.58 0)
+			(at 63.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +9533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 68.58 0)
+			(at 63.5 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10185,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 58.42 90)
+		(at 63.5 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10194,7 +10194,7 @@
 		(fields_autoplaced yes)
 		(uuid "efc6cfa3-ef38-4214-8a9a-5ee52ab64c12")
 		(property "Reference" "R2"
-			(at 63.5 52.07 90)
+			(at 63.5 15.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10202,7 @@
 			)
 		)
 		(property "Value" "800"
-			(at 63.5 54.61 90)
+			(at 63.5 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 60.198 90)
+			(at 63.5 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 58.42 0)
+			(at 63.5 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,7 +10228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 58.42 0)
+			(at 63.5 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
