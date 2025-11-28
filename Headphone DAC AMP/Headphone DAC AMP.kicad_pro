@@ -586,6 +586,26 @@
       {
         "netclass": "Analog Audio",
         "pattern": "/Headphone Amp Stage/OUTA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Low Noise Power",
+        "pattern": "0V9"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "/Clocking/XTAL1_OUT"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "/Clocking/XTAL1_IN"
       }
     ]
   },
