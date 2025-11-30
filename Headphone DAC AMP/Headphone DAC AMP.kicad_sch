@@ -2975,7 +2975,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e924cc1b-35ad-4a4f-bdb3-35c2426a004b")
 		(property "Reference" "#PWR0106"
 			(at 60.96 106.68 0)
@@ -2986,12 +2985,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
-			(at 60.96 115.57 0)
+		(property "Value" "+1V8"
+			(at 57.912 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""

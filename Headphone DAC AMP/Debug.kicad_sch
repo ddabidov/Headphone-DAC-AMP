@@ -2001,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1.8V"
+		(property "Value" "+1V8"
 			(at 134.62 73.66 0)
 			(effects
 				(font
@@ -2770,7 +2770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1.8V"
+		(property "Value" "+1V8"
 			(at 57.15 73.66 0)
 			(effects
 				(font
