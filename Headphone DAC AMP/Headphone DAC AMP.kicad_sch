@@ -2986,7 +2986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "1V8"
 			(at 60.96 115.57 0)
 			(effects
 				(font

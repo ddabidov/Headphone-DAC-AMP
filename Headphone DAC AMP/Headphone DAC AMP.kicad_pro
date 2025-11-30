@@ -606,6 +606,18 @@
       {
         "netclass": "High Speed Digital",
         "pattern": "/Clocking/XTAL1_IN"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "/Debug/TCK"
+      },
+      {
+        "netclass": "High Speed Digital",
+        "pattern": "/Debug/TMS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Debug/TDO"
       }
     ]
   },
