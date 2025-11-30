@@ -8043,6 +8043,79 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "34f7cf2a-5791-4d1f-8670-edac73fecaaa")
+		(at 119.775 91.2)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e1b12d69-50a6-4747-95a7-c95231b3e26a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "307e03bb-0694-428c-bd35-488fb11c6ed8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e99f6c-6d4d-458d-8a09-420b12f81171")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d65baa2-c78c-410c-a412-cb0ccc40a349")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 5 "/Audio Rails/+5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "d46d4143-333b-4864-8901-0cad3eab5d1d")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3688f78c-f2c7-47bd-9e34-13f0c0d829fb")
@@ -9150,6 +9223,79 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "3aef2097-2969-4545-9090-eaa9dfcccab1")
+		(at 120.675 91.2)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "26004539-5996-438b-8e99-dd0c9ebec238")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ec4be442-1a98-442b-9d50-c3898f1b1f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20dd108c-a94a-47c7-a2dd-d6333f4e3dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9be3f6c6-604f-44be-a8f3-83cd2bc933c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 5 "/Audio Rails/+5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "26998142-92cf-4e52-8843-c14f6113afe1")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
@@ -22658,6 +22804,79 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "9082ff2f-1eb4-43e2-ad43-85f81bb78a2e")
+		(at 104.075 89.85)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "d1b11225-14f1-4f2a-a1db-fe9d63092493")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "58710f7c-5092-4988-9659-d81a071bedf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46c4f2b0-96f3-4fa5-8d3c-6f4c66c8977c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aede6c52-0675-4a06-b1b1-49b8c26f95fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 5 "/Audio Rails/+5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "bb111699-0fab-4613-9acb-bc9541aeb81b")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "92cf2ff7-0707-4f4a-ab60-89097fae8e26")
@@ -23212,6 +23431,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23232,6 +23452,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23252,6 +23473,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23272,6 +23494,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23309,6 +23532,7 @@
 			(size 2.95 4.9)
 			(property pad_prop_heatsink)
 			(layers "F.Cu")
+			(net 117 "/Audio Rails/-5V_FLT")
 			(zone_connect 2)
 			(teardrops
 				(best_length_ratio 0.5)
@@ -23330,6 +23554,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23350,6 +23575,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23370,6 +23596,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -23390,6 +23617,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -25867,6 +26095,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -25887,6 +26116,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -25907,6 +26137,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -25927,6 +26158,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -25964,6 +26196,7 @@
 			(size 2.95 4.9)
 			(property pad_prop_heatsink)
 			(layers "F.Cu")
+			(net 117 "/Audio Rails/-5V_FLT")
 			(zone_connect 2)
 			(teardrops
 				(best_length_ratio 0.5)
@@ -25985,6 +26218,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -26005,6 +26239,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -26025,6 +26260,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -26045,6 +26281,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 3)
@@ -32062,6 +32299,79 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "c15b812b-ec63-4a9a-b6ae-0e980a7c777c")
+		(at 98.475 95.35)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "32d705aa-1985-4d6e-a668-8c93815ee203")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0288026b-743d-425e-85e3-dec8c799c9f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24578c7e-fea8-4560-a678-80d50b677a63")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2686279-037f-4e12-a470-b75927779759")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "e53c4d72-2e9d-4cb4-9454-e4fcc35a3d86")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Diode_SMD:D_SOD-882"
 		(layer "F.Cu")
@@ -40916,6 +41226,79 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "e511045a-fb28-48e2-8de9-26becdf12b03")
+		(at 99.575 95.4)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "b042c543-dac3-4c40-b2dc-a87a47f17fe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9a9f2344-2de5-428d-85a4-ae94f776c70b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6bc0a44-a4a8-4d72-b5e4-e43cc30156a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3be404b-1e73-4c01-b549-592918d9a4a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "368a26aa-8f53-47f6-bbaf-903cbc3968f3")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e55cb66c-6dd2-4682-b76b-455e51b78b4e")
@@ -42519,6 +42902,152 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ec67b87f-d31b-4904-926e-c09007f131e8")
+		(at 115.025 96.5)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "9a19153c-85b1-4ca1-a6fb-f7f5a0b0b32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "be051587-954e-4327-88cf-a9a5f88b7df9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d41eba-6628-4690-98b7-d4a7d7362bb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3f1aa2a-35bf-4784-8825-4049c6ab0fdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "5cb6657f-564f-4c8d-acb4-9c41adad38cc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ee05763a-6959-4e04-8060-2cb9a1092801")
+		(at 113.925 96.45)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "602a7c0e-cade-4397-a9e9-21a8333bac45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cbdc00a9-bfb0-4869-b169-7ec895270cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2594f08b-4fbf-4525-9533-e67053bbef0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6622378c-d4a3-4d91-9e9f-b4e0c2324e6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 117 "/Audio Rails/-5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "2f6b1aae-c047-48bf-ae02-08ffd7236aa0")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm"
 		(layer "F.Cu")
 		(uuid "ef1e2934-7ae0-455a-ac04-eafed9f617b6")
@@ -43758,6 +44287,79 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ef2a5e37-9450-45df-b337-5e3d26a0226a")
+		(at 104.975 89.85)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "dbee8183-6870-4b43-a2da-02e55f071528")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4ba15239-038e-4040-b1fe-bf7c6d923ea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ef0860c-f4ae-4ccd-a0b8-6833cd94e06c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8c611c-d0d0-4baf-bfe7-3220c718b762")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(drill 0.2)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 5 "/Audio Rails/+5V_FLT")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 3)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges yes)
+				(filter_ratio 1)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "9bbaeeac-d0d8-4de0-bc9a-f3e42f912a7e")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -49521,8 +50123,8 @@
 	(gr_poly
 		(pts
 			(xy 99.275 71.95) (xy 120.225 72.1) (xy 125.625 72.1) (xy 129.275 75.1) (xy 129.025 95.15) (xy 127.875 100.95)
-			(xy 123.525 100.95) (xy 116.375 97.65) (xy 97.875 96.65) (xy 97.775 93.95) (xy 116.075 94.9) (xy 123.275 97.05)
-			(xy 125.675 93.8) (xy 126.325 78.45) (xy 123.325 74.65) (xy 99.175 74.6)
+			(xy 123.525 100.95) (xy 116.375 97.65) (xy 97.875 96.65) (xy 98.275 92.1) (xy 118.775 93.55) (xy 123.825 93.55)
+			(xy 126.225 90) (xy 126.325 78.45) (xy 123.325 74.65) (xy 99.175 74.6)
 		)
 		(stroke
 			(width 0.2)
@@ -49655,7 +50257,7 @@
 	(gr_poly
 		(pts
 			(xy 122.875 75.65) (xy 123.175 78.3) (xy 99.825 78.4) (xy 94.875 80.1) (xy 89.675 83.95) (xy 89.675 86.05)
-			(xy 90.625 87.2) (xy 121.875 88.65) (xy 122.225 91.85) (xy 120.525 92.95) (xy 91.025 90.1) (xy 84.225 94.6)
+			(xy 90.625 87.2) (xy 121.475 87.3) (xy 122.575 89.1) (xy 121.925 91.35) (xy 91.025 90.1) (xy 84.225 94.6)
 			(xy 82.275 94.2) (xy 81.975 86.05) (xy 96.075 75.7)
 		)
 		(stroke
