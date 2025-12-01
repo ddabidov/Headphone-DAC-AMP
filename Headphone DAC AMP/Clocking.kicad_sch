@@ -1770,7 +1770,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 80.01 81.28 90)
 			(effects
 				(font
@@ -2037,7 +2037,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 144.78 61.468 90)
 			(effects
 				(font
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 81.28 44.45 90)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 144.78 50.546 90)
 			(effects
 				(font
