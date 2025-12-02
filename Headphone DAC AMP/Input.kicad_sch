@@ -3328,10 +3328,22 @@
 		(uuid "128cb721-014f-44e8-a5cd-4e2f1a2e1298")
 	)
 	(junction
+		(at 270.51 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c3f7fb-b290-48bc-8034-80969de07084")
+	)
+	(junction
 		(at 180.34 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1443da8c-a825-4408-a765-57ade016a25a")
+	)
+	(junction
+		(at 262.89 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1640ef05-6ff9-4c6a-96b1-587e51022ed9")
 	)
 	(junction
 		(at 250.19 16.51)
@@ -3356,6 +3368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27772f7e-8d2a-45b9-9e25-e1a28f4ba277")
+	)
+	(junction
+		(at 266.7 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351abd02-9eb8-4349-ba4f-3635f4012637")
 	)
 	(junction
 		(at 90.17 96.52)
@@ -3723,6 +3741,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 73.66) (xy 262.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2a01dc-37e6-4909-89b7-15b6285e5a17")
+	)
+	(wire
+		(pts
 			(xy 165.1 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -3803,6 +3831,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 74.93) (xy 270.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1749ade9-78f2-4852-8e54-98e3948977a4")
+	)
+	(wire
+		(pts
 			(xy 57.15 26.67) (xy 64.77 26.67)
 		)
 		(stroke
@@ -3863,6 +3901,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 73.66) (xy 262.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d45ca4e-7f6b-40c4-b6d2-0d0b3f59e6a1")
+	)
+	(wire
+		(pts
 			(xy 250.19 26.67) (xy 250.19 29.21)
 		)
 		(stroke
@@ -3870,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "1dc6f2c3-b7ee-4079-a464-cfcdbf1b6353")
+	)
+	(wire
+		(pts
+			(xy 262.89 90.17) (xy 273.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1decdd06-d324-4e99-9fc2-955d4554ca90")
 	)
 	(wire
 		(pts
@@ -4063,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 85.09) (xy 252.73 85.09)
+			(xy 242.57 85.09) (xy 270.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4220,6 +4278,16 @@
 			(type default)
 		)
 		(uuid "52841604-d2b7-458b-b279-b598d3d087c0")
+	)
+	(wire
+		(pts
+			(xy 262.89 82.55) (xy 262.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534200eb-e419-4ca2-ad94-700a3d28a944")
 	)
 	(wire
 		(pts
@@ -4683,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 73.66) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9798cb11-9c56-4c29-9de7-dd8336fbac02")
+	)
+	(wire
+		(pts
 			(xy 176.53 72.39) (xy 186.69 72.39)
 		)
 		(stroke
@@ -4780,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "a1b80032-fc1d-4aad-9df5-7ccf21f3d0fc")
+	)
+	(wire
+		(pts
+			(xy 270.51 82.55) (xy 270.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3da8706-d17c-4c89-98e8-a8ede992ef31")
 	)
 	(wire
 		(pts
@@ -5043,6 +5131,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 85.09) (xy 273.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52076e3-2b3b-4994-aa27-5e4fb8e0211d")
+	)
+	(wire
+		(pts
 			(xy 200.66 19.05) (xy 200.66 16.51)
 		)
 		(stroke
@@ -5223,7 +5321,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 90.17) (xy 252.73 90.17)
+			(xy 242.57 90.17) (xy 262.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6049,7 +6147,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 252.73 85.09 0)
+		(at 273.05 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6247,7 +6345,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 252.73 90.17 0)
+		(at 273.05 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7222,6 +7320,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 270.51 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33eb04af-61f6-47be-b3ae-f290f5dcfa64")
+		(property "Reference" "R43"
+			(at 273.05 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 273.05 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 272.288 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac953fc7-56ff-4de3-beb3-dcc029c58b0f")
+		)
+		(pin "2"
+			(uuid "d501bb36-ba8e-4096-9b85-d79a1421f3a5")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 41.91 0)
 		(unit 1)
@@ -8097,6 +8265,141 @@
 			(project ""
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ae7bc58-1806-4833-9e7c-7621355411b0")
+		(property "Reference" "R42"
+			(at 264.414 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 264.414 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 264.668 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b5caad0-c05c-4b89-a0a9-4ade9fb8da11")
+		)
+		(pin "2"
+			(uuid "41bccd1f-ed2f-4e67-a9e1-98194ae8d67c")
+		)
+		(instances
+			(project "Headphone DAC AMP"
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 266.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83e688cd-233d-4f5b-a61c-07405ca128c7")
+		(property "Reference" "#PWR032"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 266.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 266.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e375bdc0-b5fd-44ca-aea0-524cd569f627")
+		)
+		(instances
+			(project ""
+				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/2765e1cc-205a-4739-b769-20b95f3d1fdb"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
