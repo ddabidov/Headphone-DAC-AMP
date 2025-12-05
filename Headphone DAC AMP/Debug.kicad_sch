@@ -2341,6 +2341,14 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "16"
 			(uuid "1ed555be-058b-4e6a-aced-5751536a16f2")
 		)
@@ -2465,6 +2473,14 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83e889ec-7af7-4cf8-906d-cbfaaf2b2849")
 		)
@@ -2533,6 +2549,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL05A104KA5NNNC"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2668,6 +2700,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD5V0L1BSLAZ/16021613?s=N4IgTCBcDaIAoFEDKARArANQAwBkCMAQkjiALoC%2BQA"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "PESD5V0L1BSLAZ"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2870,6 +2918,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL05A104KA5NNNC"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

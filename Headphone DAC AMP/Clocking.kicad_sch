@@ -1805,6 +1805,22 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722RL/727735"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-0722RL"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aededa78-c239-4409-8c58-c7e56a117f50")
 		)
@@ -1939,6 +1955,22 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL05A104KA5NNNC"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20018839-5388-461e-9fec-31822bc4a99f")
 		)
@@ -2070,6 +2102,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722RL/727735"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-0722RL"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2206,6 +2254,22 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722RL/727735"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-0722RL"
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aededa78-c239-4409-8c58-c7e56a117f51")
 		)
@@ -2272,6 +2336,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -2479,6 +2551,22 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701"
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL05A104KA5NNNC"
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20018839-5388-461e-9fec-31822bc4a9a0")
 		)
@@ -2546,6 +2634,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C180JB81PNC/3887866"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL10C180JB81PNC"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2682,6 +2786,14 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de5549bf-f3d4-4859-a8f6-d7614fc57eb2")
 		)
@@ -2753,6 +2865,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C180JB81PNC/3887866"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL10C180JB81PNC"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2953,6 +3081,22 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07680RL/728101"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-07680RL"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8e441270-303b-4f9c-abd7-4a82dd2c78c5")
 		)
@@ -3018,6 +3162,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722RL/727735"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-0722RL"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3086,6 +3246,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -3162,6 +3330,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-071ML/727445"
+			(at 78.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-071ML"
+			(at 78.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

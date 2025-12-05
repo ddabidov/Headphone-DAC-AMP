@@ -1935,6 +1935,14 @@
 				(hide yes)
 			)
 		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95a4f130-15eb-4218-bf6e-7f957b8b2bb1")
 		)
@@ -2001,6 +2009,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2288,6 +2304,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2620,6 +2644,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
