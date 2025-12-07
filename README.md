@@ -23,14 +23,27 @@ systems, reducing the barrier to entry and simplifying the development process.
 
 The primary goal of this project is to design, implement, and test a compact, high-fidelity DAC-amplifier that is 
 cost-effective relative to comparable commercial products. The system will convert digital audio data into a 
-clean, low-noise analog output and will support a wide range of headphones and earbuds with impedances between 
+clean, low-noise analog output and will support a wide range of headphones and IEM's with impedances between 
 10 Ω and 300 Ω. All operation will be powered exclusively through a USB-C 2.0 interface, eliminating the need for 
 any external power supply, and output to a 3.5mm balanced jack. <br> <br>
-The following should be met
+
+The following should be met:
+* 32-bit resolution
+* 796kHz sampling rate
+* USB-C Input
+* 3.5mm balanced output
+* 10Ω to 300Ω capable headphone interfacing
+* Adjustable gain for headphones/IEM's
 
 ###  1.3 Scope of Work
 
-
+This project encompasses the design considerations, system implementation, component selection and placement, 
+assembly, and performance testing of a compact, USB-powered DAC-amplifier. Design considerations include evaluating suitable DAC 
+and amplifier architectures, power constraints and noise mitigation techniques. Implementation involves translating the schematic into a functional 
+PCB layout, with careful attention to grounding, signal routing, and isolation between digital and analog sections. Component placement is
+optimized to minimize interference and ensure signal integrity, while still maintaining a compact form factor. Assembly includes PCB fabrication,
+component population, and hardware integration. Finally, performance testing is conducted to evaluate signal-to-noise ratio, total harmonic distortion, 
+frequency response, and overall system functionality under real-world operating conditions. 
 
 ###  1.4 Report Organization
 
