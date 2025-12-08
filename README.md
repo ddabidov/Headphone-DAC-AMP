@@ -5,35 +5,21 @@ The following is a general system overview of an XMOS DAC & TPA6120 AMP
 ## 1. Introduction
 
 ###  1.1 Background & Motivation
-High-fidelity audio has become increasingly difficult to access for the average user, as most integrated digital-to-analog 
-converters (DACs) in phones and laptops are limited to 16-bit resolution and a 44.1 kHz sampling rate, which is 
-only marginally sufficient for modern high-resolution audio standards. At the other end of the spectrum, systems 
-capable of 24-bit resolution and sampling rates above 98 kHz are often prohibitively expensive and rely on external
-power sources, making them bulky and inconvenient for portable use or integration into an already crowded home audio 
-setup. <br> <br>
+High-fidelity audio has become increasingly difficult to access for the average user, as most integrated digital-to-analog converters (DACs) in phones and laptops are limited to 16-bit resolution and a 44.1 kHz sampling rate, which is only marginally sufficient for modern high-resolution audio standards. At the other end of the spectrum, systems capable of 24-bit resolution and sampling rates above 98 kHz are often prohibitively expensive and rely on externalpower sources, making them bulky and inconvenient for portable use or integration into an already crowded home audio setup.
 
-The goal of this project is to demonstrate that both high resolution and high sampling rates can be achieved in a 
-compact, affordable system, designed and built by amateur, recently graduated engineers. While a moderate amount of 
-theoretical information explaining how a DAC-amplifier system functions is available online, practical guidance 
-regarding component selection, layout considerations, IC integration, and signal-path design remains limited. This 
-project therefore also aims to serve as a technical resource for future designers interested in high-fidelity audio 
-systems, reducing the barrier to entry and simplifying the development process. 
+The goal of this project is to demonstrate that both high resolution and high sampling rates can be achieved in a compact, affordable system. While a moderate amount of theoretical information explaining how a DAC-amplifier system functions is available online, practical guidance regarding component selection, layout considerations, IC integration, and signal-path design remains limited. This project therefore also aims to serve as a technical resource for future designers interested in high-fidelity audio systems, reducing the barrier to entry and simplifying the development process. 
 
 ###  1.2 Project Goals
 
-The primary goal of this project is to design, implement, and test a compact, high-fidelity DAC-amplifier that is 
-cost-effective relative to comparable commercial products. The system will convert digital audio data into a 
-clean, low-noise analog output and will support a wide range of headphones and IEM's with impedances between 
-10 Ω and 300 Ω. All operation will be powered exclusively through a USB-C 2.0 interface, eliminating the need for 
-any external power supply, and output to a 3.5mm balanced jack. <br> <br>
+The primary goal of this project is to design, implement, and test a compact, high-fidelity DAC-amplifier that is cost-effective relative to comparable commercial products. The system will convert digital audio data into a clean, low-noise analog output and will support a wide range of headphones and IEM's with impedances between 10 Ω and 300 Ω. All operation will be powered exclusively through a USB-C 2.0 interface, eliminating the need for any external power supply, and output to a 3.5mm balanced jack. <br> <br>
 
-The following should be met:
-* 32-bit resolution
-* 796kHz sampling rate
+The following requrements should be met:
+* 24-bit resolution at a 192kHz sampling rate
+  * reasonable spec for "Hi-Fi". Higher is better.
 * USB-C Input
 * 3.5mm balanced output
 * 10Ω to 300Ω capable headphone interfacing
-* Adjustable gain for headphones/IEM's
+* Adjustable gain for a variety of headphone / IEM models
 
 ###  1.3 Scope of Work
 
@@ -51,6 +37,12 @@ frequency response, and overall system functionality under real-world operating 
 
 ### 2.1 DAC/AMP Design Principles
 
+#### 2.1.1 DAC Solutions
+
+##### Ladder DAC
+Given that the initial goal of the project was creating a custom solution, the first step was to look at custom DAC topologies. These are often relatively difficult to implement, but one of the simplest versions of this is the Resistor Ladder DAC topology. A Ladder DAC uses a series of resistors arranged in a network to convert digital signals into analog voltages. Each bit of the digital input controls a switch that connects either a reference voltage or ground to the resistor network. The combined effect of the resistor values and switch positions produces a stepped analog output proportional to the digital input. The limitation of these Ladder DACs is that they are heavily dependent on the accuracy across all of the resistors within the network. Any variance can induce distortion into the output, which is not acceptable for the needed application.
+
+
 ### 2.2 USB Audio Standards
 
 ### 2.3 Related Designs
@@ -62,16 +54,17 @@ frequency response, and overall system functionality under real-world operating 
 ### 3.2 DSP Compontents
 
 ### 3.3 Audio Preformance Metrics
+W
 
 ## 4. System Archetecture
 
-### 4.1 Block Diagram
+### 4.1 Design Requiremnts
 
-### 4.2 Component-Level Archetecture
+### 4.2 Block Diagram
 
-### 4.3 Design Requirments
+### 4.3 Component-Level Archetecture
 
-## 5. Circuti Design
+## 5. Circuit Design
 
 ### 5.1 Schematic Overview
 
