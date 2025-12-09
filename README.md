@@ -33,14 +33,17 @@ frequency response, and overall system functionality under real-world operating 
 
 ###  1.4 Report Organization
 
+This report will be structured in order of operations; from sources to testing. Each point will have related subpoints that further section off specific concepts to keep the paper consice. 
+
 ## 2. Literature Review
 
-### 2.1 DAC/AMP Design Principles
+### 2.1 DAC/AMP Design Principles & Solutions
 
-#### 2.1.1 DAC Solutions
-
-##### Ladder DAC
+#### Ladder DAC
 Given that the initial goal of the project was creating a custom solution, the first step was to look at custom DAC topologies. These are often relatively difficult to implement, but one of the simplest versions of this is the Resistor Ladder DAC topology. A Ladder DAC uses a series of resistors arranged in a network to convert digital signals into analog voltages. Each bit of the digital input controls a switch that connects either a reference voltage or ground to the resistor network. The combined effect of the resistor values and switch positions produces a stepped analog output proportional to the digital input. The limitation of these Ladder DACs is that they are heavily dependent on the accuracy across all of the resistors within the network. Any variance can induce distortion into the output, which is not acceptable for the needed application.
+
+#### String DAC     https://www.analog.com/media/en/training-seminars/tutorials/MT-014.pdf
+A Stirng DAC is another type of DAC that takes a digital
 
 
 ### 2.2 USB Audio Standards
@@ -54,7 +57,7 @@ Given that the initial goal of the project was creating a custom solution, the f
 ### 3.2 DSP Compontents
 
 ### 3.3 Audio Preformance Metrics
-W
+
 
 ## 4. System Archetecture
 
