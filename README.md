@@ -61,8 +61,6 @@ The purpose of a DAC is to convert a binary string into an analog signal. When a
 ### 3.2 DSP Compontents
 In order to get a signal that the DAC can read, there needs to be a supporting chip that can talk to the host device and has a single master-out line for the DAC to decode. A DSP (digital signal processing) device is needed in order to do this. First, a stable clock must be a part of the communication protocol in order to avoid jitter, the device needs to be able to set the afformentioned sampling frequency with the host device, and optionally, the DSP device needs to be able to change the dB of specific signals in order to introduce a digital equilizer. 
 
-### 3.3 Audio Preformance Metrics
-
 ### 3.4 Grounding Strategies
 
 When designing PCBs, a common practice is to often design around the idea of splitting up the grounds used for analog and digital. This is done in very low noise or extremely high frequency applications. The theory behind the seperation of these ground connections is that you are controlling the path of the signals control current, preventing the return current of a high freqency signal from inducing EMI. Many ICs actually have seperate pins for analog and digital grounds. Any design utilizing these seperated grounds still requires that the grounds be connected at a single point, preferabbly near the power input of the circuit. This is an old and common practice in these designs, but based upon our reasearch, this is actually an ourdated practice.
