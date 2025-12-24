@@ -63,6 +63,16 @@ In order to get a signal that the DAC can read, there needs to be a supporting c
 
 ### 3.3 Audio Preformance Metrics
 
+### 3.4 Grounding Strategies
+
+When designing PCBs, a common practice is to often design around the idea of splitting up the grounds used for analog and digital. This is done in very low noise or extremely high frequency applications. The theory behind the seperation of these ground connections is that you are controlling the path of the signals control current, preventing the return current of a high freqency signal from inducing EMI. Many ICs actually have seperate pins for analog and digital grounds. Any design utilizing these seperated grounds still requires that the grounds be connected at a single point, preferabbly near the power input of the circuit. This is an old and common practice in these designs, but based upon our reasearch, this is actually an ourdated practice.
+
+Theory and practicality require eachother to work in many cases. In this case, while in theory an analog and digital ground seperation may reduce conducted emissions, in practice the split of these grounds causes incosistent, long, and winding return paths. The added length or deviations of these return paths actually increase the conducted emissions across the circuit, worsening ay noise or signal integrity issues. in lower frequency designs (below about 20kHz), these ground seperations make more sense as the current return path is wider, therefore risk of interference is increased. But in higher frequency designs, the analog and digital grounds should not be seperated but instead combined, and alternative grounding methods be used.
+
+The following interview is a discussion with Rick Hartley, a prominent figure in the RF PCB Design world. In this interview Rick discusses the split of a ground plane, and whether it should be implemented. While during the discussion Rick mentions that there are use cases for both, he also states that his first fix in nearly every situation involving noise or conducted emissions is removing the split planes. Rick then goes on to show a presentation slide with a joke he likes that I think sums up the stance he gives on the technique of splitting grounds. "What do we call an engineer who splits their grounds? A customer!" For reference, this joke comes from a conducted emissions debugging specialty company. 
+https://youtu.be/vALt6Sd9vlY
+
+Instead of Splitting the grounds in our design, we have chosen to combine them and focus on maintaining ground everywhere throughout the board. The primary thing we chose to do was implement a Ground plane on layer 2 of the PCB.
 ## 4. System Archetecture
 
 ### 4.1 Design Requiremnts
