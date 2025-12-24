@@ -42,8 +42,6 @@ This report will be structured in order of operations; from sources to testing. 
 #### Ladder DAC
 Given that the initial goal of the project was creating a custom solution, the first step was to look at custom DAC topologies. These are often relatively difficult to implement, but one of the simplest versions of this is the Resistor Ladder DAC topology. A Ladder DAC uses a series of resistors arranged in a network to convert digital signals into analog voltages. Each bit of the digital input controls a switch that connects either a reference voltage or ground to the resistor network. The combined effect of the resistor values and switch positions produces a stepped analog output proportional to the digital input. The limitation of these Ladder DACs is that they are heavily dependent on the accuracy across all of the resistors within the network. Any variance can induce distortion into the output, which is not acceptable for the needed application.
 
-#### String DAC     https://www.analog.com/media/en/training-seminars/tutorials/MT-014.pdf
-A Stirng DAC is another type of DAC that takes a digital
 
 
 ### 2.2 USB Audio Standards
@@ -53,11 +51,17 @@ A Stirng DAC is another type of DAC that takes a digital
 ## 3. Theory
 
 ### 3.1 CT Vs DT Audio
+The purpose of a DAC is to convert a binary string into an analog signal. When a time component is added into the scope, the audio has to be sampled at a certain rate and turned into a continuous-time signal rather than a discrete-time signal. According to the nyquest sampleling therom, the signal should be sampled at twich the maximum sampeled frequencys, as shown in equation one. This minimum sampeling frequency, although is enough to recreate the signals, is not enough to recreate the quality of the original continuous-time signal. Even outside of the nyquest sampling frequency, 40kHz, Aliasing can still occure if there are frequencies that appear outside of the bandwidth of human hearing, so for a more accurate representation of a signal, we sample higher than the minimum sampeling frequency.
+
+<p align="center">
+ $$F_s > 2F_{max}$$ <br>
+ Equation one: Nyquest Sampling Therom 
+</p>
 
 ### 3.2 DSP Compontents
+In order to get a signal that the DAC can read, there needs to be a supporting chip that can talk to the host device and has a single master-out line for the DAC to decode. A DSP (digital signal processing) device is needed in order to do this. First, a stable clock must be a part of the communication protocol in order to avoid jitter, the device needs to be able to set the afformentioned sampling frequency with the host device, and optionally, the DSP device needs to be able to change the dB of specific signals in order to introduce a digital equilizer. 
 
 ### 3.3 Audio Preformance Metrics
-
 
 ## 4. System Archetecture
 
