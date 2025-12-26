@@ -76,6 +76,12 @@ Instead of Splitting the grounds in our design, we have chosen to combine them a
 ### 4.1 Design Requirements
 
 ### 4.2 Block Diagram
+The following is a block diagram of the system. This system uses the XMOS XU316 as a DSP device to turn USB into I2S, ES9039 32 bit DAC, and TPA6120 as a headphone amplifier. For Supporting archetecture, LDO's are used for 3.3v, 1.8v, and 0.9v, and a diffrential 12V power rail for the headphone amp that will utilise either the TPS7A4700 or the TPS7A3301. The XMOS also requires an external master clock, an I2S clock, as a boot modual, so the W25Q32JV is used as the QSPI Flash.
+
+<p align="center">
+ <img width="804" height="928" alt="image" src="https://github.com/user-attachments/assets/dde0d51c-e25b-4e6c-8754-f3023f65e35e" /> <br>
+ Figure X: Block Diagram of system
+</p>
 
 ### 4.3 Component-Level Architecture
 
