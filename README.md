@@ -84,6 +84,7 @@ The following is a block diagram of the system. This system uses the XMOS XU316 
 </p>
 
 ### 4.3 Component-Level Architecture
+The system works as follows when viewing the flowchart; USB to a device connects to the board VIA USB-C and communicates to the XMOS through USB. The XMOS converts the audio signal from USB to I2S. This I2S signal comes into the ES9039, where a 32 bit word is turned into an analog voltage, where each bit of the word represents a voltage, and the sum of those voltages gives an aproximation of the sampled audio. This now analog signal is then sent to a 2-pole lowpass filter in order to remove any frequencies that are not present in human hearing (>20kHz). This filtered frequency is then sent to the TPS7A3301, where the signal is amplified to output to a headphone through a 3.5mm TTRS jack.
 
 ## 5. Circuit Design
 
