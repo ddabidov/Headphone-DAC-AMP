@@ -137,399 +137,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SJ-3502-SMT:SJ-3502-SMT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.6348 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SJ-3502-SMT"
-				(at -7.6221 -20.3235 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SJ-3502-SMT:CUI_SJ-3502-SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.5 mm, Stereo, Right Angle, Mid Mount _SMT_, Shielded, Audio Jack Connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "CUI Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "CUI_PURCHASE_URL" "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/sj-3502-smt-tr?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SJ-3502-SMT-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SJ-3502-SMT_0_0"
-				(rectangle
-					(start -7.62 -17.78)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.08 -6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -6.858) (xy -5.08 -6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -15.24 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -935,12 +542,6 @@
 		(uuid "bece2a78-37c7-4bcd-a48d-70116a235e3d")
 	)
 	(junction
-		(at 224.79 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d3bcd3-aaee-466d-a21d-62fd4fc358bc")
-	)
-	(junction
 		(at 67.31 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -963,34 +564,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4fcbfeb-e8aa-48aa-9bf0-6b93156dd642")
-	)
-	(junction
-		(at 224.79 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3677623-f732-40db-bb73-eda03af04d04")
-	)
-	(junction
-		(at 59.69 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4bb4cf9-104e-411c-b6b9-c9deea0961a2")
-	)
-	(junction
-		(at 224.79 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd0d2c8c-749b-41e9-b4e9-322769abd667")
-	)
-	(wire
-		(pts
-			(xy 186.69 114.3) (xy 176.53 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "028af8c3-d0bb-4df4-99a3-ed045cf08265")
 	)
 	(wire
 		(pts
@@ -1094,33 +667,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 81.28) (xy 193.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15478886-2963-45b5-9825-6ff6f8bea6d7")
-	)
-	(wire
-		(pts
-			(xy 53.34 92.71) (xy 59.69 92.71)
+			(xy 53.34 92.71) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17fc7fb4-ff0a-441d-a7dc-a4a8c3f7953b")
-	)
-	(wire
-		(pts
-			(xy 175.26 34.29) (xy 88.9 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180a13e5-2001-4d2f-b9b1-9222a8dfbc2f")
 	)
 	(wire
 		(pts
@@ -1131,16 +684,6 @@
 			(type default)
 		)
 		(uuid "1affdd2e-d393-43ca-bee5-7196dd8a14e7")
-	)
-	(wire
-		(pts
-			(xy 176.53 71.12) (xy 193.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a52688-c818-4037-9a5d-dfa36d6de042")
 	)
 	(wire
 		(pts
@@ -1184,16 +727,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 88.9) (xy 224.79 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d00b533-8035-446d-9b79-82368f6b9c09")
-	)
-	(wire
-		(pts
 			(xy 67.31 100.33) (xy 68.58 100.33)
 		)
 		(stroke
@@ -1201,26 +734,6 @@
 			(type default)
 		)
 		(uuid "3ff4491e-a25e-4491-8489-7f40ded1bcb1")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 224.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d3106f-8c9e-4c6d-9e60-52dc10cd9a2b")
-	)
-	(wire
-		(pts
-			(xy 59.69 92.71) (xy 68.58 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43904666-bdc5-4b16-b561-974d6f86b6f9")
 	)
 	(wire
 		(pts
@@ -1241,36 +754,6 @@
 			(type default)
 		)
 		(uuid "46a0ab53-22ae-4596-87e0-933d6c5f3a12")
-	)
-	(wire
-		(pts
-			(xy 227.33 88.9) (xy 224.79 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479a3cec-ea34-4120-be4e-d91539cf1376")
-	)
-	(wire
-		(pts
-			(xy 186.69 114.3) (xy 186.69 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49bb6b5a-74ca-4406-a34d-ceb128d80427")
-	)
-	(wire
-		(pts
-			(xy 193.04 63.5) (xy 175.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bef8acd-c316-4e71-bbc0-aabac94145c6")
 	)
 	(wire
 		(pts
@@ -1344,16 +827,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 78.74) (xy 215.9 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6775f659-cbca-4a4f-a3c1-00a662fd804a")
-	)
-	(wire
-		(pts
 			(xy 90.17 73.66) (xy 111.76 73.66)
 		)
 		(stroke
@@ -1364,33 +837,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 83.82) (xy 227.33 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc9903b-988a-457e-87e7-fea0303decfb")
-	)
-	(wire
-		(pts
-			(xy 114.3 71.12) (xy 120.65 71.12)
+			(xy 114.3 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70609865-f9c8-47b5-8e08-51a5dfeb2b42")
-	)
-	(wire
-		(pts
-			(xy 68.58 31.75) (xy 59.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73234a81-a569-4579-b5ff-4ad9044a9ca7")
 	)
 	(wire
 		(pts
@@ -1414,16 +867,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 91.44) (xy 224.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f904cf-098f-46a4-a3a3-e3ddfeb45e85")
-	)
-	(wire
-		(pts
 			(xy 90.17 78.74) (xy 118.11 78.74)
 		)
 		(stroke
@@ -1431,16 +874,6 @@
 			(type default)
 		)
 		(uuid "7c74a32f-ef89-43ee-80ed-3152d63829af")
-	)
-	(wire
-		(pts
-			(xy 59.69 31.75) (xy 59.69 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f680445-ea05-44a6-80e9-0cb06375508b")
 	)
 	(wire
 		(pts
@@ -1484,16 +917,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 38.1) (xy 63.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e410ea-6a7a-448c-84b0-e36d22c50ceb")
-	)
-	(wire
-		(pts
 			(xy 90.17 71.12) (xy 111.76 71.12)
 		)
 		(stroke
@@ -1501,46 +924,6 @@
 			(type default)
 		)
 		(uuid "962b4b41-9ac4-436d-ad70-251509c45cd2")
-	)
-	(wire
-		(pts
-			(xy 224.79 86.36) (xy 224.79 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977cda6d-4055-4fec-a0ca-bb633832dd7a")
-	)
-	(wire
-		(pts
-			(xy 176.53 78.74) (xy 193.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f3e130-b27f-4dde-b79c-6e87815fd659")
-	)
-	(wire
-		(pts
-			(xy 88.9 29.21) (xy 179.07 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd39ca9-cb5e-4f13-855e-5658e998f84c")
-	)
-	(wire
-		(pts
-			(xy 63.5 38.1) (xy 63.5 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c63606-6172-4c83-a699-fd6ce3c7322b")
 	)
 	(wire
 		(pts
@@ -1554,16 +937,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 73.66) (xy 193.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98a0b9b-fecb-4f36-9ef6-881d3196f728")
-	)
-	(wire
-		(pts
 			(xy 90.17 81.28) (xy 143.51 81.28)
 		)
 		(stroke
@@ -1574,16 +947,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 60.96) (xy 193.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b460ae85-4bbd-4aa6-82ea-3e764d413e01")
-	)
-	(wire
-		(pts
 			(xy 90.17 110.49) (xy 143.51 110.49)
 		)
 		(stroke
@@ -1591,26 +954,6 @@
 			(type default)
 		)
 		(uuid "b7773215-5e0f-4c50-9865-54ad224f6fed")
-	)
-	(wire
-		(pts
-			(xy 227.33 71.12) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbf142c-7939-41d9-a8fe-58404220b9d9")
-	)
-	(wire
-		(pts
-			(xy 224.79 91.44) (xy 224.79 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c094db44-4846-48ab-88a2-599367c3801f")
 	)
 	(wire
 		(pts
@@ -1641,26 +984,6 @@
 			(type default)
 		)
 		(uuid "c96764ec-aae8-4cb5-af4f-3347230213e3")
-	)
-	(wire
-		(pts
-			(xy 227.33 86.36) (xy 224.79 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbdef191-1edb-45e3-b6f0-16fcf1314040")
-	)
-	(wire
-		(pts
-			(xy 203.2 93.98) (xy 203.2 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36bd237-70cf-40f4-a502-fa35a80df283")
 	)
 	(wire
 		(pts
@@ -1724,26 +1047,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 29.21) (xy 179.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e215c59b-d323-41fb-8f50-015914e104ce")
-	)
-	(wire
-		(pts
-			(xy 175.26 63.5) (xy 175.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea29d10f-b570-46b6-8764-d8d98ac4d3ba")
-	)
-	(wire
-		(pts
 			(xy 53.34 95.25) (xy 66.04 95.25)
 		)
 		(stroke
@@ -1784,16 +1087,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 71.12) (xy 143.51 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f161894a-0362-41d2-a598-61ddfb6146ce")
-	)
-	(wire
-		(pts
 			(xy 90.17 57.15) (xy 93.98 57.15)
 		)
 		(stroke
@@ -1811,66 +1104,6 @@
 			(type default)
 		)
 		(uuid "fce23328-1667-43f0-a2e6-b92116cfefc2")
-	)
-	(label "DAC2+"
-		(at 181.61 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41ecef17-5306-4413-9101-1f5373e67b67")
-	)
-	(label "Output-"
-		(at 218.44 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4213cf4e-7b95-4968-bee0-e2ad32b9068e")
-	)
-	(label "DAC1-"
-		(at 181.61 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ae6183d-43d8-4368-aa3c-c173717b6b35")
-	)
-	(label "Output+"
-		(at 218.44 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "534f56e3-6787-49f7-8948-814216780b19")
-	)
-	(label "DAC1+"
-		(at 181.61 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ff02a04-e9cf-45e4-8370-28e3ee2b9847")
-	)
-	(label "DAC2-"
-		(at 181.61 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a559c068-0522-4e3a-811f-29ace14f760b")
 	)
 	(label "GND"
 		(at 22.86 181.61 0)
@@ -1936,6 +1169,94 @@
 			)
 		)
 		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -2012,6 +1333,94 @@
 			)
 		)
 		(property "CUI_PURCHASE_URL" "(In Stock)"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -2101,159 +1510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SJ-3502-SMT:SJ-3502-SMT")
-		(at 240.03 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a12313c-6b28-4956-966a-14c4eccb8f0c")
-		(property "Reference" "J3"
-			(at 248.92 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SJ-3502-SMT"
-			(at 248.92 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SJ_3502_SMT_TR:CUI_SJ-3502-SMT"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "CUI Inc."
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "3.5 mm, Stereo, Right Angle, Mid Mount _SMT_, Shielded, Audio Jack Connector"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/sj-3502-smt-tr?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SJ-3502-SMT-TR"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1_1"
-			(uuid "dc4e05ee-758c-4a69-bf40-dbc7a9965a8b")
-		)
-		(pin "1_3"
-			(uuid "b02fcee0-f3ca-4a84-b118-ad2b779d7bff")
-		)
-		(pin "1_2"
-			(uuid "2a306fb6-e053-49ee-ad57-4383e670f566")
-		)
-		(pin "1_4"
-			(uuid "4e5d7dd5-f251-4c31-94e8-78eac1d3127a")
-		)
-		(pin "3"
-			(uuid "49314ee9-f935-4eba-9721-931b5b4555a6")
-		)
-		(pin "2"
-			(uuid "c29b0fa6-5646-4109-97b7-9bc11c9c24da")
-		)
-		(instances
-			(project ""
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 115.57 73.66 90)
 		(unit 1)
@@ -2314,6 +1570,94 @@
 				)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3a96731-cd92-42d5-9aac-8528712790d3")
 		)
@@ -2324,72 +1668,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4477462c-701a-48a6-ab4d-4d084b7b8277")
-		(property "Reference" "#PWR091"
-			(at 203.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c118147-c0cc-405b-987c-c5bce830073e")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -2463,72 +1741,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b899110-3830-4789-b3f3-33a20e3c17d9")
-		(property "Reference" "#PWR076"
-			(at 224.79 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43ab2037-b912-413a-8bee-f8768fed2c5d")
-		)
-		(instances
-			(project ""
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 127 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2588,82 +1800,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8e5aac1-c4a8-48d1-a354-825b174e03f2")
-		(property "Reference" "R10"
-			(at 124.46 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 124.46 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.46 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "(In Stock)"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99de2cfd-adaf-4779-a48c-4e63922bce16")
-		)
-		(pin "2"
-			(uuid "9600c277-d18d-403d-8bea-41770a756be5")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2730,72 +1866,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbac6f17-0d73-4489-869b-24cb49368e44")
-		(property "Reference" "#PWR089"
-			(at 186.69 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2de40f54-b93d-4dc1-b914-b56a6c91d34f")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -3065,72 +2135,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f352a3f7-9753-43fc-be7d-951b73f64797")
-		(property "Reference" "#PWR0112"
-			(at 63.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a0be798-3467-4892-80e9-21dff2074902")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 100.33 129.54)
 		(size 16.51 30.48)
@@ -3269,88 +2273,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 68.58 26.67)
-		(size 20.32 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 132 0 0 1.0000)
-		)
-		(uuid "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b")
-		(property "Sheetname" "Audio Rails"
-			(at 68.58 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AudioRails.kicad_sch"
-			(at 68.58 41.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+5V_FLT" output
-			(at 88.9 29.21 0)
-			(uuid "4c853165-3b50-4973-b7f5-a2b5cd7383f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "-5V_FLT" output
-			(at 88.9 34.29 0)
-			(uuid "0961bd89-7b74-4e99-a246-2e764161ec87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 68.58 38.1 180)
-			(uuid "c9ee168e-8887-4544-9f8d-2a2f056e78cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5Vin" input
-			(at 68.58 31.75 180)
-			(uuid "63dbc158-18ae-4553-9f63-f9b680e95120")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(page "3")
 				)
 			)
 		)
@@ -3805,359 +2727,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 193.04 57.15)
-		(size 22.86 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 104 6 132 0.8000)
-		)
-		(uuid "a8d45096-939e-42db-8984-b3f2d55a20c4")
-		(property "Sheetname" "Headphone Amp Stage"
-			(at 193.04 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "HeadphoneAmpStage.kicad_sch"
-			(at 188.214 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+Lin" input
-			(at 193.04 71.12 180)
-			(uuid "eed241d6-541d-4afe-a15a-36a9aa7aad1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+Rin" input
-			(at 193.04 78.74 180)
-			(uuid "aab43d6d-8371-4163-b56f-981eaadf49c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-Lin" input
-			(at 193.04 73.66 180)
-			(uuid "232c1e80-b720-4052-aabf-87e8dc99216a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-Rin" input
-			(at 193.04 81.28 180)
-			(uuid "c92ca0bf-f38b-4cf4-aebb-798c27893413")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Output_L" input
-			(at 215.9 71.12 0)
-			(uuid "e4166d6b-ef71-42e0-af7d-968a1b909be0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Output_R" input
-			(at 215.9 78.74 0)
-			(uuid "9b3a69af-c72d-44fd-97cb-b538287dd172")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 203.2 83.82 270)
-			(uuid "1a7963d3-713b-4b39-9d23-a1ebec1a2774")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V" input
-			(at 193.04 60.96 180)
-			(uuid "137784b3-d8c5-4b69-96a5-bb9663f452b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-5V" input
-			(at 193.04 63.5 180)
-			(uuid "86c04f0b-0957-442c-9733-3636b87e57b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 143.51 67.31)
-		(size 33.02 53.34)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 104 6 132 0.8000)
-		)
-		(uuid "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea")
-		(property "Sheetname" "DAC"
-			(at 143.51 66.5984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ESS ES9039Q2M DAC.kicad_sch"
-			(at 143.51 121.2346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "BCK" output
-			(at 143.51 73.66 180)
-			(uuid "77e1bed8-7010-426b-a5fa-9eaff384411e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA" output
-			(at 143.51 87.63 180)
-			(uuid "36c7ef7d-ec0c-4f32-80b7-ae338ebc76a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO5" output
-			(at 143.51 110.49 180)
-			(uuid "a14668f0-a7cf-49f2-89ac-9672dfd6f471")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC2" input
-			(at 176.53 78.74 0)
-			(uuid "4183774d-5e65-4f21-9e86-3be3b5dfd0a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAC2b" input
-			(at 176.53 81.28 0)
-			(uuid "e6729570-cfd7-4555-8bdf-2019238effb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO2" output
-			(at 143.51 102.87 180)
-			(uuid "b0b1bcef-10be-4169-bfab-0c86a7a9117b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO4" output
-			(at 143.51 107.95 180)
-			(uuid "10090453-0ed0-4a9f-9577-bc13c6292632")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SD0" output
-			(at 143.51 78.74 180)
-			(uuid "226a5f45-e075-4f6c-a3d5-6ab980ac5dd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WS" output
-			(at 143.51 76.2 180)
-			(uuid "d4936dea-cfe2-41c0-87c3-c7fed4422305")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO6" output
-			(at 143.51 113.03 180)
-			(uuid "77969e21-6e57-4cde-87aa-9bed72886ba8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO1" output
-			(at 143.51 100.33 180)
-			(uuid "84966773-5f8c-4fdd-99a9-210bf3276663")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO3" output
-			(at 143.51 105.41 180)
-			(uuid "f16dd48b-eaa8-49e8-93df-8f5a9fd677b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC1b" input
-			(at 176.53 73.66 0)
-			(uuid "dacef75a-795a-4d50-9700-f5066ea6c67b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EN" output
-			(at 143.51 81.28 180)
-			(uuid "24996e07-01c0-4871-a9b9-acd6de53c913")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCLK" output
-			(at 143.51 71.12 180)
-			(uuid "5fa81f64-54cc-4ac5-b2d3-efd8c74e159a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" output
-			(at 143.51 85.09 180)
-			(uuid "b9873811-f8bf-494f-89c7-163a574929ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC1" input
-			(at 176.53 71.12 0)
-			(uuid "ba11b4e2-b954-45a7-8d59-b7ddbe710268")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 176.53 114.3 0)
-			(uuid "1fa64ed0-df68-4d3c-800f-d0260168ec1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8"
-					(page "5")
 				)
 			)
 		)

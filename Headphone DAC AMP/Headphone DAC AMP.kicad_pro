@@ -60,30 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|103360000|92065000|d93922da-bcf1-44e6-9ca7-077d659865b0|e01b192f-8ff9-46a0-a5de-c8fbdcaa6645",
-          ""
-        ],
-        [
-          "clearance|128322500|100175000|e029be7e-a16c-4714-a665-08b83001a033|6496d267-8b9f-4281-8ecf-910e90a596bc",
-          ""
-        ],
-        [
-          "clearance|128322500|100675000|14c7490f-cf62-475f-b9f6-a9ca82b5720e|6496d267-8b9f-4281-8ecf-910e90a596bc",
-          ""
-        ],
-        [
-          "clearance|128322500|100875000|3964670f-4a74-4629-ad98-2ddad6800859|6496d267-8b9f-4281-8ecf-910e90a596bc",
-          ""
-        ],
-        [
-          "clearance|128322500|99675000|3b3c11ef-92ad-45a1-bcff-4b788db38b77|6496d267-8b9f-4281-8ecf-910e90a596bc",
-          ""
-        ],
-        [
-          "clearance|129822500|100875000|76480231-de7b-4139-a658-a501786662c1|37089b9a-cb97-42d9-a3c2-ed9fac14b4d7",
-          ""
-        ],
-        [
           "clearance|92512500|109087500|e8bb55ea-6767-4b87-b958-3597ed09ff1b|eca1c92a-966e-480d-88bf-44d031f259b6",
           ""
         ],
@@ -915,20 +891,8 @@
       "USB Audio Input"
     ],
     [
-      "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b",
-      "Audio Rails"
-    ],
-    [
       "a76b11f7-fbf9-4331-be15-052b46a69f96",
       "General Power"
-    ],
-    [
-      "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea",
-      "DAC"
-    ],
-    [
-      "a8d45096-939e-42db-8984-b3f2d55a20c4",
-      "Headphone Amp Stage"
     ],
     [
       "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788",
