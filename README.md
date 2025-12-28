@@ -76,7 +76,11 @@ Instead of Splitting the grounds in our design, we have chosen to combine them a
 ### 4.1 Design Requirements
 
 ### 4.2 Block Diagram
-The following is a block diagram of the system. This system uses the XMOS XU316 as a DSP device to turn USB into I2S, ES9039 32 bit DAC, and TPA6120 as a headphone amplifier. For Supporting archetecture, LDO's are used for 3.3v, 1.8v, and 0.9v, and a diffrential 12V power rail for the headphone amp that will utilise either the TPS7A4700 or the TPS7A3301. The XMOS also requires an external master clock, an I2S clock, as a boot modual, so the W25Q32JV is used as the QSPI Flash.
+Figure X shows the block diagram of the system. The design uses the XMOS XU316 as a digital signal processing and interface device to convert USB audio data into an I²S data stream. This I²S stream is then processed by the ES9039 32-bit digital-to-analog converter (DAC), which produces a high-fidelity analog audio signal. The analog output is subsequently amplified by the TPA6120 headphone amplifier to drive the headphone load. <br>
+
+Supporting power architecture is implemented using multiple low-dropout regulators (LDOs) to supply the required voltage domains. Dedicated LDOs provide regulated 3.3 V, 1.8 V, and 0.9 V rails for the digital and mixed-signal components. The headphone amplifier is powered by a differential supply derived from a 5.5 V rail using the ADP5071 and buffered using LDO's. An initial design utilizing a ±12 V differential supply was evaluated; however, concerns regarding excessive output power and the risk of overdriving headphones led to the selection of a lower-voltage differential supply. <br>
+
+The XMOS XU316 requires multiple clock sources, including an external master clock and an I²S clock, to ensure accurate audio timing and low jitter performance. Additionally, an external boot memory device is required for firmware storage, which is provided by the W25Q32JV QSPI flash memory.
 
 <p align="center">
  <img width="804" height="928" alt="image" src="https://github.com/user-attachments/assets/dde0d51c-e25b-4e6c-8754-f3023f65e35e" /> <br>
@@ -84,15 +88,47 @@ The following is a block diagram of the system. This system uses the XMOS XU316 
 </p>
 
 ### 4.3 Component-Level Architecture
-The system works as follows when viewing the flowchart; USB to a device connects to the board VIA USB-C and communicates to the XMOS through USB. The XMOS converts the audio signal from USB to I2S. This I2S signal comes into the ES9039, where a 32 bit word is turned into an analog voltage, where each bit of the word represents a voltage, and the sum of those voltages gives an aproximation of the sampled audio. This now analog signal is then sent to a 2-pole lowpass filter in order to remove any frequencies that are not present in human hearing (>20kHz). This filtered frequency is then sent to the TPS7A3301, where the signal is amplified to output to a headphone through a 3.5mm TTRS jack.
+The system works as follows when viewing the flowchart; USB to a device connects to the board VIA USB-C and communicates to the XMOS through USB. The XMOS converts the audio signal from USB to I2S. This I2S signal comes into the ES9039, where a 32 bit word is turned into an analog voltage, where each bit of the word represents a voltage, and the sum of those voltages gives an aproximation of the sampled audio. This now analog signal is then sent to a 2-pole lowpass filter using the OPA1612 in order to remove any frequencies that are not present in human hearing (>20kHz). This filtered frequency is then sent to the TPS7A3301, where the signal is amplified to output to a headphone through a 3.5mm TTRS jack.
 
 ## 5. Circuit Design
 
 ### 5.1 Schematic Overview
+The schematic design is implemented in KiCad due to its versatility and low barrier to entry. In addition to its accessibility, KiCad provides robust support for hierarchical schematic design, which is critical for enabling a synchronous and collaborative development workflow. To support multiple contributors working on different subsystems simultaneously, the project is managed using Git in conjunction with hierarchical schematics.<br>
+
+Each major functional block of the system is implemented as an individual hierarchical subschematic, allowing for modular development, improved readability, and simplified version control. The functional blocks are organized as follows: 
+* USB Input: XMOS, QSPI Flash, and USB-C header
+* Audio rails: Differential powersupply resides aswell as supporting LDO's
+* General power: 3.3V, 1.8V, and 0.9V LDO's
+* DAC: ES9039 and supporting parts
+* Headphone AMP stage: OPA1612, TPA6120 headphone AMP, and supporting parts
+* Clocking: System and audio clocks
+* Debug: XTAG debug connector that will connect to the XMOS
+
+All subschematics are connected through hierarchical labels to a single root schematic, which defines the system-level interconnections. Within each subschematic, components are grouped into clearly defined blocks to reflect functional signal flow. This hierarchical organization improves schematic readability, supports collaborative development, and provides a clear mapping between system-level architecture and circuit-level implementation.
 
 ### 5.2 Component Selection
 
 ### 5.3 Simulation Results
+Simulation was performed to evaluate the performance and stability of the analog low-pass filter used in the output stage. Initial designs focused on achieving a sharp cutoff frequency near the upper limit of the audible band using a Chebyshev Filter. This filter utilised a single opamp while simultaniously being a 3rd order system. The following is what the simulated filter looked like.<br>
+
+<p align="center">
+ <img width="1790" height="829" alt="image" src="https://github.com/user-attachments/assets/55925889-c1a2-4a23-a91f-f3752e15d5ab" />
+ <br>
+ Figure X: LTspice Simulation of filter
+</p>
+
+
+While these higher-order filter topologies were successful in simulation, concerns arose regarding stability, particularly due to the use of multiple operational amplifiers and large resistor values within the feedback network.<br>
+
+Additionally, a review of manufacturer reference designs revealed that most datasheets implementing headphone amplifier stages employ a single operational amplifier with a simple feedback network, typically including a 2200pF feedback capacitor in parallel with an 800 ohm resistor. This approach minimizes loop complexity and reduces the risk of instability while maintaining acceptable frequency response characteristics. The following is the prefilters from the TPA6120 datasheet. <br>
+
+<p align="center">
+ <img width="430" height="346" alt="image" src="https://github.com/user-attachments/assets/5b2e7f82-de49-4716-ba8b-3272ecf1a990" />
+ <br>
+ Figure X: LTspice Simulation of filter
+</p>
+
+Based on these considerations, a single-op-amp topology with a 2200pF feedback capacitor in parallel with an 800 ohm resistor was selected. Simulation results confirm that this configuration provides a cutoff frequency of approximately 20 kHz, which is sufficient to attenuate out-of-band noise while preserving the full audible frequency range. The selected design offers a balance between frequency selectivity, stability, and implementation robustness.
 
 ### 5.4 PCB Layout Considerations
 
