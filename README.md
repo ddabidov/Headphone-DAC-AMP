@@ -184,6 +184,12 @@ Due to the small footprint of the XMOS device, some traces had to be routed at t
 The board itself was ordered with a relatively basic spec. the only deviations from the standard are smaller holes (0.15mm), Purple Soldermask, and No JLC PCB Label on the board. We also ordered the board with a stencil due to the high component density and low size.
 
 ### 6.2 Assembly process
+The assembly process was a simple but complicated one. The first step was to use the stencil to paste the board. We did this using low melt solder (138 C) due to the sensitivity of many of the compopnents. To place the componets utilizing the HTML BOM we had generated, we went through each component on the BOM, found it within the bag of ordered components, and then placed the component on any places highlighted in the BOM.
+
+An exception to this was in the case of the audio output decoupling capacitors. A minimal amount was used at first until the rest of the board could be tested, so that the difference in decoupling could be potentially measured. 
+
+Once the components were all placed, we utilized a hot plate set to 150C to melt the solder and reflow the board evenly. This was further aided by the solid ground pour distributing the heat evenly across the board.
+
 
 ### 6.3 Photographs
 
