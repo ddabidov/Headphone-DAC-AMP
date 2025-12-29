@@ -164,6 +164,21 @@ Additionally, a review of manufacturer reference designs revealed that most data
 Based on these considerations, a single-op-amp topology with a 2200pF feedback capacitor in parallel with an 800 ohm resistor was selected. Simulation results confirm that this configuration provides a cutoff frequency of approximately 20 kHz, which is sufficient to attenuate out-of-band noise while preserving the full audible frequency range. The selected design offers a balance between frequency selectivity, stability, and implementation robustness.
 
 ### 5.4 PCB Layout Considerations
+When transferring the schematic to the PCB, component placement and routing strategy are critical to overall system performance. For the USB-C interface, the differential data lines must be impedance-matched to 90 Ω. As outlined by AllPCB, differential impedance is a function of trace width, trace thickness, trace height above the reference plane, and the dielectric constant of the PCB substrate. In addition to impedance control, the USB differential pairs are routed with closely matched lengths to minimize skew and preserve signal integrity.
+
+Clock sources are significant emitters of EMF. To mitigate noise coupling, clock traces are isolated from other signal routes on their respective layers. While maintaining adequate spacing to prevent parasitic coupling, trace length is also minimized to reduce propagation delay and preserve signal quality. This represents a balance between electromagnetic isolation and signal integrity.
+
+Power distribution is implemented using dedicated internal planes to ensure low-impedance delivery throughout the board. Power planes provide short current return paths and allow current to follow the path of least resistance, which reduces EMI, lowers impedance, minimizes noise, and ensures stable voltage levels across the system. Power vias are placed as close as possible to IC power pins, while accounting for decoupling capacitor placement. Additionally, local copper pours around device power pins are used to further reduce loop area and improve transient current response.
+
+Decoupling capacitors are placed immediately adjacent to the power pins of their respective ICs to provide a low-impedance path to ground for high-frequency noise. This placement is especially critical due to the high-switching nature of several devices on the board. High switching speeds can generate EMI that induces unwanted currents in nearby traces, potentially affecting logic levels. Proper decoupling minimizes these effects and is essential for reliable operation.
+
+A continuous ground plane is implemented to further minimize loop area, reduce impedance, suppress EMI, and limit crosstalk. The ground plane acts as an effective shield between signal layers by absorbing emitted electromagnetic energy that could otherwise couple into adjacent traces. As with power distribution, localized copper pours around device pins are used to further reduce feedback loop size.
+
+Audio signal routing is carefully managed to preserve signal quality. All audio traces are kept as short as possible to reduce loop area and susceptibility to noise. Digital audio traces are routed with narrower widths to maintain controlled impedance, while analog audio traces are made wider to support higher current demands and minimize voltage drops.
+
+Due to the small footprint of the XMOS device, some traces had to be routed at the minimum allowable width specified by JLCPCB. This constraint introduced manufacturing risk, as extremely narrow traces are more susceptible to fabrication defects. However, given the device’s pin density, this limitation was unavoidable. As a result, the smallest trace width on the board was set to 0.1 mm, which is within the manufacturer’s guaranteed tolerances.
+
+
 
 ## 6. PCB Fabrication & Assembly
 
