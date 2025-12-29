@@ -178,11 +178,10 @@ Audio signal routing is carefully managed to preserve signal quality. All audio 
 
 Due to the small footprint of the XMOS device, some traces had to be routed at the minimum allowable width specified by JLCPCB. This constraint introduced manufacturing risk, as extremely narrow traces are more susceptible to fabrication defects. However, given the device’s pin density, this limitation was unavoidable. As a result, the smallest trace width on the board was set to 0.1 mm, which is within the manufacturer’s guaranteed tolerances.
 
-
-
 ## 6. PCB Fabrication & Assembly
 
 ### 6.1 Fabricaton parameters
+The board itself was ordered with a relatively basic spec. the only deviations from the standard are smaller holes (0.15mm), Purple Soldermask, and No JLC PCB Label on the board. We also ordered the board with a stencil due to the high component density and low size.
 
 ### 6.2 Assembly process
 
