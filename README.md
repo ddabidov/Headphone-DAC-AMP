@@ -190,15 +190,18 @@ An exception to this was in the case of the audio output decoupling capacitors. 
 
 Once the components were all placed, we utilized a hot plate set to 150C to melt the solder and reflow the board evenly. This was further aided by the solid ground pour distributing the heat evenly across the board.
 
-
 ### 6.3 Photographs
 
 
 ## 7. Discussion
 
 ### 7.1 Strength
+In retrospect, the design was quite good all things considered. The strategies utilized throughout the board to mitigate noise are congruent with stratagies discussed by experienced PCB designers advice being given with the intention of passing FCC emissions certifications. These strategies being effectivley implemented on a prototype are quite good quality implementation wise, and if the revision one worked, we are certain theat the signal quality would not be an issue with the device.
 
 ### 7.2 Challenges and Limitations
+One of the most significant challenges that we faced when designing the board was time. Completing the reasearch, schematic, and PCB design all within an 8 week span of a course is a breakneck speed considering the lack of knowledge we had going into this. For many of the issues we faced, we hope that more time would allow for less errors, as well as further implementation of debugging circuitry in the prototype.
+
+On that note, the core issue we had with the overall design was that it was built more as a product and less as a prototype. We utilized smaller footprints to increase component density while maintining decoupling capacitor proximity to each IC, and we did not allow much room for a soldering iron if rework was needed. We also did not implement any debugging circuitry such as power rail LEDs, Microcontroller manual resetting, or power rail access for easy probing. The considerations for noise took precedence over many of these circuits in our mind, but given the nature of a prototypoe we should have verified an initial implementation before making everything small and well laid out.
 
 ### 7.3 Lessons Learned
 
