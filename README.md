@@ -78,7 +78,11 @@ https://youtu.be/vALt6Sd9vlY
 Instead of Splitting the grounds in our design, we have chosen to combine them and focus on maintaining ground everywhere throughout the board. The primary thing we chose to do was implement a Ground plane on layer 2 of the PCB. This ground plane was implemented to serve as a solid and continuous return path which served as shielding between signals and other nets routed on the other side of the plane. This copper plane is standard practice when implementing a layer stackup with noise reduction in mind. This ground plane provides an unbroken path underneath each trace for its current to return through. This, combined with the physical seperation of tha analog and digital stages on the PCB, allow for the analog and digital return currents to not interfere with eachother. This reduction of interference is the exact goal of implementing a split ground scheme, but it is more easily acheivable in our application with this unbroken grounding plane strategy.
 
 This plane being the center of our layer stackup allows us to finish determining the board stackup. Layer 1 will be our topside component and signal layer, and Layer 2 will be that unbroken ground. Because we do not have to worry about Layer 3 inducing significant noise to the components on Layer 1, we can choose to dedicate that as a power layer to make the distribution of power easier. Layer 4 can serve as a passthrough signal layer, but it is important to note that critical signals on the board are routed to specifically avoid being passed through a via to Layer 4. This is because the via passes through the ground plane and brings the signal close to the power lines of the board, which is a significant risk for noise. Being routed through the ground plane is reserved for low risk signals such as digital signals in the sub 750 kHz range. With that, we have our completed board stackup.
-![alt text](image-2.png)
+<p align="center">
+ <img width="520" height="297" alt="image" src="https://github.com/user-attachments/assets/45db874f-02b9-418b-b85b-8a45d755f519" /> <br>
+ Figure 1: PCB Layers
+</p>
+
 ## 4. System Architecture
 
 ### 4.1 Design Requirements
@@ -94,7 +98,11 @@ If the general-purpose protocols don’t benefit our application, then we can sh
 
 There is another robust Digital Audio interface available known as I2S, or Inter-Integrated Circuit Sound. This protocol was developed specifically for audio interfacing and can support full speed audio up to any point within our requirements range. I2S has the perk of using a clock to send bits and synchronize the information that needs to be sent to DAC. This clock can be configured such that a high frequency, low jitter, low phase noise clock can be implemented into the I2S bridge, which when implemented, results in a similar high performance I2S signal with little to no harmonics as shown in a test below from forum.headphones.com, where the only harmonic present is the output frequency of the speakers. The figure below shows the same output through USB. The issue with using USB is that the system receives bursts of information every millisecond or so, rather than receiving a bit per stable cycle. This results in non-uniform sampling that can cause noise. Due to the benefits that I2S gives in our small scale implementation, we will be going forward with it as the core of our design. 
 
-![alt text](image-3.png)![alt text](image-4.png)
+<p align="center">
+  <img width="777" height="333" alt="image" src="https://github.com/user-attachments/assets/8a60d9fe-b165-4ede-b055-0ccf4ecbe4a4" /> <br>
+ Figure 2: I2S Audio vs USB Audio 
+</p>
+
 
 ### 4.2 Block Diagram
 Figure X shows the block diagram of the system. The design uses the XMOS XU316 as a digital signal processing and interface device to convert USB audio data into an I²S data stream. This I²S stream is then processed by the ES9039 32-bit digital-to-analog converter (DAC), which produces a high-fidelity analog audio signal. The analog output is subsequently amplified by the TPA6120 headphone amplifier to drive the headphone load. <br>
@@ -105,10 +113,15 @@ The XMOS XU316 requires multiple clock sources, including an external master clo
 
 <p align="center">
  <img width="804" height="928" alt="image" src="https://github.com/user-attachments/assets/dde0d51c-e25b-4e6c-8754-f3023f65e35e" /> <br>
- Figure X: Block Diagram of system
+ Figure 3: Block Diagram of System
 </p>
 
-![alt text](image-1.png)
+
+<p align="center">
+ <img width="1584" height="565" alt="image" src="https://github.com/user-attachments/assets/535c21cc-7c4e-4337-b5e9-70a0af84ed37" /> <br>
+ Figure 4: Revised Block Diagram of System 
+</p>
+
 ### 4.3 Component-Level Architecture
 The system works as follows when viewing the flowchart; USB to a device connects to the board VIA USB-C and communicates to the XMOS through USB. The XMOS converts the audio signal from USB to I2S. This I2S signal comes into the ES9039, where a 32 bit word is turned into an analog voltage, where each bit of the word represents a voltage, and the sum of those voltages gives an aproximation of the sampled audio. This now analog signal is then sent to a 2-pole lowpass filter using the OPA1612 in order to remove any frequencies that are not present in human hearing (>20kHz). This filtered frequency is then sent to the TPS7A3301, where the signal is amplified to output to a headphone through a 3.5mm TTRS jack.
 
@@ -135,7 +148,11 @@ In order to go with an I2S setup, we would need to utilize a specific device to 
 When researching commercial topologies, there were 4 main microcontroller brands which are used. Qualcomm is very common to see in available products, but that is due to these SOCs being easily able to run the Bluetooth stack. This capability is not needed in our case, and the Qualcomm SOCs are also not available for consumer purchasing, and the only way we can get it is through dubious resellers. Amanero is another bridge which is used by production models, but it suffers from the same lack of availability that the Qualcomm does. Another microcontroller which is used often is the STM32. The only concern with the STM32 is that the clocking scheme is somewhat rigid, and if multiple clocks are used on the circuit board there will be a separate set of components needed to handle that. The clocking scheme that is necessary is not known at this time, so the best bet would be a more flexible option, such as an XMOS. A variety of devices supporting audiophile outputs utilize an XMOS XU208, but that device is currently obsolete. The new design device is the XU316, which can output any peripheral we need through software. The microcontroller can handle our entire potential audio range up to the lossless range. 
 
 The XMOS itself is readily supported for USB audio applications as well. XMOS provides a ready to go I2S driver available to use in C, and the company also has guides on how the software topology should be laid out for optimal performance. Each of the Logical Processors in the XMOS can be dedicated to an interface, such as the PHY input and the I2S Output 
-![XMOS USB Audio Software Topology](image.png)
+
+<p align="center">
+ <img width="910" height="579" alt="image" src="https://github.com/user-attachments/assets/c106b5c6-e131-45a5-bbdc-219a696f7457" /> <br>
+ Figure 5: XMOS Block Diagrm 
+</p>
 
 As for the DAC itself, we were now limited to I2S capable DACs. If possible, we would like to be able to handle our entire audio quality range to allow for flexibility on what the end implementation is. When researching user opinions on DACs that are good quality for the cost, the primary line that appears are Sabre Audio branded DACs. DAC AMPs labeled with Sabre Audio utilize the ESS Sabre DACs, of which the current generation is the ES9039. This DAC has two available variants of the Q2M and the Q8, where the difference is two channel vs eight channels. The eight channel variant is intended for multi output applications, which we do not need for this use case. The ES9039Q2M therefore is our final selected DAC. 
 
@@ -147,7 +164,7 @@ Simulation was performed to evaluate the performance and stability of the analog
 <p align="center">
  <img width="1790" height="829" alt="image" src="https://github.com/user-attachments/assets/55925889-c1a2-4a23-a91f-f3752e15d5ab" />
  <br>
- Figure X: LTspice Simulation of filter
+ Figure 6: LTspice Simulation of filter
 </p>
 
 
@@ -158,7 +175,7 @@ Additionally, a review of manufacturer reference designs revealed that most data
 <p align="center">
  <img width="430" height="346" alt="image" src="https://github.com/user-attachments/assets/5b2e7f82-de49-4716-ba8b-3272ecf1a990" />
  <br>
- Figure X: LTspice Simulation of filter
+ Figure 7: LTspice Simulation of filter
 </p>
 
 Based on these considerations, a single-op-amp topology with a 2200pF feedback capacitor in parallel with an 800 ohm resistor was selected. Simulation results confirm that this configuration provides a cutoff frequency of approximately 20 kHz, which is sufficient to attenuate out-of-band noise while preserving the full audible frequency range. The selected design offers a balance between frequency selectivity, stability, and implementation robustness.
@@ -191,6 +208,7 @@ An exception to this was in the case of the audio output decoupling capacitors. 
 Once the components were all placed, we utilized a hot plate set to 150C to melt the solder and reflow the board evenly. This was further aided by the solid ground pour distributing the heat evenly across the board.
 
 ### 6.3 Photographs
+
 ![Assembled PCB](image-5.png)
 
 ## 7. Discussion
