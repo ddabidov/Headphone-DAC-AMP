@@ -235,10 +235,17 @@ As mentioned previously, several lessons learned highlight areas of future work 
 
 ## References
 
+YouTube Channels Referenced
+ - Robert Fernac
+ - Altium Academy
+ - Great Scott!
+ - Predictable Designs
 
-
-
-## Appendicies
-
+Datasheets Referenced
+ - XMOS XU316-QF60B Datasheet
+ - ES9039Q2M Datasheet 
+ - TPA16120 Datasheet
+ - PXU316-V3.0 Schematic
+ - XMOS-XU316-EVK Datasheet
 
 
