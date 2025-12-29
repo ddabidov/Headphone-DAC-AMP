@@ -191,7 +191,7 @@ An exception to this was in the case of the audio output decoupling capacitors. 
 Once the components were all placed, we utilized a hot plate set to 150C to melt the solder and reflow the board evenly. This was further aided by the solid ground pour distributing the heat evenly across the board.
 
 ### 6.3 Photographs
-
+![Assembled PCB](image-5.png)
 
 ## 7. Discussion
 
