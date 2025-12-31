@@ -13,514 +13,6 @@
 		(comment 2 "Based on XMOS Xu316 and ES9039Q2M")
 	)
 	(lib_symbols
-		(symbol "ADP5071AREZ-R7:ADP5071AREZ-R7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 27.94 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ADP5071AREZ-R7"
-				(at 27.94 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RE-20-1_ADI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ADP5071AREZ-R7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RE-20-1_ADI RE-20-1_ADI-M RE-20-1_ADI-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADP5071AREZ-R7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -30.48)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -30.48) (xy 48.26 -30.48)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 -30.48) (xy 48.26 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 0 0 0)
-					(length 7.62)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "INBK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "SYNC/FREQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "SEQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "SLEW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "FB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "COMP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "EN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 55.88 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 55.88 -2.54 180)
-					(length 7.62)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 -5.08 180)
-					(length 7.62)
-					(name "PVIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 55.88 -7.62 180)
-					(length 7.62)
-					(name "PVINSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 -10.16 180)
-					(length 7.62)
-					(name "PVIN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 55.88 -12.7 180)
-					(length 7.62)
-					(name "VREG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 55.88 -15.24 180)
-					(length 7.62)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 55.88 -17.78 180)
-					(length 7.62)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 55.88 -20.32 180)
-					(length 7.62)
-					(name "FB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 55.88 -22.86 180)
-					(length 7.62)
-					(name "COMP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 55.88 -25.4 180)
-					(length 7.62)
-					(name "EN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ADP7185ACPZN-R7:ADP7185ACPZN-R7"
 			(pin_names
 				(offset 0.762)
@@ -937,318 +429,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,19 +940,6 @@
 		)
 		(uuid 439847b4-ccae-4fe3-b042-9f18455c4e6a)
 	)
-	(rectangle
-		(start 12.7 12.7)
-		(end 167.64 101.6)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 194 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f296f22b-750c-4594-9686-8fc9180d1fc5)
-	)
 	(text "-5.5V to -5V LDO\n"
 		(exclude_from_sim no)
 		(at 87.376 108.712 0)
@@ -1785,19 +952,6 @@
 			)
 		)
 		(uuid "a57b6468-2b00-4448-a1c5-d38bca15d120")
-	)
-	(text "5V Input to +5.5V and -5.5V\n"
-		(exclude_from_sim no)
-		(at 92.964 89.916 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 132 0 132 1)
-			)
-		)
-		(uuid "c90b538c-1589-4d24-9bb1-8a5a9384f6d9")
 	)
 	(text "+5.5V to +5V LDO"
 		(exclude_from_sim no)
@@ -1813,28 +967,10 @@
 		(uuid "d51fb827-ee78-44b8-abab-c3bbd5645247")
 	)
 	(junction
-		(at 132.08 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c3b8101-f0e9-4b2f-938e-c27d924c4d9a")
-	)
-	(junction
 		(at 187.96 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1065e576-93f0-44f5-af4f-9a579b8f6cf8")
-	)
-	(junction
-		(at 148.59 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f10f4f2-ded2-472a-9565-d68a0c90f311")
-	)
-	(junction
-		(at 120.65 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2357a289-3c05-4744-bb36-4b1f64d72ed4")
 	)
 	(junction
 		(at 270.51 127)
@@ -1853,18 +989,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5006509e-9809-415d-a0cf-740ce46d2183")
-	)
-	(junction
-		(at 24.13 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c95eb7a-1a69-41ce-b3b8-d42f63a0c20a")
-	)
-	(junction
-		(at 120.65 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8220a64a-eed2-41fe-b587-ab23c241d477")
 	)
 	(junction
 		(at 179.07 121.92)
@@ -1915,22 +1039,10 @@
 		(uuid "9f5d33de-5986-4dd3-9b32-a0d3b8a4ac4e")
 	)
 	(junction
-		(at 120.65 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9ab0f2d-7893-4a54-8668-475e3551f479")
-	)
-	(junction
 		(at 62.23 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce36fc1a-397c-442a-b5e7-f87768a627cb")
-	)
-	(junction
-		(at 134.62 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d092a9fc-84da-4d29-b695-0043ef19c1ae")
 	)
 	(junction
 		(at 251.46 133.35)
@@ -1951,36 +1063,14 @@
 		(uuid "e5c1a0a5-b528-4370-9575-37e7c207e3b2")
 	)
 	(junction
-		(at 52.07 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e92e6420-dc28-4474-bef6-3b715864a12b")
-	)
-	(junction
 		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4820041-ab61-4606-aa83-9cd3c05dccb2")
 	)
-	(junction
-		(at 36.83 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5fcacf0-f384-4437-9f29-0012a0298c2e")
-	)
 	(no_connect
 		(at 234.95 124.46)
 		(uuid "5ac39e73-a3e4-4142-a3e4-c2ea91eafcad")
-	)
-	(wire
-		(pts
-			(xy 120.65 25.4) (xy 120.65 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0191e78b-268d-4be4-a209-29dcd8e8c978")
 	)
 	(wire
 		(pts
@@ -2014,26 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 44.45) (xy 24.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0853d958-738c-4f9e-91ae-b78a51f494c5")
-	)
-	(wire
-		(pts
-			(xy 134.62 48.26) (xy 134.62 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bc461d-c291-4160-be08-d37d56f27e3b")
-	)
-	(wire
-		(pts
 			(xy 25.4 121.92) (xy 27.94 121.92)
 		)
 		(stroke
@@ -2041,26 +1111,6 @@
 			(type default)
 		)
 		(uuid "08f0481c-aca5-4640-9cc2-de2387f4d563")
-	)
-	(wire
-		(pts
-			(xy 53.34 35.56) (xy 52.07 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092160ab-b0b6-425f-b008-458cea77e48e")
-	)
-	(wire
-		(pts
-			(xy 129.54 63.5) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f69079-ee70-4905-a966-361a496289bf")
 	)
 	(wire
 		(pts
@@ -2101,36 +1151,6 @@
 			(type default)
 		)
 		(uuid "10afdadc-5f32-456a-a150-bc2e241a2317")
-	)
-	(wire
-		(pts
-			(xy 118.11 38.1) (xy 120.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119f7e01-70b8-4351-95b7-637ec5b236e7")
-	)
-	(wire
-		(pts
-			(xy 129.54 53.34) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1464512d-22d5-418d-99e1-9f3599ed0b30")
-	)
-	(wire
-		(pts
-			(xy 118.11 50.8) (xy 134.62 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146ee772-f04f-4816-ac87-f98c086199b9")
 	)
 	(wire
 		(pts
@@ -2204,46 +1224,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 22.86) (xy 132.08 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ee9499-b559-41b2-96db-009e46fbafe7")
-	)
-	(wire
-		(pts
-			(xy 154.94 36.83) (xy 158.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "220b845b-3075-4be3-b6b1-925b5fc7a7f8")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 49.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2788ec5f-3da0-4609-b3b0-565bb740184f")
-	)
-	(wire
-		(pts
-			(xy 33.02 33.02) (xy 36.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c53d219-ac2d-4c3b-a87d-0ba2c270dab7")
-	)
-	(wire
-		(pts
 			(xy 217.17 139.7) (xy 217.17 140.97)
 		)
 		(stroke
@@ -2264,16 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 130.81 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f7a767-0ce3-4e06-8250-a15d6b160e31")
-	)
-	(wire
-		(pts
 			(xy 198.12 124.46) (xy 204.47 124.46)
 		)
 		(stroke
@@ -2291,16 +1261,6 @@
 			(type default)
 		)
 		(uuid "36fde34b-725d-40b8-8fab-75bfe3e58ef1")
-	)
-	(wire
-		(pts
-			(xy 132.08 33.02) (xy 134.62 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e07e1a-91d1-40a6-96e8-94b7f21ca7ae")
 	)
 	(wire
 		(pts
@@ -2334,26 +1294,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 35.56) (xy 52.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9cfa09-49ef-41d3-a2d4-ae35e580b303")
-	)
-	(wire
-		(pts
-			(xy 129.54 73.66) (xy 129.54 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b311ba8-b057-46ea-b319-c720b26f1bea")
-	)
-	(wire
-		(pts
 			(xy 179.07 138.43) (xy 179.07 135.89)
 		)
 		(stroke
@@ -2361,16 +1301,6 @@
 			(type default)
 		)
 		(uuid "3d6a1b99-21b9-4b29-9a80-889b396e6d60")
-	)
-	(wire
-		(pts
-			(xy 46.99 33.02) (xy 52.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3b2c8f-0512-4802-98cd-8033b8bf396b")
 	)
 	(wire
 		(pts
@@ -2394,16 +1324,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 68.58) (xy 49.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "435f7b97-2220-4763-923e-05858a435ba8")
-	)
-	(wire
-		(pts
 			(xy 246.38 121.92) (xy 246.38 124.46)
 		)
 		(stroke
@@ -2411,26 +1331,6 @@
 			(type default)
 		)
 		(uuid "46a713c2-815f-4d34-a56e-f8dbba5d4291")
-	)
-	(wire
-		(pts
-			(xy 142.24 33.02) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bf4ced-eab0-4843-8913-f2955a38dc85")
-	)
-	(wire
-		(pts
-			(xy 120.65 38.1) (xy 120.65 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b149124-69ec-4a62-961b-12aecd4529e2")
 	)
 	(wire
 		(pts
@@ -2454,16 +1354,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 33.02) (xy 25.4 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fa0b9f-47f8-4d15-ba86-7f53dbc0d051")
-	)
-	(wire
-		(pts
 			(xy 72.39 124.46) (xy 72.39 121.92)
 		)
 		(stroke
@@ -2481,16 +1371,6 @@
 			(type default)
 		)
 		(uuid "579b22f4-9a30-4c40-9d69-38eda1366334")
-	)
-	(wire
-		(pts
-			(xy 57.15 43.18) (xy 62.23 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0ac9c3-b7dc-4a4a-b019-0a9c3371b296")
 	)
 	(wire
 		(pts
@@ -2514,16 +1394,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 49.53) (xy 148.59 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611d7523-86aa-4a14-b6fe-cd77a9ec085e")
-	)
-	(wire
-		(pts
 			(xy 135.89 134.62) (xy 135.89 137.16)
 		)
 		(stroke
@@ -2544,36 +1414,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 120.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67ce7090-63ce-4384-a6ca-0e1cc07069c2")
-	)
-	(wire
-		(pts
-			(xy 60.96 30.48) (xy 62.23 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68393252-524b-4ee7-8116-f23e99e3863d")
-	)
-	(wire
-		(pts
-			(xy 132.08 31.75) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d4a916-3b7b-4a24-a28a-57308dde2294")
-	)
-	(wire
-		(pts
 			(xy 179.07 121.92) (xy 187.96 121.92)
 		)
 		(stroke
@@ -2591,36 +1431,6 @@
 			(type default)
 		)
 		(uuid "6db412ad-912b-4269-b4c4-ac42c607e6f4")
-	)
-	(wire
-		(pts
-			(xy 158.75 46.99) (xy 158.75 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e0820c-d1cc-402b-ab28-782cff24cbcf")
-	)
-	(wire
-		(pts
-			(xy 24.13 45.72) (xy 24.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "769dbbf7-9a36-4326-b5e8-4dfb058b5428")
-	)
-	(wire
-		(pts
-			(xy 118.11 40.64) (xy 120.65 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a6ad65-ee6b-44fd-82e9-174d5e228959")
 	)
 	(wire
 		(pts
@@ -2674,16 +1484,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 50.8) (xy 148.59 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835ea839-82ab-4d0f-ae6e-fb26c45f1884")
-	)
-	(wire
-		(pts
 			(xy 270.51 127) (xy 270.51 128.27)
 		)
 		(stroke
@@ -2704,26 +1504,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 33.02) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8442dd55-180f-4fed-92e4-f9288ebc569d")
-	)
-	(wire
-		(pts
-			(xy 24.13 33.02) (xy 24.13 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "861d7a1f-f482-4a3e-b856-b7ca0eb33978")
-	)
-	(wire
-		(pts
 			(xy 265.43 127) (xy 270.51 127)
 		)
 		(stroke
@@ -2734,26 +1514,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 53.34) (xy 129.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a65c8fb-d859-44eb-b51e-1967e93b172a")
-	)
-	(wire
-		(pts
-			(xy 60.96 26.67) (xy 60.96 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bd6220e-294e-445a-a599-e338bb2a3597")
-	)
-	(wire
-		(pts
 			(xy 27.94 130.81) (xy 27.94 132.08)
 		)
 		(stroke
@@ -2761,16 +1521,6 @@
 			(type default)
 		)
 		(uuid "8ec80de9-192a-4e11-9466-92cf661ed3cc")
-	)
-	(wire
-		(pts
-			(xy 49.53 48.26) (xy 49.53 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa932ba-0a7c-47f8-abc9-88a2858a7f46")
 	)
 	(wire
 		(pts
@@ -2791,46 +1541,6 @@
 			(type default)
 		)
 		(uuid "906010e4-26ab-4cde-a8ab-9e9b7cb928e3")
-	)
-	(wire
-		(pts
-			(xy 60.96 53.34) (xy 60.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ab4f69-0fd0-41b3-9d96-6429b47a97df")
-	)
-	(wire
-		(pts
-			(xy 148.59 40.64) (xy 148.59 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924bb7b6-b9ed-4cbf-86d8-c6f64811fabf")
-	)
-	(wire
-		(pts
-			(xy 24.13 45.72) (xy 62.23 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c176c9-901d-48be-b65e-b8ae5b7d52cf")
-	)
-	(wire
-		(pts
-			(xy 158.75 38.1) (xy 158.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9321dc9b-bce2-4efc-8abd-585fc4d64190")
 	)
 	(wire
 		(pts
@@ -2874,36 +1584,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981c1bd5-5e78-4820-89c8-ad66f83543a5")
-	)
-	(wire
-		(pts
-			(xy 52.07 33.02) (xy 62.23 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b18e652-e97f-4358-bc34-0d03678e072c")
-	)
-	(wire
-		(pts
-			(xy 118.11 48.26) (xy 125.73 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f735d18-2e74-4521-bafe-5d902ac7206e")
-	)
-	(wire
-		(pts
 			(xy 275.59 127) (xy 270.51 127)
 		)
 		(stroke
@@ -2931,26 +1611,6 @@
 			(type default)
 		)
 		(uuid "a6225d58-bd00-45af-b8e2-8ffa0b0b991e")
-	)
-	(wire
-		(pts
-			(xy 60.96 67.31) (xy 60.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63c48d7-7c35-44e6-a3fb-e7d337707375")
-	)
-	(wire
-		(pts
-			(xy 118.11 43.18) (xy 134.62 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a701d889-157b-4b58-b75a-e28fc3760ce1")
 	)
 	(wire
 		(pts
@@ -2994,16 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 62.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b346e949-889f-46fc-8250-24f1f6daa9c7")
-	)
-	(wire
-		(pts
 			(xy 52.07 132.08) (xy 53.34 132.08)
 		)
 		(stroke
@@ -3021,26 +1671,6 @@
 			(type default)
 		)
 		(uuid "b8261fa9-4ed1-4e1e-b6a2-534f414f2f57")
-	)
-	(wire
-		(pts
-			(xy 49.53 58.42) (xy 49.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b944a286-773f-4fba-8d1c-57f5ea49a279")
-	)
-	(wire
-		(pts
-			(xy 58.42 38.1) (xy 62.23 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd68189e-a54a-44c4-8456-e03570f8bcc2")
 	)
 	(wire
 		(pts
@@ -3144,26 +1774,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 39.37 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d362c388-556f-4e33-a3a1-3ddd2c431f08")
-	)
-	(wire
-		(pts
-			(xy 140.97 43.18) (xy 142.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d512c6f2-6f5b-4f62-8b20-86328bbb6f07")
-	)
-	(wire
-		(pts
 			(xy 142.24 134.62) (xy 135.89 134.62)
 		)
 		(stroke
@@ -3181,16 +1791,6 @@
 			(type default)
 		)
 		(uuid "da7fe5ad-09a6-494a-962a-204c9997c815")
-	)
-	(wire
-		(pts
-			(xy 24.13 58.42) (xy 24.13 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de59b968-2cb2-4944-9ed5-87125a8f626b")
 	)
 	(wire
 		(pts
@@ -3234,16 +1834,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 30.48) (xy 118.11 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8628066-4da0-4b8b-a5cc-f61050afadbb")
-	)
-	(wire
-		(pts
 			(xy 52.07 121.92) (xy 72.39 121.92)
 		)
 		(stroke
@@ -3274,26 +1864,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb91c5da-feb9-48a8-b4aa-7255c2dc352b")
-	)
-	(wire
-		(pts
-			(xy 118.11 35.56) (xy 120.65 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb2af78-efa9-4961-8f67-c948b2a8f465")
-	)
-	(wire
-		(pts
 			(xy 142.24 124.46) (xy 142.24 121.92)
 		)
 		(stroke
@@ -3301,26 +1871,6 @@
 			(type default)
 		)
 		(uuid "ecdd98d1-ae84-4fe2-9ed8-df68315d851d")
-	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 60.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edcc9a85-fe29-4a7f-be64-fdfc4aa82922")
-	)
-	(wire
-		(pts
-			(xy 60.96 35.56) (xy 62.23 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf2cef8-e678-4f39-9ceb-98f86ef37969")
 	)
 	(wire
 		(pts
@@ -9543,16 +8093,6 @@
 		)
 		(uuid "0a72cdf7-6a40-4339-9e3f-e84e5ae8ccb0")
 	)
-	(label "-5V5"
-		(at 143.51 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c8da762-a9a5-4050-bb4c-f7dc608a1863")
-	)
 	(label "-5VFB"
 		(at 74.93 129.54 180)
 		(effects
@@ -9562,26 +8102,6 @@
 			(justify right bottom)
 		)
 		(uuid "369c9fd1-2f80-4185-b008-4922eb73d184")
-	)
-	(label "VREF"
-		(at 154.94 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39bbcd3d-a08c-43cb-b269-80f745db3956")
-	)
-	(label "VREG"
-		(at 123.19 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42ea531d-cb77-47e8-8bd3-dea508572ae7")
 	)
 	(label "+5V_FLT"
 		(at 270.51 114.3 0)
@@ -9603,16 +8123,6 @@
 		)
 		(uuid "498bc3d2-dc68-438d-8b34-96cddddce616")
 	)
-	(label "VREG"
-		(at 58.42 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a4ca303-1a4f-48bc-a8ab-73efb703d938")
-	)
 	(label "-5VFB"
 		(at 52.07 132.08 180)
 		(effects
@@ -9632,36 +8142,6 @@
 			(justify right bottom)
 		)
 		(uuid "7127e91e-ef37-48e2-bfc8-2ce360ac7bc4")
-	)
-	(label "VREG"
-		(at 58.42 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85068d0b-428d-4ae3-8f83-16816d82f549")
-	)
-	(label "VREF"
-		(at 121.92 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c742876-ddfd-4fcc-9d4c-088b82478f9a")
-	)
-	(label "+5V5"
-		(at 36.83 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91ca542f-e8c5-46d0-9294-651128661bd1")
 	)
 	(label "-5V5"
 		(at 133.35 121.92 0)
@@ -9703,17 +8183,6 @@
 		)
 		(uuid "fb60b4cc-9c1a-4bcd-937a-a960a7eb3f0a")
 	)
-	(hierarchical_label "5Vin"
-		(shape input)
-		(at 130.81 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36e1301a-d5ab-4ef2-9a69-aad45b9eea8e")
-	)
 	(hierarchical_label "+5V_FLT"
 		(shape output)
 		(at 176.53 121.92 180)
@@ -9736,17 +8205,6 @@
 		)
 		(uuid "53389620-bdec-4824-aa85-8f624bad6084")
 	)
-	(hierarchical_label "5Vin"
-		(shape input)
-		(at 62.23 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "baac78bf-0f28-405e-ac24-e8acabafdccd")
-	)
 	(hierarchical_label "-5V_FLT"
 		(shape output)
 		(at 25.4 121.92 180)
@@ -9757,188 +8215,6 @@
 			(justify right)
 		)
 		(uuid "c012c991-f907-4050-bfe9-8b42d3355afc")
-	)
-	(hierarchical_label "5Vin"
-		(shape input)
-		(at 118.11 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f20b9294-e4fe-47d8-9a99-f65e8fedc755")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 49.53 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02c22789-ba0c-449e-a302-121be63f5e19")
-		(property "Reference" "C37"
-			(at 53.34 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 53.34 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 50.4952 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "GRM188R60J476ME15D"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "046624e6-cb72-4ea2-ab34-4e2aed0b5e9e")
-		)
-		(pin "1"
-			(uuid "49082951-0be2-4075-a863-888234aa5aef")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a7af72b-88e3-4e25-bc63-15a01919a30e")
-		(property "Reference" "C25"
-			(at 119.126 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 125.73 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 120.65 36.5252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850"
-			(at 124.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CL10A106KP8NNNC"
-			(at 124.46 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "21293bd3-8785-4a41-b6f7-fe7231cb6d12")
-		)
-		(pin "1"
-			(uuid "b847f38e-7211-4ec5-af16-633a95b4f832")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10007,73 +8283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fb0fe9b-8fff-4ed8-bffe-37ccf41ff492")
-		(property "Reference" "#PWR046"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffa88134-f26e-4d73-8ee4-a3dc7325c02d")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 275.59 120.65 0)
 		(unit 1)
@@ -10134,6 +8343,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-07620KL"
@@ -10142,6 +8352,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10154,83 +8365,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14ef6ac1-78eb-464f-9916-2d15ff49da15")
-		(property "Reference" "R31"
-			(at 50.8 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 50.8 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 47.752 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "(In Stock)"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18c7b498-1753-49c6-85ee-6c797fee04cd")
-		)
-		(pin "2"
-			(uuid "663f57bb-cbf6-4de7-a2b0-6aec8640497f")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -10347,6 +8481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "7"
@@ -10437,6 +8572,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05B103KO5NNNC"
@@ -10445,6 +8581,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10523,6 +8660,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -10531,6 +8669,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10543,81 +8682,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "183aea9d-68bd-4283-9510-4f008aba7dfa")
-		(property "Reference" "R27"
-			(at 129.54 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 129.54 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 129.54 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "(In Stock)"
-			(at 129.54 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8abbc5f4-06a1-4beb-9211-29af9c725be9")
-		)
-		(pin "2"
-			(uuid "617df4ab-c09c-400f-b1c8-c8b9e23f3d71")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -10690,141 +8754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ADP5071AREZ-R7:ADP5071AREZ-R7")
-		(at 62.23 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2468f1b6-6f4f-42e3-8815-c695bc9c45bc")
-		(property "Reference" "U11"
-			(at 90.17 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ADP5071AREZ-R7"
-			(at 90.17 22.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ADP5071:RE-20-1_ADI"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "(In Stock)"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "31765b16-8181-49f0-864f-017ebf16b7b7")
-		)
-		(pin "13"
-			(uuid "0e828017-e872-4ad5-9566-db6a13fa103f")
-		)
-		(pin "1"
-			(uuid "26138953-8415-47d7-94ba-0a319f6fac6e")
-		)
-		(pin "14"
-			(uuid "d7e72997-19fe-4597-bc1c-fb4c8c159a1b")
-		)
-		(pin "3"
-			(uuid "395ee405-80ad-492d-bead-fb23865df126")
-		)
-		(pin "12"
-			(uuid "06cec104-ed25-462c-8127-4f1ed9508c9c")
-		)
-		(pin "8"
-			(uuid "4f43cd69-98a4-4884-9da8-6d1b7c37693f")
-		)
-		(pin "4"
-			(uuid "207446b3-5912-4f53-b7d9-468276f1f444")
-		)
-		(pin "15"
-			(uuid "14e15c8d-614d-4f8e-988d-d94677c75f56")
-		)
-		(pin "6"
-			(uuid "d457ec14-a7d3-4860-be72-f01ff08e1b1d")
-		)
-		(pin "9"
-			(uuid "a2d24288-06c5-428c-acdc-06528a022125")
-		)
-		(pin "19"
-			(uuid "207d9428-6e2e-41e0-8a89-74ac48f27bcf")
-		)
-		(pin "16"
-			(uuid "a5d02836-5266-4510-b313-b5bd27e52daf")
-		)
-		(pin "2"
-			(uuid "ac4ecdb9-5779-4413-8671-383e30043559")
-		)
-		(pin "10"
-			(uuid "5b16455e-980c-4589-b03d-01c929e0b619")
-		)
-		(pin "18"
-			(uuid "30e61e11-50f4-4457-9146-dd51a570baed")
-		)
-		(pin "17"
-			(uuid "124e2f6f-f2c1-43cb-a6be-ec127ef3ef5e")
-		)
-		(pin "EPAD"
-			(uuid "771abfbd-f615-4630-b3fa-9ab4faee2850")
-		)
-		(pin "20"
-			(uuid "261e8115-9882-4d8c-aadc-bc79286bd061")
-		)
-		(pin "7"
-			(uuid "991673f5-f7b2-48f2-88da-28bf5ce0d4ac")
-		)
-		(pin "11"
-			(uuid "494825ed-01e3-4f50-afff-0162a7670c73")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 57.15 132.08 90)
 		(unit 1)
@@ -10884,6 +8813,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-0752K3L"
@@ -10892,6 +8822,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10969,6 +8900,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -10977,6 +8909,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10989,260 +8922,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 36.83 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28ab2be2-1963-42f0-9907-80da54b5795a")
-		(property "Reference" "C35"
-			(at 38.608 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 38.354 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 35.8648 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 36.83 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850"
-			(at 36.83 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CL10A106KP8NNNC"
-			(at 36.83 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb06ed32-fd02-4a6a-bf52-c16d4829df6f")
-		)
-		(pin "1"
-			(uuid "05defd91-23f6-40ed-87c1-d0ba8d10cd85")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 138.43 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "307d64bd-cb1c-4d9d-920c-943169ac8c6d")
-		(property "Reference" "C33"
-			(at 138.176 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 138.43 46.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 142.24 42.2148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CL10A106KP8NNNC"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77d82fb6-9a69-4699-9af3-135e1ac2f97e")
-		)
-		(pin "1"
-			(uuid "87170cce-6968-4071-9e2b-7e70148c5620")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 129.54 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33539082-2984-4973-9956-8aca991e18a4")
-		(property "Reference" "C38"
-			(at 133.35 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 133.35 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 130.5052 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R60J476ME15D/5877410"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "GRM188R60J476ME15D"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4fcbf451-25ca-4cec-819b-bf8def522001")
-		)
-		(pin "1"
-			(uuid "6c1efd17-1335-4aeb-b0e9-d0356f45c44d")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11309,6 +8988,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11387,6 +9067,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -11395,6 +9076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11533,6 +9215,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11566,89 +9249,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 57.15 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3988d1e7-d045-46a0-bece-a7ed13283666")
-		(property "Reference" "L1"
-			(at 53.594 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3u"
-			(at 61.722 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/tdk-corporation/MLZ2012N3R3LT000/2523497"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "MLZ2012N3R3LT000"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e6bae180-0e2e-4ef1-9ed2-70ea48fb71b1")
-		)
-		(pin "1"
-			(uuid "ed7f35b5-97ec-4202-897d-3b7420903371")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -11715,6 +9315,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -11723,6 +9324,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11735,157 +9337,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e70c853-590c-47cb-889a-330a0d78aab0")
-		(property "Reference" "C34"
-			(at 162.56 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 162.56 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 159.7152 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850"
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CL10A106KP8NNNC"
-			(at 158.75 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d76f32b0-f9c4-426a-84d4-ff32e4d59fb4")
-		)
-		(pin "1"
-			(uuid "80207fdd-9c90-4ccd-b8da-ad10ec7bed2c")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44c9f561-153b-4082-b2a2-ce60b0768e60")
-		(property "Reference" "#PWR039"
-			(at 147.32 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 145.034 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcc50294-a9e7-4021-b5e8-a24f3b1b575f")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12019,6 +9470,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -12027,6 +9479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12039,84 +9492,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fc6717f-4759-45b1-9596-00af8d223c88")
-		(property "Reference" "R25"
-			(at 26.67 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 26.67 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 22.352 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "(In Stock)"
-			(at 24.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8abbc5f4-06a1-4beb-9211-29af9c725bea")
-		)
-		(pin "2"
-			(uuid "617df4ab-c09c-400f-b1c8-c8b9e23f3d72")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12255,138 +9630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62525093-e2f5-4ea7-a4b4-3b466c0e932a")
-		(property "Reference" "#PWR043"
-			(at 148.59 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90765b20-9318-4dcd-ae0c-80e665fc2b4d")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67cf6e3d-65c3-4527-92c6-147084be30c4")
-		(property "Reference" "#PWR036"
-			(at 60.96 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dde3c68-d898-4c23-9e06-d6de1eff9b3a")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 137.16 0)
 		(unit 1)
@@ -12446,6 +9689,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
@@ -12454,6 +9698,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12466,91 +9711,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68b71dfb-34fc-4c04-a35c-e24d946cb745")
-		(property "Reference" "C36"
-			(at 150.876 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 151.13 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 149.5552 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106KP8NNNC/3886850"
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "CL10A106KP8NNNC"
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e377bab1-63a6-4e38-b14d-9735ac147f21")
-		)
-		(pin "1"
-			(uuid "0c18e785-2b63-45eb-9490-e6a8a2d0f75b")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -12623,71 +9783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "745a48c6-2dd7-43ac-9965-f71edffaad79")
-		(property "Reference" "#PWR041"
-			(at 123.19 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30eab4fa-0f2d-40b6-9947-94a81dffaa91")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 265.43 120.65 0)
 		(unit 1)
@@ -12748,6 +9843,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-078K2L"
@@ -12756,6 +9852,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12768,484 +9865,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74cff5be-f395-419e-85d5-ee968e7ae02c")
-		(property "Reference" "#PWR044"
-			(at 49.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22d4d8ef-960c-4a53-a15c-11125e501698")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75a83fc8-06de-4326-9902-e3c04d13944a")
-		(property "Reference" "#PWR035"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dde3c68-d898-4c23-9e06-d6de1eff9b3b")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "810865d6-3b58-4348-a114-ead2a724e858")
-		(property "Reference" "R29"
-			(at 146.304 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750k"
-			(at 148.59 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.812 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07750KL/728135"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "RC0805FR-07750KL"
-			(at 148.59 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f9587ad-a96e-418a-8360-14fc13695ff1")
-		)
-		(pin "2"
-			(uuid "2e46e5b4-903f-4fe7-8310-d871291ea0c2")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "826e287b-f407-45da-a901-eb73e9306e6e")
-		(property "Reference" "#PWR045"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82a659d9-a95b-47e0-a5a7-371d9daada31")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8840db9d-3ec0-4c8f-8440-697c575fe71c")
-		(property "Reference" "#PWR038"
-			(at 158.75 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dde3c68-d898-4c23-9e06-d6de1eff9b3c")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f39baf-2f82-4156-9906-32103f77cb80")
-		(property "Reference" "#PWR042"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d739d38c-b220-4030-a961-8ec898bc94c5")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a99a19b-e734-47c0-93ac-2c72fac2f199")
-		(property "Reference" "#PWR037"
-			(at 120.65 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dde3c68-d898-4c23-9e06-d6de1eff9b3d")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13375,6 +9994,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05B103KO5NNNC"
@@ -13383,6 +10003,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13395,92 +10016,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91ecf0e4-3277-449c-99d8-6be2787e2613")
-		(property "Reference" "R30"
-			(at 132.08 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k"
-			(at 132.08 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127.762 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K02L/727907"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "RC0805FR-074K02L"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eef74875-de88-4ed4-9d80-f163a46e0d67")
-		)
-		(pin "2"
-			(uuid "09c7b5ef-e02a-4a95-b9d7-7752781edfbc")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -13547,6 +10082,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -13555,6 +10091,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13632,6 +10169,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -13640,6 +10178,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13652,225 +10191,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 43.18 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a41211b-5d35-4537-a454-630a63f12e26")
-		(property "Reference" "D1"
-			(at 42.8625 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 42.8625 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 43.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 43.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f364667c-354e-4b02-89d6-a0d16f1428ce")
-		)
-		(pin "1"
-			(uuid "7b57a801-7407-4cde-8c9e-8496b3c733c9")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c53d39f-7551-4a2a-b776-4aacbc1f9657")
-		(property "Reference" "R28"
-			(at 26.67 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27K"
-			(at 26.67 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 22.352 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0727KL/727780"
-			(at 24.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "RC0805FR-0727KL"
-			(at 24.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ce33bea-3495-4df9-8277-8155d65fa6f6")
-		)
-		(pin "2"
-			(uuid "4260e277-10bd-403a-9d00-10ec4e4a8f42")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ffcfc4e-1dbf-459d-9ed3-45701f703db6")
-		(property "Reference" "#PWR031"
-			(at 128.27 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "917958c9-701e-4ef8-b05d-db2455e01239")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13937,6 +10257,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -13945,6 +10266,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13957,75 +10279,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac460c2b-61e4-4aaa-a98a-7127690a2d02")
-		(property "Reference" "R32"
-			(at 62.23 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 62.23 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 59.182 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45d55d51-34b5-4d6a-a3b4-8bc7a89bd785")
-		)
-		(pin "2"
-			(uuid "279b4b1b-b8a0-41d2-a632-f720db210970")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14092,6 +10345,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A475KO8NNNC"
@@ -14100,6 +10354,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14112,308 +10367,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7607e61-1511-420e-a254-4dff83edf981")
-		(property "Reference" "R26"
-			(at 151.13 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "36k"
-			(at 151.13 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.812 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0736KL/727883"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0736KL/727883"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8abbc5f4-06a1-4beb-9211-29af9c725beb")
-		)
-		(pin "2"
-			(uuid "617df4ab-c09c-400f-b1c8-c8b9e23f3d73")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d95e6f1b-d852-4c3c-9be6-01f8877a3482")
-		(property "Reference" "#PWR040"
-			(at 132.08 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0652c102-26ec-47a8-93ef-7c513d3148c3")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db4e192b-e065-4771-86fd-cfc64be19ea4")
-		(property "Reference" "R24"
-			(at 29.21 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "560K"
-			(at 29.21 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 29.21 31.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07560KL/728037"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "RC0805FR-07560KL"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8abbc5f4-06a1-4beb-9211-29af9c725bec")
-		)
-		(pin "2"
-			(uuid "617df4ab-c09c-400f-b1c8-c8b9e23f3d74")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0965a5b-681b-4df3-a86d-af00baa17e72")
-		(property "Reference" "#PWR047"
-			(at 60.96 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2aa29ce-97c3-44b5-ad9d-427d389dc6a2")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14479,6 +10432,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-07470KL"
@@ -14487,6 +10441,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14499,92 +10454,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 132.08 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2d74432-17fb-4b9e-91db-e0f1e71c400a")
-		(property "Reference" "L2"
-			(at 133.35 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 133.35 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.digikey.com/en/products/detail/tdk-corporation/MLZ2012N4R7LT000/2523498"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "MLZ2012N4R7LT000"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e6bae180-0e2e-4ef1-9ed2-70ea48fb71b2")
-		)
-		(pin "1"
-			(uuid "ed7f35b5-97ec-4202-897d-3b7420903372")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -14651,73 +10520,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 138.43 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5a890e0-6610-4b94-a46a-e7b393278514")
-		(property "Reference" "D2"
-			(at 138.684 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 138.176 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea1ffa18-5ab4-4d86-a480-c42d05e874d3")
-		)
-		(pin "1"
-			(uuid "be5d2d4c-686d-442c-aca8-de5d93646e01")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/22bf93f4-b6c7-483e-b255-2ccf5bc3f52b"
-					(reference "D2")
 					(unit 1)
 				)
 			)

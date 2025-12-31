@@ -82,18 +82,6 @@
         [
           "clearance|129822500|100875000|76480231-de7b-4139-a658-a501786662c1|37089b9a-cb97-42d9-a3c2-ed9fac14b4d7",
           ""
-        ],
-        [
-          "clearance|92512500|109087500|e8bb55ea-6767-4b87-b958-3597ed09ff1b|eca1c92a-966e-480d-88bf-44d031f259b6",
-          ""
-        ],
-        [
-          "clearance|93237500|110025000|bf27c038-7115-474e-bc59-283073b04223|eca1c92a-966e-480d-88bf-44d031f259b6",
-          ""
-        ],
-        [
-          "clearance|97937500|130347500|9c866290-564d-46f4-be10-ca76c6608bbf|c5ed0016-4d49-40ff-97dd-95a9e7db746b",
-          ""
         ]
       ],
       "meta": {
@@ -911,16 +899,8 @@
       "Root"
     ],
     [
-      "2765e1cc-205a-4739-b769-20b95f3d1fdb",
-      "USB Audio Input"
-    ],
-    [
       "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b",
       "Audio Rails"
-    ],
-    [
-      "a76b11f7-fbf9-4331-be15-052b46a69f96",
-      "General Power"
     ],
     [
       "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea",
@@ -929,14 +909,6 @@
     [
       "a8d45096-939e-42db-8984-b3f2d55a20c4",
       "Headphone Amp Stage"
-    ],
-    [
-      "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788",
-      "Clocking"
-    ],
-    [
-      "0346ac0a-d31e-4505-a4d1-b754844bfbfe",
-      "Debug"
     ]
   ],
   "text_variables": {}
