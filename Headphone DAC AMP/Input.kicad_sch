@@ -12265,6 +12265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -12441,6 +12442,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -12960,6 +12962,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -13133,6 +13136,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -13377,6 +13381,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -13620,6 +13625,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -13863,6 +13869,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -14273,6 +14280,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -14449,6 +14457,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -14614,6 +14623,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -14788,6 +14798,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -14962,6 +14973,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -15381,6 +15393,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -15547,6 +15560,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -15741,6 +15755,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -16416,6 +16431,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -16588,6 +16604,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -16764,6 +16781,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -17183,6 +17201,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -17603,6 +17622,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -17769,6 +17789,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -18206,6 +18227,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05A105KP5NNNC"
@@ -18214,6 +18236,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -18624,6 +18647,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -18987,6 +19011,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -19403,6 +19428,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -19645,6 +19671,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -19955,6 +19982,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""

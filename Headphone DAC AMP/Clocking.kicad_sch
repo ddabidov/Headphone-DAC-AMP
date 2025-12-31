@@ -1811,6 +1811,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-0722RL"
@@ -1819,6 +1820,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2049,6 +2051,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05A104KA5NNNC"
@@ -2057,6 +2060,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2286,6 +2290,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-0722RL"
@@ -2294,6 +2299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2524,6 +2530,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-0722RL"
@@ -2532,6 +2539,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2696,6 +2704,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2997,6 +3006,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05A104KA5NNNC"
@@ -3005,6 +3015,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -3170,6 +3181,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10C180JB81PNC"
@@ -3178,6 +3190,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -3408,6 +3421,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -3577,6 +3591,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10C180JB81PNC"
@@ -3585,6 +3600,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -3879,6 +3895,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-07680RL"
@@ -3887,6 +3904,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -4050,6 +4068,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-0722RL"
@@ -4058,6 +4077,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -4222,6 +4242,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -4394,6 +4415,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "RC0805FR-071ML"
@@ -4402,6 +4424,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""

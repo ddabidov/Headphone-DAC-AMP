@@ -2347,6 +2347,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2567,6 +2568,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2733,6 +2735,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05A104KA5NNNC"
@@ -2741,6 +2744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -2972,6 +2976,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "PESD5V0L1BSLAZ"
@@ -2980,6 +2985,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -3278,6 +3284,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL05A104KA5NNNC"
@@ -3286,6 +3293,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
