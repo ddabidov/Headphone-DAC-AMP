@@ -14946,6 +14946,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
@@ -14954,6 +14955,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15032,6 +15034,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
@@ -15312,6 +15315,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
@@ -15398,6 +15402,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
@@ -16071,6 +16076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "CL10A106KP8NNNC"
