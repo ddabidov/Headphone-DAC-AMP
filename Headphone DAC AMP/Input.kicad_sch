@@ -7397,7 +7397,6 @@
 		(symbol "XU316-1024-QF60B-C24:XU316-1024-QF60B-C24"
 			(pin_names
 				(offset 0.254)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)

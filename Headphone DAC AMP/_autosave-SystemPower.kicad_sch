@@ -2110,17 +2110,6 @@
 		)
 		(uuid "4ff062e6-88be-496a-a9c3-09f333f96509")
 	)
-	(text "NOTE: The EN and NR pins will show up on the schematic.\n-	Ven goes to Vin for the enable\n-	NR is floating"
-		(exclude_from_sim no)
-		(at 77.724 142.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "573086c6-12fa-4e81-b3f0-a26d8fdf6110")
-	)
 	(text "1.8V LDO"
 		(exclude_from_sim no)
 		(at 71.374 123.444 0)
@@ -8369,7 +8358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_3x3mm_P0.95mm"
+		(property "Footprint" "NCV8187AMTW090TAG:SON65P200X200X80-7N"
 			(at 72.39 151.13 0)
 			(effects
 				(font
