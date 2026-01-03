@@ -2262,16 +2262,16 @@
 		(uuid "b3354ae5-d52a-48f5-b46f-a4bb01329699")
 	)
 	(junction
+		(at 99.06 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e1de08-236d-4739-b945-37e776b1c4f3")
+	)
+	(junction
 		(at 165.1 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5d06c74-0d63-4050-abf4-672fcf7acd30")
-	)
-	(junction
-		(at 99.06 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cab97d20-e8ae-48e6-8a05-e390d1f4dcad")
 	)
 	(junction
 		(at 137.16 54.61)
@@ -2561,16 +2561,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 151.13) (xy 99.06 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb05bc7-bfd4-4c8e-bbbd-77d1b8f9bbc5")
-	)
-	(wire
-		(pts
 			(xy 106.68 148.59) (xy 109.22 148.59)
 		)
 		(stroke
@@ -2851,16 +2841,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 148.59) (xy 99.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a03d628-e81d-4708-b939-d0bbea33b528")
-	)
-	(wire
-		(pts
 			(xy 165.1 44.45) (xy 165.1 41.91)
 		)
 		(stroke
@@ -3008,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "9dfbf9c1-81a7-413b-8508-4aa152daf174")
+	)
+	(wire
+		(pts
+			(xy 82.55 151.13) (xy 99.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0d4142-2bc6-49d7-8ff3-1084e94923ed")
 	)
 	(wire
 		(pts
@@ -3228,6 +3218,16 @@
 			(type default)
 		)
 		(uuid "cef67c9e-75e9-4edf-96ef-3b5befbb9550")
+	)
+	(wire
+		(pts
+			(xy 82.55 148.59) (xy 99.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf382a1b-7c50-4feb-92a4-7b3f3b7371bd")
 	)
 	(wire
 		(pts
@@ -3528,6 +3528,16 @@
 			(justify left bottom)
 		)
 		(uuid "1607ee61-2454-4053-bee0-30f7b4492c21")
+	)
+	(label "0V9"
+		(at 87.63 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f48a5e7-3e46-4514-80ce-89073cf18b3e")
 	)
 	(label "VREG"
 		(at 171.45 46.99 180)
@@ -7762,6 +7772,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
@@ -8443,7 +8454,7 @@
 			(uuid "317cb0d4-b363-48f2-9b47-b378c7477614")
 		)
 		(instances
-			(project ""
+			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "U1")
 					(unit 1)
@@ -8521,6 +8532,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "AVAILABILITY" ""
