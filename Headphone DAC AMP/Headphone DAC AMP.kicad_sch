@@ -548,7 +548,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 34.29) (xy 88.9 34.29)
+			(xy 175.26 46.99) (xy 163.83 46.99)
 		)
 		(stroke
 			(width 0)
@@ -648,16 +648,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 31.75) (xy 59.69 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73234a81-a569-4579-b5ff-4ad9044a9ca7")
-	)
-	(wire
-		(pts
 			(xy 227.33 91.44) (xy 224.79 91.44)
 		)
 		(stroke
@@ -668,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 38.1) (xy 63.5 38.1)
+			(xy 143.51 50.8) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 179.07 29.21)
+			(xy 163.83 41.91) (xy 179.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 41.91)
+			(xy 138.43 50.8) (xy 138.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 29.21) (xy 179.07 60.96)
+			(xy 179.07 41.91) (xy 179.07 60.96)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 63.5) (xy 175.26 34.29)
+			(xy 175.26 63.5) (xy 175.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -999,6 +989,60 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1295,7 +1339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 41.91 0)
+		(at 138.43 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1304,7 +1348,7 @@
 		(fields_autoplaced yes)
 		(uuid "f352a3f7-9753-43fc-be7d-951b73f64797")
 		(property "Reference" "#PWR0112"
-			(at 63.5 48.26 0)
+			(at 138.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 46.99 0)
+			(at 138.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 41.91 0)
+			(at 138.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 41.91 0)
+			(at 138.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 41.91 0)
+			(at 138.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,8 +1404,8 @@
 		)
 	)
 	(sheet
-		(at 68.58 26.67)
-		(size 20.32 13.97)
+		(at 143.51 38.1)
+		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1376,7 +1420,7 @@
 		)
 		(uuid "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b")
 		(property "Sheetname" "Audio Rails"
-			(at 68.58 25.9584 0)
+			(at 143.51 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1429,7 @@
 			)
 		)
 		(property "Sheetfile" "AudioRails.kicad_sch"
-			(at 68.58 41.2246 0)
+			(at 143.51 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1438,7 @@
 			)
 		)
 		(pin "+5V_FLT" output
-			(at 88.9 29.21 0)
+			(at 163.83 41.91 0)
 			(uuid "4c853165-3b50-4973-b7f5-a2b5cd7383f6")
 			(effects
 				(font
@@ -1404,7 +1448,7 @@
 			)
 		)
 		(pin "-5V_FLT" output
-			(at 88.9 34.29 0)
+			(at 163.83 46.99 0)
 			(uuid "0961bd89-7b74-4e99-a246-2e764161ec87")
 			(effects
 				(font
@@ -1414,7 +1458,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 68.58 38.1 180)
+			(at 143.51 50.8 180)
 			(uuid "c9ee168e-8887-4544-9f8d-2a2f056e78cf")
 			(effects
 				(font
@@ -1423,9 +1467,19 @@
 				(justify left)
 			)
 		)
-		(pin "5Vin" input
-			(at 68.58 31.75 180)
-			(uuid "63dbc158-18ae-4553-9f63-f9b680e95120")
+		(pin "-6V" output
+			(at 143.51 46.99 180)
+			(uuid "c96931be-a2e5-4c64-80cd-11a43bdacdbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+6V" output
+			(at 143.51 41.91 180)
+			(uuid "8a1607dd-69a5-451e-9001-83a48af8cd89")
 			(effects
 				(font
 					(size 1.27 1.27)
