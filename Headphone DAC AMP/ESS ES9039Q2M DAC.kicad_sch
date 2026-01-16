@@ -15546,7 +15546,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30ef3810-e448-4684-b592-e1ee3f8511ce")
 		(property "Reference" "#PWR020"
 			(at 21.59 29.21 0)
@@ -15557,12 +15556,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 21.59 20.32 0)
+		(property "Value" "5V"
+			(at 21.59 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16568,7 +16568,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b416bcde-6736-4c0a-a4e2-61c8f48fd2f8")
+			(uuid "b416bcde-6736-4c0a-a4e2-61c8f48fd2f9")
 		)
 		(instances
 			(project ""
@@ -16920,7 +16920,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b416bcde-6736-4c0a-a4e2-61c8f48fd2f8")
+			(uuid "b416bcde-6736-4c0a-a4e2-61c8f48fd2fa")
 		)
 		(instances
 			(project ""
