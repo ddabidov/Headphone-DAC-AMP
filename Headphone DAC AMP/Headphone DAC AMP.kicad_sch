@@ -1105,6 +1105,126 @@
 		)
 		(uuid "fce23328-1667-43f0-a2e6-b92116cfefc2")
 	)
+	(label "GPIO4"
+		(at 143.51 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a115911-7f4a-4a49-b538-ebbd825beeaa")
+	)
+	(label "GPIO2"
+		(at 143.51 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a4afbfa-0a44-449f-a517-6618c1164590")
+	)
+	(label "LRCLK_OUT"
+		(at 143.51 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c57964f-fae6-4214-8f15-7ad0b3ce1785")
+	)
+	(label "BCLK_OUT"
+		(at 143.51 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2086b4cf-0cef-4c10-869d-4db8ca4775a2")
+	)
+	(label "MCLK_OUT"
+		(at 143.51 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2382877c-571e-4d56-ba61-ba220af3e253")
+	)
+	(label "I2C_SCL"
+		(at 143.51 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29e316f2-ca68-48e3-9ef9-19e8219df95a")
+	)
+	(label "I2S_DATA_OUT"
+		(at 143.51 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5181c7e0-94b8-4f84-b606-ca810c3e5939")
+	)
+	(label "GPIO5"
+		(at 143.51 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59349986-652d-44e1-a832-373e21874280")
+	)
+	(label "I2C_SDA"
+		(at 143.51 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a849807d-38c2-49de-b4ac-c743609507c9")
+	)
+	(label "GPIO1"
+		(at 143.51 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8e5d146-dc25-4999-9480-1290f56d2762")
+	)
+	(label "DAC_RST"
+		(at 143.51 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8797a98-13f0-4d8a-a20e-547217816224")
+	)
+	(label "GPIO6"
+		(at 143.51 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d49a9ff9-3808-4f46-884a-899661164e84")
+	)
 	(label "GND"
 		(at 22.86 181.61 0)
 		(effects
@@ -1114,6 +1234,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0c54bd7-8c68-4d73-9593-70370bc7e779")
+	)
+	(label "GPIO3"
+		(at 143.51 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fff93e2b-74cb-4399-8a36-aa1e646af681")
 	)
 	(symbol
 		(lib_id "Device:R")
