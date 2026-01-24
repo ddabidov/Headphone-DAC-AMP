@@ -231,6 +231,109 @@
 	(net 87 "/GPIO4")
 	(net 88 "/GPIO6")
 	(net 89 "/GPIO5")
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "061ba2a5-2b9a-4f28-8eca-da6884f975bb")
+		(at 85.825 112.5)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP2"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "1ae60769-7f72-419b-b807-d25caf67d17f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "14417f4c-6f07-4204-aaf1-65e456654a65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4377d103-6941-4127-9ec4-5715e31d330f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c509501b-7950-478c-bdfe-fbee503245e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e0b8fe34-d476-48aa-82d1-b0ba2e6c9788/efaa2d02-9a19-4425-9198-ff61dbd76e37")
+		(sheetname "/Clocking/")
+		(sheetfile "Clocking.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3ca9c57f-9f5f-4e2c-bda4-6d135f0d422a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "010b8c7e-e843-48af-9226-9e607514d6fe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "08188edd-8db4-43a5-a4eb-33d3f8d3ccf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 16 "/Clocking/XTAL1_OUT")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "20ea46ca-1d16-4d48-a7d1-33187b4848d1")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "097ad2e1-b62c-4064-9ff2-2b426ac03488")
@@ -5060,6 +5163,111 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(layer "F.Cu")
+		(uuid "22735f54-ecea-4261-aae9-ca5b3662c0c8")
+		(at 114.825 134.9)
+		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP6"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "64b1c31a-1927-4b5a-8ab3-cca7c8aaf19e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "e83c0f63-7b0b-4878-a6ab-7acb5d9ddb1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8079c64-5a57-4016-99cf-b575dbd09cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b047aecd-1cb3-4967-92f3-606cd1c76da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a76b11f7-fbf9-4331-be15-052b46a69f96/ffc1a424-ad5b-4060-834a-066c7b558562")
+		(sheetname "/General Power/")
+		(sheetfile "SystemPower.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ff51b269-94d1-4a92-a8ac-d623fdfe4478")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0a9304a5-3b7e-4a1d-bd16-2c1cdd376ce8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "44bfac2a-cc06-415b-9e86-bfcfa19c5dc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "+1V8")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ce7d2c35-49ae-477c-a072-3dc556b79072")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2562e29f-a2f9-40d4-9422-895472ed7d55")
@@ -6432,6 +6640,109 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "2dbd99fb-0c1e-4ed5-b9d7-240ca3cc44c9")
+		(at 87.825 122.9)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP4"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "e37c59fd-9bec-4044-b607-f42d49ee0b9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "39dc727e-283c-4b57-9487-e7813bfdf732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fac944c3-d685-4ae3-a4ac-7990801161ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8907bfb0-11d2-4cc1-98d8-9fdddcb58ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0346ac0a-d31e-4505-a4d1-b754844bfbfe/37b4dfd4-9744-47de-af78-f9e7fd47d2ba")
+		(sheetname "/Debug/")
+		(sheetfile "Debug.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4480ecff-4b24-4dc8-9252-98dfa997dcb4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b7c9e187-7946-4bfb-acb2-502e13073084")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "01727ea1-5bc3-4236-8128-3c0370156e03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 15 "/Debug/XMOS_NRST")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "dcf8e28b-081f-4832-b208-43030cf7e478")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "311a92af-37dd-43f4-b410-9517f4e1eefc")
@@ -7167,6 +7478,109 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "33acf8a2-766a-4701-9786-e959bf770d60")
+		(at 101.825 131.5)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP3"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "534f6798-8fae-458d-b823-f40022ba8b6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "1c89c1f1-e600-4fb0-8e59-e9b67ae1d1b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ec6c9e1-7e49-4024-9adc-8bcbd7cb7e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18d8a957-1d90-4ce9-8d86-26d7bfb0bb7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e0b8fe34-d476-48aa-82d1-b0ba2e6c9788/a8ae8887-efb1-4bbd-8453-dfdcaf80f93a")
+		(sheetname "/Clocking/")
+		(sheetfile "Clocking.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c2aefa32-e19b-4d99-b8f5-17ed41f77eba")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "97da8134-6ddd-497d-9509-3135d884b0ee")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "6723762f-7d37-4b1d-924a-ad79b156bb58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 11 "/Clocking/MCLK")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b12faee6-0705-4e5b-b72f-2349a719e50d")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -12638,6 +13052,214 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "6cc86d0c-b0be-40c3-a9ab-90eb6385d74c")
+		(at 91.025 108.7)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP1"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "2574a167-8c6a-4809-85d6-66ea05bc2b62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "c7932365-773a-4e0c-a956-69e106a2200b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aacd5a3-7992-4386-80a8-7114a59b47c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22e82833-eaf7-451f-a596-a5d79be5d963")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e0b8fe34-d476-48aa-82d1-b0ba2e6c9788/478b5a5c-2516-45e3-a65d-b6874791ab32")
+		(sheetname "/Clocking/")
+		(sheetfile "Clocking.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "39db8f41-93f7-4b9f-8efd-00bf82d5d5d2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5368f403-8c32-4907-b8ba-9e436a717934")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "0b97f439-7c00-45d2-80c6-6180182bf2d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 6 "/Clocking/XTAL1_IN")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1db4b59a-8bd1-4c1e-9aa4-fb06118da84b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(layer "F.Cu")
+		(uuid "6ddb593c-106a-44e8-85f4-c24b04f9965f")
+		(at 93.025 130.7)
+		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP7"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "e74a336f-13a8-4834-98b8-ce4c0af524e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "840d872c-a26c-4cdd-adfb-174bb62d5e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7637b27-777b-4e4a-b7c6-4a555a396534")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d13faac6-da6b-4b8d-aa40-11a9c4bfd884")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a76b11f7-fbf9-4331-be15-052b46a69f96/a9e8fde3-60a7-4147-bbad-1de46ba17533")
+		(sheetname "/General Power/")
+		(sheetfile "SystemPower.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8ae84f04-7611-4b51-9a3e-090b9a5854a0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c493e955-5487-44fa-9b3c-71fa255061c2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "cfdb5252-50d0-4aa1-a3ff-c4767470a94c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "0V9")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9aa517b5-0631-44d5-81d7-afab3e6a9432")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
@@ -31429,6 +32051,111 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(layer "F.Cu")
+		(uuid "e46b6e40-4b62-4985-afe4-296b69bc2b5b")
+		(at 114.825 131.9)
+		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP5"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "9201929f-14cd-4156-b44a-887091b18511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "5a248f2c-4df3-49de-bfca-f49a72e2a838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e48f2b2d-0816-42a6-8971-b19e6350bc7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bb283f3-0aef-4da6-ab06-4f9aa1cff3f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a76b11f7-fbf9-4331-be15-052b46a69f96/39ad0b5d-f7fc-422e-9493-8178e9363656")
+		(sheetname "/General Power/")
+		(sheetfile "SystemPower.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fcafb3e0-3ad3-4901-b931-df7c727b23b2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "80de85c5-1126-49e9-b23b-37b85bc46a42")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "40f9fe7b-c85b-4c8b-8b6a-cc21dfc2d2aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "+3.3V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6922d2d1-a146-45b7-845e-f15295b960a2")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -51089,20 +51816,20 @@
 		(uuid "f55ff5de-7e2c-4c09-b20d-52beb643f983")
 	)
 	(segment
-		(start 112.825 141.022462)
-		(end 112.825 135.9)
+		(start 112.825 133.9)
+		(end 114.825 131.9)
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 2)
-		(uuid "1377658f-102d-49b8-ae79-19cc618833b4")
+		(uuid "03c3fb20-3137-4fff-a2d4-fa3a0dbea63d")
 	)
 	(segment
-		(start 111.025 142.08)
-		(end 111.767462 142.08)
+		(start 112.825 141.022462)
+		(end 112.825 133.9)
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 2)
-		(uuid "a1898282-d412-4832-8535-ce3165d364ab")
+		(uuid "33ff09e7-9938-46d0-a000-ab7566dbb13a")
 	)
 	(segment
 		(start 111.767462 142.08)
@@ -51110,15 +51837,15 @@
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 2)
-		(uuid "f23607be-4f75-4a6a-9fba-f47bf4d40045")
+		(uuid "d1620ec1-b32f-41d3-ba2b-ac58ff5c3ac0")
 	)
 	(segment
-		(start 112.825 135.9)
-		(end 110.825 133.9)
+		(start 111.025 142.08)
+		(end 111.767462 142.08)
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 2)
-		(uuid "f3a51598-01f8-49cb-9be0-bc57f2257faf")
+		(uuid "e5cb0b7c-0e93-460c-9583-4cd07dd63ed1")
 	)
 	(via
 		(at 98.49 146.375)
@@ -51454,7 +52181,23 @@
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 8)
-		(uuid "01c08cdf-2b8d-4050-b1dd-50d7802644e6")
+		(uuid "6aaaa9ed-bc8b-4924-8456-4aace92abd43")
+	)
+	(segment
+		(start 113.825 146.555)
+		(end 113.825 135.9)
+		(width 0.4)
+		(layer "In2.Cu")
+		(net 8)
+		(uuid "b1f81585-e531-4b92-958a-69207c19de7e")
+	)
+	(segment
+		(start 113.825 135.9)
+		(end 114.825 134.9)
+		(width 0.4)
+		(layer "In2.Cu")
+		(net 8)
+		(uuid "c2b35f74-e033-486f-a22a-8d5b028231da")
 	)
 	(segment
 		(start 111.95 148.43)
@@ -51462,15 +52205,7 @@
 		(width 0.4)
 		(layer "In2.Cu")
 		(net 8)
-		(uuid "1f03b529-0683-45f9-94bb-b57279a283df")
-	)
-	(segment
-		(start 113.825 146.555)
-		(end 113.825 131.9)
-		(width 0.4)
-		(layer "In2.Cu")
-		(net 8)
-		(uuid "eead805d-6ea3-435e-8b77-4da987f1e8e9")
+		(uuid "c4f60ee8-5fcc-4cc4-b875-0e517769d8f5")
 	)
 	(segment
 		(start 93.823 117.688111)
@@ -56573,51 +57308,6 @@
 		)
 	)
 	(zone
-		(net 13)
-		(net_name "/USB Audio Input/D+")
-		(layer "F.Cu")
-		(uuid "0e3c1731-fb2a-4307-8fca-def5d409579b")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30078)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 90.725 129.75) (xy 90.724999 129.746494) (xy 90.726471 129.68587) (xy 90.736967 129.614291)
-				(xy 90.765528 129.551974) (xy 90.789408 129.530606) (xy 90.821194 129.519134) (xy 90.625 129.199)
-				(xy 90.428806 129.519134) (xy 90.478299 129.544912) (xy 90.509493 129.60182) (xy 90.524102 129.696108)
-				(xy 90.525001 129.746494) (xy 90.525 129.75)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 90.631114 129.211416) (xy 90.634976 129.215278) (xy 90.81369 129.50689) (xy 90.815091 129.515735)
-				(xy 90.809828 129.52298) (xy 90.807686 129.524009) (xy 90.789409 129.530605) (xy 90.765528 129.551973)
-				(xy 90.765527 129.551975) (xy 90.736967 129.614289) (xy 90.726471 129.685863) (xy 90.726471 129.68587)
-				(xy 90.725191 129.738586) (xy 90.721565 129.746771) (xy 90.713495 129.75) (xy 90.536557 129.75)
-				(xy 90.528284 129.746573) (xy 90.524859 129.738509) (xy 90.524102 129.696106) (xy 90.509493 129.60182)
-				(xy 90.478299 129.544912) (xy 90.464039 129.537485) (xy 90.439932 129.524928) (xy 90.434178 129.518067)
-				(xy 90.43496 129.509146) (xy 90.435353 129.50845) (xy 90.615024 129.215277) (xy 90.622269 129.210015)
-			)
-		)
-	)
-	(zone
 		(net 12)
 		(net_name "0V9")
 		(layer "F.Cu")
@@ -56936,51 +57626,6 @@
 				(xy 89.560223 142.674832) (xy 89.561084 142.673145) (xy 89.626038 142.567992) (xy 89.626258 142.567651)
 				(xy 89.626286 142.567609) (xy 89.662329 142.513715) (xy 89.707218 142.411405) (xy 89.720277 142.343479)
 				(xy 89.724388 142.269279) (xy 89.728267 142.261208) (xy 89.73607 142.258226) (xy 89.914138 142.258226)
-			)
-		)
-	)
-	(zone
-		(net 14)
-		(net_name "/USB Audio Input/D-")
-		(layer "F.Cu")
-		(uuid "1d227509-3772-4fb9-9113-067f616e6d48")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30079)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 89.825 129.75) (xy 89.824999 129.746494) (xy 89.826471 129.68587) (xy 89.836967 129.614291)
-				(xy 89.865528 129.551974) (xy 89.889408 129.530606) (xy 89.921194 129.519134) (xy 89.725 129.199)
-				(xy 89.528806 129.519134) (xy 89.578299 129.544912) (xy 89.609493 129.60182) (xy 89.624102 129.696108)
-				(xy 89.625001 129.746494) (xy 89.625 129.75)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 89.731114 129.211416) (xy 89.734976 129.215278) (xy 89.91369 129.50689) (xy 89.915091 129.515735)
-				(xy 89.909828 129.52298) (xy 89.907686 129.524009) (xy 89.889409 129.530605) (xy 89.865528 129.551973)
-				(xy 89.865527 129.551975) (xy 89.836967 129.614289) (xy 89.826471 129.685863) (xy 89.826471 129.68587)
-				(xy 89.825191 129.738586) (xy 89.821565 129.746771) (xy 89.813495 129.75) (xy 89.636557 129.75)
-				(xy 89.628284 129.746573) (xy 89.624859 129.738509) (xy 89.624102 129.696106) (xy 89.609493 129.60182)
-				(xy 89.578299 129.544912) (xy 89.564039 129.537485) (xy 89.539932 129.524928) (xy 89.534178 129.518067)
-				(xy 89.53496 129.509146) (xy 89.535353 129.50845) (xy 89.715024 129.215277) (xy 89.722269 129.210015)
 			)
 		)
 	)
@@ -59162,51 +59807,6 @@
 		)
 	)
 	(zone
-		(net 13)
-		(net_name "/USB Audio Input/D+")
-		(layer "F.Cu")
-		(uuid "580e96e0-6147-4ad6-9124-5b6786dafda4")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30077)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 90.525 128.65) (xy 90.525001 128.653506) (xy 90.523529 128.71413) (xy 90.513033 128.785709)
-				(xy 90.484472 128.848026) (xy 90.460592 128.869394) (xy 90.428806 128.880866) (xy 90.625 129.201)
-				(xy 90.821194 128.880866) (xy 90.771701 128.855088) (xy 90.740507 128.79818) (xy 90.725898 128.703892)
-				(xy 90.724999 128.653506) (xy 90.725 128.65)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 90.721716 128.653427) (xy 90.725141 128.661491) (xy 90.725897 128.703893) (xy 90.740506 128.798179)
-				(xy 90.740507 128.79818) (xy 90.771701 128.855088) (xy 90.799076 128.869346) (xy 90.810067 128.875071)
-				(xy 90.815821 128.881932) (xy 90.815039 128.890853) (xy 90.814638 128.891562) (xy 90.634976 129.184721)
-				(xy 90.627731 129.189984) (xy 90.618886 129.188583) (xy 90.615024 129.184721) (xy 90.436309 128.893109)
-				(xy 90.434908 128.884264) (xy 90.440171 128.877019) (xy 90.442307 128.875993) (xy 90.460592 128.869394)
-				(xy 90.484472 128.848026) (xy 90.513033 128.785709) (xy 90.523529 128.71413) (xy 90.524808 128.661413)
-				(xy 90.528435 128.653229) (xy 90.536505 128.65) (xy 90.713443 128.65)
-			)
-		)
-	)
-	(zone
 		(net 16)
 		(net_name "/Clocking/XTAL1_OUT")
 		(layer "F.Cu")
@@ -60775,6 +61375,48 @@
 		)
 	)
 	(zone
+		(net 14)
+		(net_name "/USB Audio Input/D-")
+		(layer "F.Cu")
+		(uuid "77aa7bbd-804d-4ac4-89c8-1a973d25bd77")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 89.825 129.75) (xy 89.824999 129.746494) (xy 89.826471 129.68587) (xy 89.836967 129.614291)
+				(xy 89.865528 129.551974) (xy 89.889408 129.530606) (xy 89.921194 129.519134) (xy 89.725 129.199)
+				(xy 89.528806 129.519134) (xy 89.578299 129.544912) (xy 89.609493 129.60182) (xy 89.624102 129.696108)
+				(xy 89.625001 129.746494) (xy 89.625 129.75)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 89.825 129.75) (xy 89.824999 129.746494) (xy 89.826471 129.68587) (xy 89.836967 129.614291)
+				(xy 89.865528 129.551974) (xy 89.889408 129.530606) (xy 89.921194 129.519134) (xy 89.725 129.199)
+				(xy 89.528806 129.519134) (xy 89.578299 129.544912) (xy 89.609493 129.60182) (xy 89.624102 129.696108)
+				(xy 89.625001 129.746494) (xy 89.625 129.75)
+			)
+		)
+	)
+	(zone
 		(net 33)
 		(net_name "/USB Audio Input/QSPI_D2")
 		(layer "F.Cu")
@@ -61043,6 +61685,48 @@
 				(xy 102.353779 98.183465) (xy 102.348174 98.190449) (xy 102.339272 98.191424) (xy 102.337698 98.19084)
 				(xy 101.664145 97.884218) (xy 101.658036 97.877671) (xy 101.658344 97.868721) (xy 101.660462 97.865562)
 				(xy 102.18212 97.310202) (xy 102.19028 97.30652)
+			)
+		)
+	)
+	(zone
+		(net 13)
+		(net_name "/USB Audio Input/D+")
+		(layer "F.Cu")
+		(uuid "7ff1a35a-0a95-43a3-af19-09b075470d6d")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 90.525 128.65) (xy 90.525001 128.653506) (xy 90.523529 128.71413) (xy 90.513033 128.785709)
+				(xy 90.484472 128.848026) (xy 90.460592 128.869394) (xy 90.428806 128.880866) (xy 90.625 129.201)
+				(xy 90.821194 128.880866) (xy 90.771701 128.855088) (xy 90.740507 128.79818) (xy 90.725898 128.703892)
+				(xy 90.724999 128.653506) (xy 90.725 128.65)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 90.525 128.65) (xy 90.525001 128.653506) (xy 90.523529 128.71413) (xy 90.513033 128.785709)
+				(xy 90.484472 128.848026) (xy 90.460592 128.869394) (xy 90.428806 128.880866) (xy 90.625 129.201)
+				(xy 90.821194 128.880866) (xy 90.771701 128.855088) (xy 90.740507 128.79818) (xy 90.725898 128.703892)
+				(xy 90.724999 128.653506) (xy 90.725 128.65)
 			)
 		)
 	)
@@ -61643,6 +62327,48 @@
 		)
 	)
 	(zone
+		(net 13)
+		(net_name "/USB Audio Input/D+")
+		(layer "F.Cu")
+		(uuid "91fd2ea2-91cc-479e-b8b7-7f996baf1975")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 90.725 129.75) (xy 90.724999 129.746494) (xy 90.726471 129.68587) (xy 90.736967 129.614291)
+				(xy 90.765528 129.551974) (xy 90.789408 129.530606) (xy 90.821194 129.519134) (xy 90.625 129.199)
+				(xy 90.428806 129.519134) (xy 90.478299 129.544912) (xy 90.509493 129.60182) (xy 90.524102 129.696108)
+				(xy 90.525001 129.746494) (xy 90.525 129.75)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 90.725 129.75) (xy 90.724999 129.746494) (xy 90.726471 129.68587) (xy 90.736967 129.614291)
+				(xy 90.765528 129.551974) (xy 90.789408 129.530606) (xy 90.821194 129.519134) (xy 90.625 129.199)
+				(xy 90.428806 129.519134) (xy 90.478299 129.544912) (xy 90.509493 129.60182) (xy 90.524102 129.696108)
+				(xy 90.525001 129.746494) (xy 90.525 129.75)
+			)
+		)
+	)
+	(zone
 		(net 8)
 		(net_name "+1V8")
 		(layer "F.Cu")
@@ -62051,6 +62777,48 @@
 				(xy 96.931852 125.688815) (xy 96.932004 125.688168) (xy 96.966973 125.555701) (xy 96.967086 125.555299)
 				(xy 96.972966 125.535862) (xy 96.981853 125.506488) (xy 96.994357 125.439866) (xy 96.998466 125.354143)
 				(xy 97.002286 125.346044) (xy 97.010153 125.343004) (xy 97.188056 125.343004)
+			)
+		)
+	)
+	(zone
+		(net 14)
+		(net_name "/USB Audio Input/D-")
+		(layer "F.Cu")
+		(uuid "9f7ee696-0575-40ed-8dab-c7328e646be6")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 89.625 128.65) (xy 89.625001 128.653506) (xy 89.623529 128.71413) (xy 89.613033 128.785709)
+				(xy 89.584472 128.848026) (xy 89.560592 128.869394) (xy 89.528806 128.880866) (xy 89.725 129.201)
+				(xy 89.921194 128.880866) (xy 89.871701 128.855088) (xy 89.840507 128.79818) (xy 89.825898 128.703892)
+				(xy 89.824999 128.653506) (xy 89.825 128.65)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 89.625 128.65) (xy 89.625001 128.653506) (xy 89.623529 128.71413) (xy 89.613033 128.785709)
+				(xy 89.584472 128.848026) (xy 89.560592 128.869394) (xy 89.528806 128.880866) (xy 89.725 129.201)
+				(xy 89.921194 128.880866) (xy 89.871701 128.855088) (xy 89.840507 128.79818) (xy 89.825898 128.703892)
+				(xy 89.824999 128.653506) (xy 89.825 128.65)
 			)
 		)
 	)
@@ -64127,51 +64895,6 @@
 				(xy 93.508616 121.027696) (xy 93.509959 121.026543) (xy 93.532085 121.010309) (xy 93.532218 121.010213)
 				(xy 93.563095 120.98885) (xy 93.597733 120.951837) (xy 93.601559 120.934554) (xy 93.60003 120.930062)
 				(xy 93.600607 120.921126) (xy 93.607333 120.915216) (xy 93.609649 120.914682) (xy 93.81542 120.888964)
-			)
-		)
-	)
-	(zone
-		(net 14)
-		(net_name "/USB Audio Input/D-")
-		(layer "F.Cu")
-		(uuid "deb8d67e-44a9-4f62-ac54-c4c5b7be7462")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30080)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 89.625 128.65) (xy 89.625001 128.653506) (xy 89.623529 128.71413) (xy 89.613033 128.785709)
-				(xy 89.584472 128.848026) (xy 89.560592 128.869394) (xy 89.528806 128.880866) (xy 89.725 129.201)
-				(xy 89.921194 128.880866) (xy 89.871701 128.855088) (xy 89.840507 128.79818) (xy 89.825898 128.703892)
-				(xy 89.824999 128.653506) (xy 89.825 128.65)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 89.821716 128.653427) (xy 89.825141 128.661491) (xy 89.825897 128.703893) (xy 89.840506 128.798179)
-				(xy 89.840507 128.79818) (xy 89.871701 128.855088) (xy 89.899076 128.869346) (xy 89.910067 128.875071)
-				(xy 89.915821 128.881932) (xy 89.915039 128.890853) (xy 89.914638 128.891562) (xy 89.734976 129.184721)
-				(xy 89.727731 129.189984) (xy 89.718886 129.188583) (xy 89.715024 129.184721) (xy 89.536309 128.893109)
-				(xy 89.534908 128.884264) (xy 89.540171 128.877019) (xy 89.542307 128.875993) (xy 89.560592 128.869394)
-				(xy 89.584472 128.848026) (xy 89.613033 128.785709) (xy 89.623529 128.71413) (xy 89.624808 128.661413)
-				(xy 89.628435 128.653229) (xy 89.636505 128.65) (xy 89.813443 128.65)
 			)
 		)
 	)

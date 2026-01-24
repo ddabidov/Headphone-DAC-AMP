@@ -592,7 +592,7 @@
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Power",
+        "netclass": "Low Noise Power",
         "pattern": "0V9"
       },
       {

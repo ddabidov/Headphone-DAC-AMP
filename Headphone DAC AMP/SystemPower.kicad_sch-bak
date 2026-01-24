@@ -521,126 +521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_Probe"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 1.651 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Probe"
-				(at 1.651 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative probe-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Probe_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Probe_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2267,12 +2147,6 @@
 		(uuid "1119345e-e434-455b-b80f-81e9543e595b")
 	)
 	(junction
-		(at 109.22 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "117e6191-5650-4ad1-b6af-d29ffad0fd33")
-	)
-	(junction
 		(at 52.07 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2367,18 +2241,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3354ae5-d52a-48f5-b46f-a4bb01329699")
-	)
-	(junction
-		(at 105.41 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54ed0ab-e04c-40fb-9fe9-aaadc71b4e71")
-	)
-	(junction
-		(at 110.49 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e06ed8-4534-4df9-8627-10e2e3a3fcc1")
 	)
 	(junction
 		(at 102.87 220.98)
@@ -2978,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 165.1) (xy 110.49 165.1)
+			(xy 113.03 165.1) (xy 106.68 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3045,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "78306d08-e013-421a-9c32-77eb8a3c147a")
-	)
-	(wire
-		(pts
-			(xy 105.41 100.33) (xy 107.95 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0cb207-7944-413a-a3f1-8cffdf23f179")
 	)
 	(wire
 		(pts
@@ -3168,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 105.41 100.33)
+			(xy 102.87 100.33) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3448,16 +3300,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 220.98) (xy 110.49 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b9a0f8-73a5-4c1a-a66d-cc8da923432b")
-	)
-	(wire
-		(pts
 			(xy 273.05 55.88) (xy 283.21 55.88)
 		)
 		(stroke
@@ -3658,16 +3500,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 165.1) (xy 106.68 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edecfa4a-136e-4863-83b9-17f7846343e8")
-	)
-	(wire
-		(pts
 			(xy 379.73 60.96) (xy 379.73 59.69)
 		)
 		(stroke
@@ -3758,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 220.98) (xy 109.22 220.98)
+			(xy 105.41 220.98) (xy 110.49 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7958,73 +7790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 105.41 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39ad0b5d-f7fc-422e-9493-8178e9363656")
-		(property "Reference" "TP5"
-			(at 109.22 97.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 109.22 100.0124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b767574-a55a-497e-980f-d90829a2d7e7")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 182.88 0)
 		(unit 1)
@@ -10561,73 +10326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 109.22 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9e8fde3-60a7-4147-bbad-1de46ba17533")
-		(property "Reference" "TP7"
-			(at 113.03 218.1224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 113.03 220.6624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 114.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 109.22 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "369a4431-869c-4423-abab-9a3d8009adc7")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 281.94 86.36 0)
 		(unit 1)
@@ -11970,73 +11668,6 @@
 			(project "Headphone DAC AMP"
 				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 110.49 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffc1a424-ad5b-4060-834a-066c7b558562")
-		(property "Reference" "TP6"
-			(at 114.3 162.2424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 114.3 164.7824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 115.57 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 110.49 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "784f26f2-44b2-4947-ae2d-0a8ac37e73a2")
-		)
-		(instances
-			(project "Headphone DAC AMP"
-				(path "/d034eddd-efbc-47be-a25c-37cbfbab4cd8/a76b11f7-fbf9-4331-be15-052b46a69f96"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
