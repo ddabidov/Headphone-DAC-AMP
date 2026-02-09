@@ -5166,7 +5166,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "22735f54-ecea-4261-aae9-ca5b3662c0c8")
-		(at 114.825 134.9)
+		(at 114.625 134.6)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP6"
@@ -32065,13 +32065,13 @@
 	(footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "e46b6e40-4b62-4985-afe4-296b69bc2b5b")
-		(at 114.825 131.9)
+		(at 114.625 131.35)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP5"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "9201929f-14cd-4156-b44a-887091b18511")
+			(uuid "c371549a-c41a-470f-b214-b205369da6b2")
 			(effects
 				(font
 					(size 1 1)
@@ -32082,7 +32082,7 @@
 		(property "Value" "TestPoint_Probe"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "5a248f2c-4df3-49de-bfca-f49a72e2a838")
+			(uuid "edbeb1d4-3b07-4de1-8057-5d99f329cda0")
 			(effects
 				(font
 					(size 1 1)
@@ -32095,7 +32095,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e48f2b2d-0816-42a6-8971-b19e6350bc7e")
+			(uuid "b44d7470-61c4-4892-aebc-2bf5a112ad8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32108,7 +32108,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bb283f3-0aef-4da6-ab06-4f9aa1cff3f2")
+			(uuid "9d8ebe73-bf4a-4464-8207-71ad42385a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
