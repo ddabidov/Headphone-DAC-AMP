@@ -6017,7 +6017,7 @@
 		(uuid "c6e46d0a-526b-4898-b1f2-1eb9648827ab")
 	)
 	(hierarchical_label "+6V"
-		(shape input)
+		(shape output)
 		(at 242.57 55.88 180)
 		(effects
 			(font
@@ -6026,6 +6026,17 @@
 			(justify right)
 		)
 		(uuid "0094fe95-5eeb-4028-ad4c-3cc1a33e92dc")
+	)
+	(hierarchical_label "5Vin"
+		(shape input)
+		(at 339.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "118bb83f-6021-4ce8-bb96-275107ddf79f")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -6038,7 +6049,7 @@
 		)
 		(uuid "1cfe91a6-570f-4834-bc5d-4b7468eea578")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "5Vin"
 		(shape input)
 		(at 35.56 165.1 180)
 		(effects
@@ -6049,19 +6060,8 @@
 		)
 		(uuid "64929ec0-8f74-4e68-a9a6-e07ad3a59fa1")
 	)
-	(hierarchical_label "5Vin"
-		(shape input)
-		(at 339.09 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7574244b-babf-4b45-b86e-03547342a6c0")
-	)
 	(hierarchical_label "0.9v"
-		(shape input)
+		(shape output)
 		(at 113.03 220.98 0)
 		(effects
 			(font
@@ -6070,6 +6070,17 @@
 			(justify left)
 		)
 		(uuid "885097c7-a548-4377-992c-793e576233e5")
+	)
+	(hierarchical_label "5Vin"
+		(shape input)
+		(at 351.79 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bea8277e-137d-4d14-8ca0-cd03e802a154")
 	)
 	(hierarchical_label "5Vin"
 		(shape input)
@@ -6082,7 +6093,7 @@
 		)
 		(uuid "da0b8db3-1a52-4b35-acf4-e2080a881991")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "5Vin"
 		(shape input)
 		(at 34.29 100.33 180)
 		(effects
@@ -6093,19 +6104,8 @@
 		)
 		(uuid "e88ac2f2-412d-4d44-871f-9380264a5b88")
 	)
-	(hierarchical_label "5Vin"
-		(shape input)
-		(at 351.79 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee8f24ae-047e-48ce-8c56-e9d3370ac25d")
-	)
 	(hierarchical_label "1.8v"
-		(shape input)
+		(shape output)
 		(at 113.03 165.1 0)
 		(effects
 			(font
@@ -6116,7 +6116,7 @@
 		(uuid "f650ad9b-ba14-4dd1-8cb7-9925087188e6")
 	)
 	(hierarchical_label "-6V"
-		(shape input)
+		(shape output)
 		(at 375.92 55.88 0)
 		(effects
 			(font
@@ -6127,7 +6127,7 @@
 		(uuid "f9e63bb7-91bf-4ca4-b4aa-d46e522c1df4")
 	)
 	(hierarchical_label "3.3v"
-		(shape input)
+		(shape output)
 		(at 107.95 100.33 0)
 		(effects
 			(font

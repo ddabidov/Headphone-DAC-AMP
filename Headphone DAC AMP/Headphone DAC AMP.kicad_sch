@@ -2803,7 +2803,7 @@
 				(justify left top)
 			)
 		)
-		(pin "0.9v" input
+		(pin "0.9v" output
 			(at 53.34 100.33 0)
 			(uuid "80f352c5-af89-4dfc-8e3d-fd241aef1856")
 			(effects
@@ -2813,7 +2813,7 @@
 				(justify right)
 			)
 		)
-		(pin "1.8v" input
+		(pin "1.8v" output
 			(at 53.34 97.79 0)
 			(uuid "1ec0f699-5527-4193-9d63-cefbae51d131")
 			(effects
@@ -2823,19 +2823,9 @@
 				(justify right)
 			)
 		)
-		(pin "3.3v" input
+		(pin "3.3v" output
 			(at 53.34 95.25 0)
 			(uuid "403e76b5-2aa7-4771-88bd-f1b6e05f69d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vin" input
-			(at 53.34 92.71 0)
-			(uuid "223bca20-355e-471a-b7fe-b31b838febd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,6 +2841,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+6V" output
+			(at 34.29 96.52 180)
+			(uuid "f28aeebd-c581-4186-abc2-117feb3acd14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-6V" output
+			(at 34.29 93.98 180)
+			(uuid "eb4c043d-986b-4f63-a734-082ad933d113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5Vin" input
+			(at 53.34 92.71 0)
+			(uuid "1bcdff67-6e48-4b63-a992-44c4fbaae066")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
