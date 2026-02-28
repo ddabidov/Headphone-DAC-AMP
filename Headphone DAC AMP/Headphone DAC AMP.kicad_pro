@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -147,7 +147,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onvia": true
         }
       ],
@@ -592,7 +592,7 @@
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Low Noise Power",
+        "netclass": "Power",
         "pattern": "0V9"
       },
       {
@@ -629,7 +629,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Headphone DAC AMP.step",
       "svg": "",
       "vrml": ""
     },
@@ -874,20 +874,16 @@
       "Root"
     ],
     [
-      "2765e1cc-205a-4739-b769-20b95f3d1fdb",
-      "USB Audio Input"
+      "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b",
+      "Audio Rails"
     ],
     [
-      "a76b11f7-fbf9-4331-be15-052b46a69f96",
-      "General Power"
+      "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea",
+      "DAC"
     ],
     [
-      "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788",
-      "Clocking"
-    ],
-    [
-      "0346ac0a-d31e-4505-a4d1-b754844bfbfe",
-      "Debug"
+      "a8d45096-939e-42db-8984-b3f2d55a20c4",
+      "Headphone Amp Stage"
     ]
   ],
   "text_variables": {}
