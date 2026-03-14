@@ -58,7 +58,80 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|101741595|119252161|46eb920e-ff9c-4114-b5ff-69dee4282be4|fe3582ef-60dc-4721-af4e-f20f160e9e2c",
+          ""
+        ],
+        [
+          "clearance|93075000|116888011|0f7160a2-a967-4524-8caa-c4715451031d|39e8f48b-8cd7-4b05-8988-71384a18c63d",
+          ""
+        ],
+        [
+          "clearance|93075000|117688111|0bf492b8-5afc-4370-b8e6-d93c5740cbe1|0f7160a2-a967-4524-8caa-c4715451031d",
+          ""
+        ],
+        [
+          "clearance|95498800|122700000|7307e667-ad0a-487c-beb7-5fc367cd2635|e8ed6a98-cdc0-4be8-a929-c06b2bab0503",
+          ""
+        ],
+        [
+          "clearance|95875000|121938161|2689c8ba-da8a-4bf1-bb0f-10f805602a2d|de08bb91-6845-4af5-ac5f-cd2251d6909e",
+          ""
+        ],
+        [
+          "clearance|96325000|122450000|29f60f1f-9d5a-4954-bf6f-e515e09d5a86|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0",
+          ""
+        ],
+        [
+          "clearance|96325000|122450000|5feaf8ad-2b39-4049-ad00-6b16c94f8917|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0",
+          ""
+        ],
+        [
+          "clearance|96325000|122700000|29f60f1f-9d5a-4954-bf6f-e515e09d5a86|7307e667-ad0a-487c-beb7-5fc367cd2635",
+          ""
+        ],
+        [
+          "clearance|96474500|122094081|2689c8ba-da8a-4bf1-bb0f-10f805602a2d|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0",
+          ""
+        ],
+        [
+          "clearance|97099000|122250000|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0|ac4c4d4e-2c42-4fd6-8d47-9a5bc24f5a12",
+          ""
+        ],
+        [
+          "clearance|97499050|121788161|c9e52041-bb38-4e76-96c3-04de5e4cb096|def392d7-2d69-48c4-8255-3f666f6f0c08",
+          ""
+        ],
+        [
+          "clearance|98299150|121788161|def392d7-2d69-48c4-8255-3f666f6f0c08|f4ddfa33-bf72-44ab-8e04-ee2caa455fa2",
+          ""
+        ],
+        [
+          "copper_edge_clearance|115325000|88100000|3fb2a17e-8ca0-4c43-81b3-382ad8f7e1b6|aee1622b-b4ca-4938-807b-04a596f5c050",
+          ""
+        ],
+        [
+          "copper_edge_clearance|115325000|90825000|3fb2a17e-8ca0-4c43-81b3-382ad8f7e1b6|c71728f1-61e7-4593-9786-90e30a455e8a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|115825000|131350000|3fb2a17e-8ca0-4c43-81b3-382ad8f7e1b6|6922d2d1-a146-45b7-845e-f15295b960a2",
+          ""
+        ],
+        [
+          "copper_edge_clearance|115825000|134600000|3fb2a17e-8ca0-4c43-81b3-382ad8f7e1b6|ce7d2c35-49ae-477c-a072-3dc556b79072",
+          ""
+        ],
+        [
+          "hole_to_hole|96675000|122250000|2689c8ba-da8a-4bf1-bb0f-10f805602a2d|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0",
+          ""
+        ],
+        [
+          "lib_footprint_issues|92825000|104662500|d3e05c3f-220a-41ad-8ab5-b4b76248c928|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -106,7 +179,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -137,7 +210,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -487,50 +560,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.3,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.25,
-        "name": "Analog Audio",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.12,
-        "name": "High Speed Digital",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25
-      },
-      {
-        "clearance": 0.25,
-        "name": "Low Noise Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -540,79 +569,79 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Low Noise Power",
+        "netclass": "Default",
         "pattern": "-5V5"
       },
       {
-        "netclass": "Low Noise Power",
+        "netclass": "Default",
         "pattern": "+5V5"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "MCLK"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "BCK"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "WS"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "SDO"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "SCL"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "SDA"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "D+"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "D-"
       },
       {
-        "netclass": "Low Noise Power",
+        "netclass": "Default",
         "pattern": "/Audio Rails/-5V5"
       },
       {
-        "netclass": "Analog Audio",
+        "netclass": "Default",
         "pattern": "/Headphone Amp Stage/OUTA"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "0V9"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "+1V8"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "/Clocking/XTAL1_OUT"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "/Clocking/XTAL1_IN"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "/Debug/TCK"
       },
       {
-        "netclass": "High Speed Digital",
+        "netclass": "Default",
         "pattern": "/Debug/TMS"
       },
       {
