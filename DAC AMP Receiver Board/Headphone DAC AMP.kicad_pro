@@ -122,10 +122,6 @@
         [
           "silk_edge_clearance|88957817|120750000|e4c34672-5e7c-42a6-84bc-e007b76e4353|47f7f5d9-735d-41e6-8776-a8448eb354c2",
           "This is a polygon and can overlap with the edge with no issue"
-        ],
-        [
-          "zones_intersect|116420000|105050000|d1b2030d-cbbf-4908-b736-ce13a85d6e79|fb1b9ccf-d04a-47cf-93d8-7cef71af341e",
-          "Changing the priorities messes up the thermal releif spokes and I prefer how they generate now"
         ]
       ],
       "meta": {
@@ -556,50 +552,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.3,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.25,
-        "name": "Analog Audio",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.12,
-        "name": "High Speed Digital",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25
-      },
-      {
-        "clearance": 0.25,
-        "name": "Low Noise Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.25,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
