@@ -122,10 +122,6 @@
         [
           "silk_edge_clearance|88957817|120750000|e4c34672-5e7c-42a6-84bc-e007b76e4353|47f7f5d9-735d-41e6-8776-a8448eb354c2",
           "This is a polygon and can overlap with the edge with no issue"
-        ],
-        [
-          "zones_intersect|116420000|105050000|d1b2030d-cbbf-4908-b736-ce13a85d6e79|fb1b9ccf-d04a-47cf-93d8-7cef71af341e",
-          "Changing the priorities messes up the thermal releif spokes and I prefer how they generate now"
         ]
       ],
       "meta": {
@@ -208,7 +204,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
