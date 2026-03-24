@@ -3,6 +3,7 @@ The following is a general system overview of an XMOS DAC & TPA6120 AMP
 ## Abstract
 
 ## 1. Introduction
+Our headphone dac-amp is a purely enthusiest baised, passion guided project hoping to acheve high-fidelity sound on a budget. Baised out of Kettering University, Flint Michigan, we are young amatures aspiring to to build a proof-of-concept for a potinital alternitave to dac/amps. This project starts from almost no knowledge about how these chips work and aims to teach others to be able to achive what we are attempting to achieve.
 
 ###  1.1 Background & Motivation
 High-fidelity audio has become increasingly difficult to access for the average user, as most integrated digital-to-analog converters (DACs) in phones and laptops are limited to 16-bit resolution and a 44.1 kHz sampling rate, which is only marginally sufficient for modern high-resolution audio standards. At the other end of the spectrum, systems capable of 24-bit resolution and sampling rates above 98 kHz are often prohibitively expensive and rely on external power sources, making them bulky and inconvenient for portable use or integration into an already crowded home audio setup.
