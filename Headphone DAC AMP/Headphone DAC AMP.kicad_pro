@@ -122,14 +122,6 @@
         [
           "copper_edge_clearance|115825000|134600000|3fb2a17e-8ca0-4c43-81b3-382ad8f7e1b6|ce7d2c35-49ae-477c-a072-3dc556b79072",
           ""
-        ],
-        [
-          "hole_to_hole|96675000|122250000|2689c8ba-da8a-4bf1-bb0f-10f805602a2d|7a8ea2ed-5518-44c0-ae0f-60dbaab522e0",
-          ""
-        ],
-        [
-          "lib_footprint_issues|92825000|104662500|d3e05c3f-220a-41ad-8ab5-b4b76248c928|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -903,16 +895,20 @@
       "Root"
     ],
     [
-      "22bf93f4-b6c7-483e-b255-2ccf5bc3f52b",
-      "Audio Rails"
+      "2765e1cc-205a-4739-b769-20b95f3d1fdb",
+      "USB Audio Input"
     ],
     [
-      "b3fc2b7c-ef32-4c23-9b31-7b4a799376ea",
-      "DAC"
+      "a76b11f7-fbf9-4331-be15-052b46a69f96",
+      "General Power"
     ],
     [
-      "a8d45096-939e-42db-8984-b3f2d55a20c4",
-      "Headphone Amp Stage"
+      "e0b8fe34-d476-48aa-82d1-b0ba2e6c9788",
+      "Clocking"
+    ],
+    [
+      "0346ac0a-d31e-4505-a4d1-b754844bfbfe",
+      "Debug"
     ]
   ],
   "text_variables": {}
