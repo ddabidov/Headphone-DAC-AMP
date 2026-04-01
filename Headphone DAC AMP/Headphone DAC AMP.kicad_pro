@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|103365000|92065000|d93922da-bcf1-44e6-9ca7-077d659865b0|e01b192f-8ff9-46a0-a5de-c8fbdcaa6645",
-          "The DRC error is on the manufacturer spec footprint"
-        ],
-        [
           "clearance|117815000|104445711|c03bf70c-22ea-4864-83bd-ca783d20461c|aa9c5557-d1fa-418b-92eb-fa95ac5f561d",
           "The DRC error is on the manufacturer spec footprint"
         ],
